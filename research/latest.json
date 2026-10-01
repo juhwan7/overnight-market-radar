@@ -1,30 +1,30 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T20:35:25.800Z",
+  "generated_at": "2026-10-01T21:21:36.403Z",
   "run_status": "부분 실패",
   "operations": {
-    "checked_at": "2026-10-01T20:35:25.800Z",
-    "page_snapshot_id": "15036e62ffb59356",
-    "page_generated_at": "2026-10-01T19:57:41.870569Z",
-    "page_age_minutes": 38,
-    "workflow_status": "schedule 실행 36918077721이 성공했으며 collect·deploy·공개 URL 검증이 모두 완료됨. schedule 실행이 실제 관측돼 workflow 영구 중단은 아님. 다만 10분 cron 대비 schedule 실행은 1회뿐이고 이후 30분 이상 새 실행이 없어 지연·누락 슬롯이 지속됨.",
+    "checked_at": "2026-10-01T21:21:36.403Z",
+    "page_snapshot_id": "b789310607fb0957",
+    "page_generated_at": "2026-10-01T20:35:36.197719Z",
+    "page_age_minutes": 46,
+    "workflow_status": "최근 실행 36922689778은 research push로 성공했고 collect·deploy·공개 URL 검증 완료. schedule 실행은 36918077721 한 번만 관측됐으며 이후 후속 schedule 실행이 없음. workflow 영구 중단은 아니지만 10분 cron의 지속 가동은 확인되지 않음.",
     "public_verification": {
-      "checked_at": "2026-10-01T20:35:25.800Z",
+      "checked_at": "2026-10-01T21:21:36.403Z",
       "url": "https://juhwan7.github.io/overnight-market-radar/",
-      "snapshot_id": "15036e62ffb59356",
-      "source_commit": "b3cefaa02e8e42ba24b4687920e79b63de3afe0a",
-      "deploy_commit": "c27c6c67738c8fd78eba24943b830c94aeff8dca",
-      "result": "공개 HTTP·HTML SHA256·JSON SHA256·commit·생성시각 일치. 최신성은 30분 기준을 넘겨 별도 장애로 기록."
+      "snapshot_id": "b789310607fb0957",
+      "source_commit": "09895362586f05c34a74c81289ffe9b9de1300b5",
+      "deploy_commit": "b53443c799492040e802c6a4d721b3d7d18af213",
+      "result": "직전 Actions 공개 URL 검증과 현재 manifest·data 식별자 일치. 생성 후 30분을 초과해 최신성 장애로 기록."
     },
     "limitations": [
-      "schedule 실행 36918077721 성공으로 스케줄러 영구 중단 가설은 해소. 그러나 10분 cron 대비 schedule 실행 1회만 관측됐고 공개 자료가 30분 이상 갱신되지 않아 예약 지연·누락 슬롯 장애는 지속. 현재 값을 과거 슬롯으로 복사하지 않음.",
-      "최근 schedule 실행에서 재무부는 연결 실패 또는 시간 초과, BLS·SEC는 HTTP 403. 재무부 270개 금리 관측은 마지막 정상 자료로 보존됐으며 현재 재수신 성공을 뜻하지 않음. 실패값을 0으로 바꾸지 않음.",
-      "연준 일반 발표 수집은 정상이나 기존 자동 수집 범위가 연설 RSS를 포함하지 않아 10/1 Bowman 연설은 이번 원출처 리서치로 보완. 공식 연설이라는 사실과 시장 영향이 확인됐다는 주장을 구분.",
-      "국내·미국 장중 시세·실제 선물·원달러·신용·미수·실제 투자자군 순매수·펀드 설정환매 미확보. 후보 0개·판단 보류. 9/30 일별 금리를 오늘 장중 반응으로 사용하지 않음.",
+      "공개 자료 생성 후 30분 이상 경과. schedule 실행이 과거 1회 성공했으므로 영구 중단이라고 단정하지 않지만 10분 cron 대비 지연·누락이 지속됨. 이번 연구 push로 새 수집·배포를 촉발하고 결과를 별도 검증.",
+      "최신 공개 스냅샷에서 재무부는 연결 실패 또는 시간 초과, BLS·SEC는 HTTP 403. 마지막 정상 관측을 보존하며 실패값을 0으로 바꾸지 않음.",
+      "SEC 관찰기업 10개를 직접 재확인했으나 NVDA·AMD·ORCL·AAPL·AMZN·META 6개만 응답해 20:35 UTC 이후 신규 접수 없음 확인. INTC·MSFT·TSLA·GOOGL 4개는 시간 초과여서 전체 신규 공시 부재로 결론내리지 않음.",
+      "연준 공식 보도자료·연설 RSS에서 20:35 UTC 이후 새 항목을 찾지 못함. 피드 밖 발표와 반영 지연 가능성 때문에 전체 사건 부재로 표현하지 않음.",
+      "국내·미국 장중 시세·실제 선물·원달러·신용·미수·투자자군 순매수·펀드 설정환매 미확보. 미국 정규장 종료 후 가격·거래 집중·시간외 반전도 미검증. 후보 0개·판단 보류.",
       "Bowman 연설 이후 실제 국채금리·국채선물·레포·은행주·원달러 반응 미확보. eSLR 여력 확대를 동일 규모의 신규 국채 매수나 주식 자금 유입으로 표현하지 않음.",
-      "10/2 09:00 예정 매도까지 Bowman 연설은 구간 안에 포함. 10/2 21:30 KST 고용보고서는 시초가 매도 뒤이지만 금요일 종가 매수·10/6 개장 매도에는 노출.",
-      "관세·전쟁·국내 공시·기업행사·전체 기업 실적의 포괄적 모니터링 미확보. 검색 결과 부재를 사건 부재로 바꾸지 않음.",
-      "research.operations는 현재 운영 화면에 직접 연결되지 않아 파일 자체에서 상세 장애 근거를 확인해야 함."
+      "10/2 21:30 KST 미국 고용보고서는 09:00 시초가 매도 뒤이지만 금요일 종가 매수·10/6 개장 매도에는 노출.",
+      "관세·전쟁·국내 공시·기업행사·전체 기업 실적의 포괄적 모니터링 미확보. 검색 결과 부재를 사건 부재로 바꾸지 않음."
     ],
     "improvements": [
       "실제 schedule 실행 유무를 추가 관찰하고 GitHub Actions 화면에서 workflow 활성 여부·최근 schedule 이벤트 확인. 현재는 증거 부족으로 영구 중단이라고 단정하지 않음.",
@@ -37,19 +37,19 @@
     "verified_sources": [
       {
         "url": "https://juhwan7.github.io/overnight-market-radar/radar-manifest.json",
-        "result": "snapshot 15036e62ffb59356, source commit b3cefaa, deploy commit c27c6c6, 생성 10/1 19:57:41 UTC 확인. 공개 데이터·HTML 해시 일치."
+        "result": "snapshot b789310607fb0957, source commit 0989536, deploy commit b53443c, 생성 10/1 20:35:36 UTC 확인."
+      },
+      {
+        "url": "https://www.federalreserve.gov/feeds/press_all.xml",
+        "result": "20:35 UTC 이후 신규 보도자료 항목 없음 확인. 피드 반영 지연 가능성 유지."
       },
       {
         "url": "https://www.federalreserve.gov/feeds/speeches.xml",
-        "result": "Bowman 연설 pubDate 10/1 19:00 UTC 실제 수신 확인."
+        "result": "20:35 UTC 이후 신규 연설 항목 없음 확인. Bowman·Jefferson·Waller 기존 항목 중복 추가하지 않음."
       },
       {
-        "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm",
-        "result": "eSLR 조정 이후 딜러 국채 보유·중개 여력 확대에 관한 공식 연설 본문 확인. 새 정책 결정과 구분."
-      },
-      {
-        "url": "https://www.bls.gov/schedule/news_release/empsit.htm",
-        "result": "9월 고용보고서 10/2 08:30 ET 예정 재확인. 10/2 09:00 KST 매도 뒤이며 금요일 종가 보유 구간에는 포함."
+        "url": "https://data.sec.gov/submissions/",
+        "result": "관찰 10개 중 6개 기업 응답·신규 접수 없음, 4개 시간 초과. 불완전 범위로 기록."
       }
     ]
   },
