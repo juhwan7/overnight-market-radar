@@ -1,63 +1,143 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T15:05:46.595Z",
+  "generated_at": "2026-10-01T18:23:45.627Z",
   "run_status": "부분 실패",
   "operations": {
-    "checked_at": "2026-10-01T15:05:46.595Z",
-    "page_snapshot_id": "e9a95fafd773239e",
-    "page_generated_at": "2026-10-01T14:50:49.252291Z",
-    "page_age_minutes": 15,
-    "workflow_status": "첫 push 실행 36879556853 수집·빌드·배포·공개 URL 해시 검증 성공. 후속 schedule 이벤트 실행은 아직 관측되지 않음.",
+    "checked_at": "2026-10-01T18:23:45.627Z",
+    "page_snapshot_id": "73e530b493cd6dec",
+    "page_generated_at": "2026-10-01T15:06:06.057299Z",
+    "page_age_minutes": 197,
+    "workflow_status": "실행 목록 총 2회: push 실행 36881585675와 36879556853 성공. 15:07:15 UTC 이후 후속 실행·schedule 이벤트 미관측. 설정에는 10분 cron이 있으나 실제 예약 가동 상태는 확인되지 않음. 스케줄러 영구 중단으로 확정하지 않음.",
     "public_verification": {
-      "checked_at": "2026-10-01T15:05:46.595Z",
+      "checked_at": "2026-10-01T18:23:45.627Z",
       "url": "https://juhwan7.github.io/overnight-market-radar/",
-      "snapshot_id": "e9a95fafd773239e",
-      "source_commit": "1413e8e3de71e133ad53a6b7fbf10f054e7a3d05",
-      "deploy_commit": "e4fa2e1600882d502fb1ab1eca545cc39ee04067",
-      "result": "독립 HTTP 200·HTML SHA256·JSON SHA256·commit·생성시각 일치"
+      "snapshot_id": "73e530b493cd6dec",
+      "source_commit": "ec2f048b45a390dc14e0e20fdf09d8db73dc1527",
+      "deploy_commit": "c99a41817e2fb8fff9ce6f7cd51485aa7b9d346e",
+      "result": "공개 HTTP·HTML SHA256·JSON SHA256·commit·생성시각 일치. 최신성이 회복됐다는 뜻은 아님."
     },
     "limitations": [
-      "국내·미국 장중 시세·실제 선물·원달러·국내 신용·미수·투자자군 순매수·펀드 설정환매 미확보. 판단 보류·후보 0개 유지.",
-      "첫 GitHub 수집에서 BLS·SEC HTTP 403, 재무부 연결 실패/응답 시간 초과. 마지막 정상 자료와 원래 데이터 시각 보존. 연구에서 재확인해도 수집기 정상 상태로 바꾸지 않음.",
-      "공개 데이터 생성 후 30분 이내. 별도의 schedule 실행은 미관측이며 정확한 10분 갱신 보장 없음.",
-      "미장 마감 전. 정규장·시간외 가격·거래대금·시세 기반 브리핑과 국내 연결은 미검증.",
-      "Micron 9/30 실적·가이던스 공식 IR 본문과 Waller 10/1 연설은 확인했으나 정확한 최초 발표시각을 확인하지 못해 issues 배열에서 제외. Micron은 현 자동 SEC 관찰 10개 기업 범위 밖.",
-      "국채 입찰·전체 실적 예정·DART 기업행사·관세/전쟁 돌발 소식의 포괄적 수집 미확보. 검색에서 부재했다고 위험 없음으로 판단하지 않음.",
-      "README·운영 화면의 미배포/검증 대기 문구는 실제 성공한 첫 배포 상태와 불일치. manifest public_url_verified=false는 배포 전 생성 값이며 이후 성공 로그를 반영하지 않음.",
-      "이 문서의 운영 limitations/improvements는 현재 웹 이슈 카드에 자동 표시되지 않음. 공개 이슈 3건은 기존 research 연결로 반영됨."
+      "공개 자료 생성 이후 3시간 이상 경과. 30분 기준을 초과한 갱신 장애·공백으로 기록하되 예약 지연/누락과 영구 중단을 구분. 연구 업데이트 push의 후속 실행·공개 URL 검증 필요.",
+      "국내·미국 장중 시세·실제 선물·원달러·신용·미수·실제 투자자군 순매수·펀드 설정환매 미확보. 후보 0개·판단 보류. 금리 9/30 일별 자료를 오늘 장중/새 연설 이후 반응으로 사용하지 않음.",
+      "실제 GitHub 수집의 재무부 시간 초과, BLS·SEC HTTP403은 아직 해결 검증되지 않음. 작업 환경에서는 공식 월별 XML·ICS·공시 JSON 수신이 성공한 적 있으나 이를 러너 성공으로 덮지 않음. 같은 출처의 이번 재조회도 일부403이어서 접근 정책/네트워크 차이를 구분.",
+      "마이크론 IR 최초 공개시각 미확인. 이번 카드의 시각은 9/30 SEC 접수이며 기업 전망·확정 실적을 구분. MU는 현재 기본 자동 관찰기업 범위 밖.",
+      "제퍼슨 연설은 공식 본문과 RSS pubDate를 확인했으나 정책 관련 가격 반응은 미확인. 9월 FOMC 원문 재조회403으로 연설을 새 FOMC 결정이나 재검증된 정책 변경으로 분류하지 않음.",
+      "Waller 10/1 원문의 공식 RSS pubDate는14:00 UTC 확인. 데이터/FRED/AI 주제로 단순 금리 호재·악재로 분류하지 않음. 이전에 발표시각 미확인이었던 한계는 이번 RSS 확인으로 일부 해소.",
+      "10/2 09:00 예정 매도까지의 예정 고용보고서 노출 없음은 안전 판정이 아님. 10/2 21:30 KST 고용보고서는 금요일 종가 매수·10/6 개장 매도에는 노출. 선물/환율/개별 기업 위험 결측 지속.",
+      "관세·전쟁·국내 공시·기업행사·전체 기업 실적의 포괄적 모니터링 미확보. 검색 결과 부재를 사건 부재로 바꾸지 않음.",
+      "README 미배포 문구·운영 화면 검증대기는 실제 공개 URL 검증과 불일치. research.operations는 현재 화면에 직접 연결되지 않아 파일 자체에서 확인해야 함."
     ],
     "improvements": [
-      "공개 URL 검증 결과를 별도 저장하고 다음 스냅샷의 운영 화면에 마지막 검증시각·스냅샷을 표시. 현재 배포와 이전 검증을 명확히 구분.",
-      "공식 공급자 403 원인·접속 정책 및 SEC_USER_AGENT 연락 가능한 식별값 확인. 차단 회피나 무한 재시도 없이 공식 허용 경로·지연을 기록.",
-      "BLS 공식 일정 HTML을 별도 검증된 대체 수집 경로로 연구. 현재 ICS 실패를 성공으로 덮지 않기.",
-      "Micron을 SEC 관찰 범위에 추가하는 변경 검토. IR 발표시각이 날짜만 있을 때 임의 시각 생성 금지.",
-      "리서치 운영 기록을 한국어 운영 페이지에 연결하고, 동일 공시 접수 사실과 새 본문 해석의 이용 가능 시각을 별도 표시.",
-      "공개 가격 재표시 권한이 확인된 국내·선물·환율 피드와 공식 신용 자료 연결을 최우선으로 진행. 키만으로 해결됐다고 처리하지 않기."
+      "실제 schedule 실행 유무를 추가 관찰하고 GitHub Actions 화면에서 workflow 활성 여부·최근 schedule 이벤트 확인. 현재는 증거 부족으로 영구 중단이라고 단정하지 않음.",
+      "최근 4개월 공식 재무부 월별 XML·BLS 공식 HTML 대안·SEC 검증 CIK 매핑·연준 연설 RSS·ECB 일별 참고환율·BLS v1 월별 통계·TreasuryDirect 입찰 경로의 키 없는 수신을 운영 러너에서도 검증하는 변경을 검토. 현재 main에 해당 확장 반영 완료라고 주장하지 않음.",
+      "403/429/시간 초과/파싱을 구분하고 조건부 HTTP·공개 데이터 캐시·실패 경로 재시도 대기 적용. SEC_USER_AGENT는 실제 연락 가능한 수집 식별값이며 API 키가 아님.",
+      "동일 공시 accession·공식 GUID·확인한 원출처 URL로 통합하고 최초 확인과 새 해석 이용 시각을 분리. 제목 유사도만 병합 금지, 단순 재수집 최신시각 갱신 금지. 현재 원장 개선안의 배포는 별도 검증 필요.",
+      "공개 URL 검증 receipt와 연구 운영 장애 기록을 한국어 운영 화면에 연결. 직전 검증과 현재 배포를 구분.",
+      "공개 표시 권한이 확인된 국내 장중 시세·실제 선물·원달러·신용 자료 연결을 먼저 진행. 일별 참고환율이나 ETF를 핵심 실시간 선물로 대체하지 않음."
     ],
     "verified_sources": [
       {
-        "url": "https://www.bls.gov/news.release/archives/empsit_09042026.htm",
-        "result": "9/4 08:30 ET 공개시각 및 10/2 08:30 ET 다음 발표 일정 확인"
+        "url": "https://www.federalreserve.gov/feeds/speeches.xml",
+        "result": "Jefferson 10/1 17:30 UTC·Waller 10/1 14:00 UTC pubDate 실제 수신 확인. 재조회403은 별도 접근 오류."
       },
       {
-        "url": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000182/amd-20260926.htm",
-        "result": "Item 3.02 본문 확인·9/28 접수시각 원출처 색인 확인"
+        "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+        "result": "연설 원문 실제 HTTP 수신: 물가 상방위험·개별 견해·정책 판단에 추가 시간이 필요할 수 있다는 설명 확인."
       },
       {
-        "url": "https://www.sec.gov/Archives/edgar/data/1318605/000162828026063820/tsla-20260929.htm",
-        "result": "신용약정·실제 차입 없음·2026 인출계획 없음 본문 확인. 접수시각은 기존 정상 EDGAR 수신 자료 사용"
+        "url": "https://www.dol.gov/ui/data.pdf",
+        "result": "10/1 08:30 Eastern 공표·9/26 주 신규197000·전주 수정198000·4주평균200000 확인."
+      },
+      {
+        "url": "https://data.sec.gov/submissions/CIK0000723125.json",
+        "result": "8-K 0000723125-26-000018, 접수9/30 20:02:22 UTC·항목2.02/9.01 실제 JSON 수신 확인."
+      },
+      {
+        "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/mu-20260930.htm",
+        "result": "Item2.02 및 첨부99.1 실적 발표 확인. IR 날짜만으로 발표시각 생성하지 않음."
       },
       {
         "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/",
-        "result": "9/30 공식 실적·가이던스 확인. 최초 발표시각 미검증"
-      },
-      {
-        "url": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm",
-        "result": "10/1 연설 주제는 데이터 신뢰성·FRED·AI. 직접 정책금리 발표로 분류하지 않음"
+        "result": "공식 실적·가이던스 웹 원문 확인. 직접 HTTP 접근은403. 회사 전망과 실적 구분."
       }
     ]
   },
   "issues": [
+    {
+      "id": "fed-ac115ce1c9c68e",
+      "title": "제퍼슨: 물가 상방위험과 정책 판단의 시간 필요 언급",
+      "summary": "제퍼슨 연준 부의장은 물가가 목표보다 높고 에너지·지정학·수요 충격으로 물가 전망의 상방위험이 있다고 설명했습니다. 향후 정책 조정은 데이터·전망·위험 균형에 따라 판단하며, 판단에 시간이 더 필요할 수 있다는 개인 견해를 밝혔습니다.",
+      "classification": "확인된 사실",
+      "state": "새로 등장",
+      "at": "2026-10-01T17:30:00Z",
+      "published_at": "2026-10-01T17:30:00Z",
+      "publication_time_basis": "연준 speeches.xml의 해당 원문 pubDate. 연설 시작/질의응답 시각과 구분.",
+      "available_at": "2026-10-01T18:23:45.627Z",
+      "first_seen_at": "2026-10-01T18:23:45.627Z",
+      "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
+      "source_links": [
+        "https://www.federalreserve.gov/feeds/speeches.xml"
+      ],
+      "scope": "글로벌시장",
+      "channel": "조건부 해석: 물가·정책 기대 → 국채금리·달러·성장주 할인율 → 국내 반도체·성장주. 실제 반응 미확인.",
+      "new_content": "10/2 02:30 KST 공식 RSS 공개시각과 연설 본문을 새로 확인. 10/1 국내 종가 이후·10/2 09:00 예정 매도 전 구간에 해당. 개별 연설을 FOMC의 새 금리 결정으로 바꾸지 않음.",
+      "market_response": "시장 반응 미검증. 국내 종가 이후의 실제 국채 체결금리·원달러·선물·미국 종목 시세 미확보. 일별 금리를 이 연설 이후 움직임으로 사용하지 않음.",
+      "counterpoint": "부의장 개인 견해이며 연준 전체의 확정 정책이 아님. 성장·고용 전망의 위험은 대체로 균형이라고 설명했고, 물가 충격이 잦아들면 물가 하락 재개를 기본 전망으로 제시. 기업 실적 호재·이미 반영된 정책 기대와 충돌 가능.",
+      "counter": "개별 연설과 FOMC 확정 정책을 구분. 실제 시세와 선반영 여부 미검증.",
+      "next_check": "10/2 국내 개장 전 동일 시각의 실제 선물·원달러·금리 및 반도체 시간외 확인. 10/2 고용보고서는 21:30 KST로 시초가 매도 구간 밖이며 금요일 종가 매수에는 별도 노출.",
+      "catalyst_verified": false,
+      "origin_url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm"
+    },
+    {
+      "id": "research-dol-claims-20261001",
+      "title": "미국 신규 실업수당 19.7만 건: 전주 수정치를 함께 확인",
+      "summary": "미 노동부는 9/26 종료 주의 계절조정 신규 실업수당 청구를 잠정 19만7천 건으로 발표했습니다. 전주는 기존 19만7천에서 19만8천 건으로 상향 수정돼 수정 기준으로 1천 건 감소했습니다. 4주 평균은 20만 건입니다.",
+      "classification": "확인된 사실",
+      "state": "새로 등장",
+      "at": "2026-10-01T12:30:00Z",
+      "published_at": "2026-10-01T12:30:00Z",
+      "publication_time_basis": "공식 PDF의 10/1 08:30 Eastern 엠바고 해제시각. 기준 주·발표·이번 확인을 구분.",
+      "available_at": "2026-10-01T18:23:45.627Z",
+      "first_seen_at": "2026-10-01T18:23:45.627Z",
+      "url": "https://www.dol.gov/ui/data.pdf",
+      "scope": "글로벌시장",
+      "channel": "조건부 해석: 고용 취약성·노동시장 기대 → 정책금리 기대·성장주 할인율·환율. 청구 건수는 자금 흐름 지표가 아님.",
+      "new_content": "10/1 21:30 KST 공식 발표 원문을 이번에 추가 확인. 전주 수정 전 수치와 비교하면 같은 19.7만 건이라는 점을 함께 보존. 10/1 국내 종가 이후 공개 사실이며 과거 판단에는 소급하지 않음.",
+      "market_response": "시장 반응 미검증. 발표 전후 가격·금리·환율·선물의 동시시각 자료와 시장 기대치 미확보.",
+      "counterpoint": "잠정·주간 통계이며 전주 수정과 계절조정의 영향을 받음. 한 번의 청구 감소로 다음 날 비농업 고용이나 금리 정책·갭 방향을 확정할 수 없음.",
+      "counter": "주간 잠정치와 수정치. 비농업 고용·실업률과 정의가 다름.",
+      "next_check": "고용보고서 결과·수정치·임금과 실제 금리/선물 반응을 함께 확인. PDF 주소가 다음 발표에 교체되므로 이 카드의 발표일·기준 주를 유지하고 새 자료를 덮어쓰지 않음.",
+      "catalyst_verified": false,
+      "origin_url": "https://www.dol.gov/ui/data.pdf"
+    },
+    {
+      "id": "sec-0000723125-26-000018",
+      "title": "마이크론 실적 공시 확인: 국내 종가 이전 자료와 새 확인 구분",
+      "summary": "마이크론의 9/30 실적 관련 8-K와 첨부 보도자료를 확인했습니다. 공식 IR의 회계연도 2026년 4분기 매출은 542.3억 달러, 조정 주당순이익은 33.42달러입니다. 다음 분기 매출 전망 615억±15억 달러와 조정 주당순이익 전망 38.15±1달러는 회사의 예상치입니다.",
+      "classification": "확인된 사실",
+      "state": "영향 지속",
+      "at": "2026-09-30T20:02:22Z",
+      "published_at": "2026-09-30T20:02:22Z",
+      "publication_time_basis": "data.sec.gov submissions의 8-K acceptanceDateTime. IR 최초 공개시각이 아니며 공시 접수로 명시.",
+      "available_at": "2026-10-01T18:23:45.627Z",
+      "first_seen_at": "2026-10-01T18:23:45.627Z",
+      "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/mu-20260930.htm",
+      "source_links": [
+        "https://data.sec.gov/submissions/CIK0000723125.json",
+        "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/"
+      ],
+      "scope": "업종",
+      "channel": "조건부 해석: 메모리 수요·가격·회사 전망 → 반도체 업종 기대. 삼성전자·SK하이닉스 직접 수혜나 국내 자금 유입은 확인되지 않음.",
+      "new_content": "기존 미확인 IR 최초 발표시각을 임의 생성하지 않고, 검증된 SEC 8-K 접수시각으로 별도 사건 카드 등록. 접수는 10/1 05:02:22 KST로 국내 10/1 종가 이전이며 밤사이 새로 발생한 실적으로 취급하지 않음.",
+      "market_response": "시장 반응 미검증. 마이크론 정규장·시간외 가격·실제 거래대금·국내 수급 미확보. 언론의 상승/하락 서술을 검증 시세로 대체하지 않음.",
+      "counterpoint": "가이던스는 기업 전망이며 수요·가격·공급·투자 비용에 따라 달라질 수 있음. 좋은 실적도 선반영·할인율 상승·국내 기업별 제품/고객 구성 차이로 다른 가격 반응이 가능.",
+      "counter": "기업 전망·선반영·제품과 고객 구성 차이, 금리 부담과 충돌 가능.",
+      "next_check": "다음 공식 설명·정정 및 미국 실제 마감/시간외, 국내 기업 IR와 제품/고객 구성을 확인. 현재 자동 SEC 관찰 10개 기업에는 MU가 포함되지 않아 이번 리서치의 별도 확인임.",
+      "catalyst_verified": false,
+      "ticker": "MU",
+      "form": "8-K",
+      "origin_url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/mu-20260930.htm"
+    },
     {
       "id": "sec-0000002488-26-000182",
       "ticker": "AMD",
