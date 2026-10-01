@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T22:35:49.313Z",
+  "generated_at": "2026-10-01T23:10:11.412Z",
   "run_status": "부분 실패",
   "operations": {
-    "checked_at": "2026-10-01T22:35:49.313Z",
-    "page_snapshot_id": "4747bed62584b03e",
-    "page_generated_at": "2026-10-01T22:33:10.381178Z",
-    "page_age_minutes": 2,
-    "workflow_status": "Actions 36935731505가 수집·검증·Pages 배포·공개 URL 검증까지 성공. schedule 실행은 36918077721(2026-10-01T19:57:31Z) 이후 추가 관측되지 않아 10분 cron의 지속 가동은 확인되지 않음.",
+    "checked_at": "2026-10-01T23:10:11.412Z",
+    "page_snapshot_id": "27dc7475ec680c9e",
+    "page_generated_at": "2026-10-01T22:35:59.226559Z",
+    "page_age_minutes": 34,
+    "workflow_status": "최근 Actions 36936008264는 research push로 수집·검증·Pages 배포·공개 URL 검증까지 성공. schedule 실행은 36918077721(2026-10-01T19:57:31Z) 이후 추가 관측되지 않음. 영구 중단 근거는 없지만 10분 cron 대비 3시간 이상 지연·누락.",
     "public_verification": {
-      "checked_at": "2026-10-01T22:35:49.313Z",
+      "checked_at": "2026-10-01T23:10:11.412Z",
       "url": "https://juhwan7.github.io/overnight-market-radar/",
-      "snapshot_id": "4747bed62584b03e",
-      "source_commit": "11506a9a7c96fb984963e76041b1feef1dd3b31f",
-      "deploy_commit": "bddd32c5901eb3ef4b95827763349ecd1379344c",
-      "result": "Actions 공개 URL 검증 성공, HTML·데이터 해시 일치. 재무부 수집은 직전 실행 성공 뒤 이번 실행에서 다시 시간 초과해 간헐 장애로 분류."
+      "snapshot_id": "27dc7475ec680c9e",
+      "source_commit": "d6e20cd1ee96ffb5f61101c8be58eea7ddf14924",
+      "deploy_commit": "4d453f1d70f86e900fa2f851e88273eadff7926e",
+      "result": "manifest와 index.html 수신 성공, HTML SHA 일치. 생성 후 34분으로 30분 임계 초과."
     },
     "limitations": [
-      "schedule 실행은 2026-10-01T19:57:31Z 이후 추가 관측되지 않음. 과거 성공이 있어 영구 중단이라고 단정하지 않지만 10분 cron 대비 2시간 이상 지연·누락 상태. 이번 research push 배포는 성공했으나 예약 지속성 문제를 해결한 것은 아님.",
+      "공개 스냅샷 생성 후 34분 경과. schedule 실행은 2026-10-01T19:57:31Z 이후 추가 관측되지 않음. 과거 성공이 있어 영구 중단이라고 단정하지 않지만 10분 cron 대비 3시간 이상 지연·누락 상태. 이번 research push로 새 수집·배포를 촉발하고 별도 확인.",
       "재무부 수집은 한 실행에서 2026-10-01 일별 자료 수신에 성공한 뒤 다음 실행에서 다시 시간 초과. 마지막 정상 10/1 자료는 보존됐지만 현재 상태는 간헐 장애임. BLS·SEC 운영 수집 HTTP 403도 지속.",
-      "SEC 관찰기업 10개(NVDA·AMD·ORCL·AAPL·AMZN·META·INTC·MSFT·TSLA·GOOGL)의 공식 submissions를 이번 실행에서 직접 수신했고 2026-10-01T21:21:36Z 이후 신규 접수는 없었음. 이는 관찰기업 범위의 결과이며 미국 전체 공시 부재가 아님.",
-      "연준 공식 보도자료·연설 RSS에서 Bowman(19:00 UTC) 이후 새 항목을 찾지 못함. 피드 밖 발표와 반영 지연 가능성 때문에 전체 사건 부재로 표현하지 않음.",
+      "SEC 관찰기업 10개(NVDA·AMD·ORCL·AAPL·AMZN·META·INTC·MSFT·TSLA·GOOGL)의 공식 submissions를 이번 실행에서 직접 수신했고 2026-10-01T22:35:49Z 이후 신규 접수는 없었음. 이는 관찰기업 범위의 결과이며 미국 전체 공시 부재가 아님.",
+      "연준 공식 보도자료·연설 RSS에서 Bowman(2026-10-01T19:00:00Z) 이후 새 항목을 찾지 못함. 피드 밖 발표와 반영 지연 가능성 때문에 전체 사건 부재로 표현하지 않음.",
       "재무부 2026-10-01 par yield는 일별 마감 참고치이며 장중 국채 시세·실제 자금 흐름·연준 연설 직후 반응이 아님.",
       "국내·미국 장중 시세·실제 선물·원달러·신용·미수·투자자군 순매수·펀드 설정환매 미확보. 미국 정규장 종료 후 가격·거래 집중·시간외 반전도 미검증. 후보 0개·판단 보류.",
       "Bowman 연설 이후 실제 국채선물·레포·은행주·원달러 반응 미확보. eSLR 여력 확대를 동일 규모의 신규 국채 매수나 주식 자금 유입으로 표현하지 않음.",
@@ -37,15 +37,15 @@
     "verified_sources": [
       {
         "url": "https://juhwan7.github.io/overnight-market-radar/radar-manifest.json",
-        "result": "snapshot 4747bed62584b03e, source commit 11506a9, deploy commit bddd32c, 생성 2026-10-01T22:33:10.381178Z 확인. Actions 공개 해시 일치."
+        "result": "snapshot 27dc7475ec680c9e, source commit d6e20cd, deploy commit 4d453f1, 생성 2026-10-01T22:35:59.226559Z 확인. HTML SHA 일치, 34분 경과."
       },
       {
         "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/",
-        "result": "연속 두 운영 실행 중 첫 실행은 2026-10-01 일별 par yield 수신 성공, 다음 실행은 시간 초과. 마지막 정상 10/1 자료 보존. 간헐 장애로 기록."
+        "result": "직전 운영 상태 기준 수집 간헐 장애. 마지막 정상 2026-10-01 일별 자료 보존. 장중 시세가 아님."
       },
       {
         "url": "https://www.federalreserve.gov/feeds/press_all.xml",
-        "result": "최신 항목 2026-09-30 13:00 UTC. 이번 관찰 구간의 새 보도자료 없음 확인."
+        "result": "최신 항목 2026-09-30 13:00 UTC. 새 보도자료 없음 확인."
       },
       {
         "url": "https://www.federalreserve.gov/feeds/speeches.xml",
@@ -53,11 +53,11 @@
       },
       {
         "url": "https://data.sec.gov/submissions/",
-        "result": "관찰기업 10개 모두 직접 응답, 2026-10-01T21:21:36Z 이후 신규 접수 없음. 미국 전체 시장 범위가 아니며 운영 러너의 HTTP 403은 별도 지속."
+        "result": "관찰기업 10개 모두 직접 응답, 2026-10-01T22:35:49Z 이후 신규 접수 없음. 미국 전체 범위가 아니며 운영 러너 403과 별도."
       },
       {
         "url": "https://www.bls.gov/schedule/news_release/empsit.htm",
-        "result": "9월 고용보고서 예정 2026-10-02 08:30 ET(21:30 KST) 재확인. 아직 발표 전."
+        "result": "9월 고용보고서 예정 2026-10-02 08:30 ET(21:30 KST). 아직 발표 전."
       }
     ]
   },
