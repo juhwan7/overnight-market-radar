@@ -1,29 +1,29 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T18:57:07.854Z",
+  "generated_at": "2026-10-01T20:35:25.800Z",
   "run_status": "부분 실패",
   "operations": {
-    "checked_at": "2026-10-01T18:57:07.854Z",
-    "page_snapshot_id": "fe0c6c1ea975b08a",
-    "page_generated_at": "2026-10-01T18:53:37.820331Z",
-    "page_age_minutes": 4,
-    "workflow_status": "push 실행 36910203523 성공: collect·deploy·공개 URL 검증 완료. 전체 실행 4회는 모두 push이며 schedule 이벤트는 0회. 18:53 UTC cron 슬롯도 확인 시점까지 실행으로 나타나지 않음. GitHub 예약 지연 가능성을 남기되 10분 자동 갱신이 실제 작동한다고 확인할 수 없음.",
+    "checked_at": "2026-10-01T20:35:25.800Z",
+    "page_snapshot_id": "15036e62ffb59356",
+    "page_generated_at": "2026-10-01T19:57:41.870569Z",
+    "page_age_minutes": 38,
+    "workflow_status": "schedule 실행 36918077721이 성공했으며 collect·deploy·공개 URL 검증이 모두 완료됨. schedule 실행이 실제 관측돼 workflow 영구 중단은 아님. 다만 10분 cron 대비 schedule 실행은 1회뿐이고 이후 30분 이상 새 실행이 없어 지연·누락 슬롯이 지속됨.",
     "public_verification": {
-      "checked_at": "2026-10-01T18:57:07.854Z",
+      "checked_at": "2026-10-01T20:35:25.800Z",
       "url": "https://juhwan7.github.io/overnight-market-radar/",
-      "snapshot_id": "fe0c6c1ea975b08a",
-      "source_commit": "dfd74f1f37639fa518f33829cfe2298f6b030c69",
-      "deploy_commit": "53c6d51ac77a35bb8b3d5c01279f00cb3c02f477",
-      "result": "공개 HTTP·HTML SHA256·JSON SHA256·commit·생성시각 일치. Actions 공개 URL 검증 단계도 성공."
+      "snapshot_id": "15036e62ffb59356",
+      "source_commit": "b3cefaa02e8e42ba24b4687920e79b63de3afe0a",
+      "deploy_commit": "c27c6c67738c8fd78eba24943b830c94aeff8dca",
+      "result": "공개 HTTP·HTML SHA256·JSON SHA256·commit·생성시각 일치. 최신성은 30분 기준을 넘겨 별도 장애로 기록."
     },
     "limitations": [
-      "최근 Actions 4회는 모두 push이고 schedule 실행은 0회. 10분 cron의 18:53 UTC 슬롯도 확인 시점까지 관측되지 않아 자동 갱신 지속성을 확인하지 못함. GitHub 예약 지연 가능성과 영구 중단을 구분하며 workflow 활성 여부는 현재 허용된 API 범위에서 직접 확인되지 않음.",
-      "후속 push 실행 36910203523에서 재무부는 연결 실패 또는 시간 초과, BLS·SEC는 HTTP 403. 재무부 270개 금리 관측과 BLS 마지막 정상 자료는 보존됐지만 현재 값으로 재수신됐다는 뜻이 아님. 실패값을 0으로 바꾸지 않음.",
+      "schedule 실행 36918077721 성공으로 스케줄러 영구 중단 가설은 해소. 그러나 10분 cron 대비 schedule 실행 1회만 관측됐고 공개 자료가 30분 이상 갱신되지 않아 예약 지연·누락 슬롯 장애는 지속. 현재 값을 과거 슬롯으로 복사하지 않음.",
+      "최근 schedule 실행에서 재무부는 연결 실패 또는 시간 초과, BLS·SEC는 HTTP 403. 재무부 270개 금리 관측은 마지막 정상 자료로 보존됐으며 현재 재수신 성공을 뜻하지 않음. 실패값을 0으로 바꾸지 않음.",
+      "연준 일반 발표 수집은 정상이나 기존 자동 수집 범위가 연설 RSS를 포함하지 않아 10/1 Bowman 연설은 이번 원출처 리서치로 보완. 공식 연설이라는 사실과 시장 영향이 확인됐다는 주장을 구분.",
       "국내·미국 장중 시세·실제 선물·원달러·신용·미수·실제 투자자군 순매수·펀드 설정환매 미확보. 후보 0개·판단 보류. 9/30 일별 금리를 오늘 장중 반응으로 사용하지 않음.",
-      "10/2 09:00 예정 매도까지의 예정 고용보고서 노출 없음은 안전 판정이 아님. 10/2 21:30 KST 고용보고서는 금요일 종가 매수·10/6 개장 매도에는 노출. 선물·환율·개별 기업 위험 결측 지속.",
-      "직전 확인 이후 검증된 새 공식 사건은 찾지 못함. 검색 결과 부재를 사건 부재로 바꾸지 않으며 관세·전쟁·국내 공시·기업행사·전체 기업 실적의 포괄적 모니터링은 미확보.",
-      "마이크론 IR 최초 공개시각 미확인. 카드 시각은 9/30 SEC 접수이며 회사 전망과 확정 실적을 구분. MU는 기본 자동 관찰기업 범위 밖.",
-      "제퍼슨 연설의 정책 관련 실제 가격 반응은 미확인. 개별 연설을 FOMC의 새 결정으로 분류하지 않음.",
+      "Bowman 연설 이후 실제 국채금리·국채선물·레포·은행주·원달러 반응 미확보. eSLR 여력 확대를 동일 규모의 신규 국채 매수나 주식 자금 유입으로 표현하지 않음.",
+      "10/2 09:00 예정 매도까지 Bowman 연설은 구간 안에 포함. 10/2 21:30 KST 고용보고서는 시초가 매도 뒤이지만 금요일 종가 매수·10/6 개장 매도에는 노출.",
+      "관세·전쟁·국내 공시·기업행사·전체 기업 실적의 포괄적 모니터링 미확보. 검색 결과 부재를 사건 부재로 바꾸지 않음.",
       "research.operations는 현재 운영 화면에 직접 연결되지 않아 파일 자체에서 상세 장애 근거를 확인해야 함."
     ],
     "improvements": [
@@ -37,23 +37,49 @@
     "verified_sources": [
       {
         "url": "https://juhwan7.github.io/overnight-market-radar/radar-manifest.json",
-        "result": "snapshot fe0c6c1ea975b08a, source commit dfd74f1, deploy commit 53c6d51, 생성 10/1 18:53:37 UTC 확인. 공개 데이터·HTML 해시 일치."
+        "result": "snapshot 15036e62ffb59356, source commit b3cefaa, deploy commit c27c6c6, 생성 10/1 19:57:41 UTC 확인. 공개 데이터·HTML 해시 일치."
+      },
+      {
+        "url": "https://www.federalreserve.gov/feeds/speeches.xml",
+        "result": "Bowman 연설 pubDate 10/1 19:00 UTC 실제 수신 확인."
+      },
+      {
+        "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm",
+        "result": "eSLR 조정 이후 딜러 국채 보유·중개 여력 확대에 관한 공식 연설 본문 확인. 새 정책 결정과 구분."
       },
       {
         "url": "https://www.bls.gov/schedule/news_release/empsit.htm",
         "result": "9월 고용보고서 10/2 08:30 ET 예정 재확인. 10/2 09:00 KST 매도 뒤이며 금요일 종가 보유 구간에는 포함."
-      },
-      {
-        "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
-        "result": "직전 등록한 제퍼슨 연설 원문과 10/1 발표 유지. 후속 공식 정책 결정으로 오인하지 않음."
-      },
-      {
-        "url": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm",
-        "result": "10/1 Waller 연설은 FRED·데이터와 AI 주제이며 별도 통화정책 신호 카드로 추가하지 않음."
       }
     ]
   },
   "issues": [
+    {
+      "id": "fed-bowman-eslr-20261001",
+      "title": "Bowman: eSLR 완화 뒤 국채 딜러 중개 여력 확대 설명",
+      "summary": "Bowman 연준 금융감독 부의장은 2025년 확정되고 2026년 적용된 eSLR 조정 이후 대형은행 딜러의 미 국채 보유와 중개 여력이 확대됐다고 설명했습니다. 이는 기존 규제 변경의 초기 관측을 설명한 연설이며 이번 밤사이의 새 금리 결정이나 실제 자금 유입 발표가 아닙니다.",
+      "classification": "확인된 사실",
+      "state": "새로 등장",
+      "at": "2026-10-01T19:00:00Z",
+      "published_at": "2026-10-01T19:00:00Z",
+      "publication_time_basis": "연준 공식 연설 RSS pubDate. 행사·발언 시각과 별도 구분.",
+      "available_at": "2026-10-01T20:35:25.800Z",
+      "first_seen_at": "2026-10-01T20:35:25.800Z",
+      "url": "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm",
+      "primary_origin_url": "https://www.federalreserve.gov/newsevents/speech/bowman20261001a.htm",
+      "source_links": [
+        "https://www.federalreserve.gov/feeds/speeches.xml"
+      ],
+      "scope": "글로벌시장",
+      "channel": "은행 자본규제 → 딜러 대차대조표 여력 → 미 국채·레포시장 유동성 → 국채금리 변동성과 금융주. 방향과 기간은 실제 시장 반응 확인 필요.",
+      "new_content": "10/2 04:00 KST 공식 RSS 공개시각과 본문을 새로 확인. Bowman은 eSLR 조정 뒤 일부 딜러의 국채 포지션·중개 여력이 증가했다고 설명했으나, 규제 변경 자체는 2025년 확정·2026년 시행된 기존 사실임.",
+      "market_response": "시장 반응 미검증. 국내 종가 이후의 실제 국채 체결금리·국채선물·레포 스프레드·은행주·원달러 시세 미확보.",
+      "counterpoint": "연설은 Bowman 개인 견해와 초기 관측이며 새 FOMC 결정이 아님. 규제상 여력 확대가 곧바로 동일 규모의 신규 국채 매수나 주식시장 자금 유입을 뜻하지 않음.",
+      "counter": "연설은 Bowman 개인 견해와 초기 관측이며 새 FOMC 결정이 아님. 규제상 여력 확대가 곧바로 동일 규모의 신규 국채 매수나 주식시장 자금 유입을 뜻하지 않음.",
+      "next_check": "10/2 국내 개장 전 실제 미 국채금리·국채선물·레포시장·미국 은행주와 원달러 반응 확인. 핵심 시세 미확보 상태에서는 종가베팅 방향 신호로 사용하지 않음.",
+      "catalyst_verified": false,
+      "source_id": "research"
+    },
     {
       "id": "fed-ac115ce1c9c68e",
       "title": "제퍼슨: 물가 상방위험과 정책 판단의 시간 필요 언급",
