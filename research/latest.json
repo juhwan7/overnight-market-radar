@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T18:53:22.252Z",
+  "generated_at": "2026-10-01T18:57:07.854Z",
   "run_status": "부분 실패",
   "operations": {
-    "checked_at": "2026-10-01T18:53:22.252Z",
-    "page_snapshot_id": "3c31b9f4833f6d0a",
-    "page_generated_at": "2026-10-01T18:24:38.965809Z",
-    "page_age_minutes": 29,
-    "workflow_status": "push 실행 36906589827이 성공했으며 collect·deploy·공개 URL 검증이 모두 완료됨. 전체 실행 목록은 3회이고 모두 push 실행이며 schedule 이벤트는 0회. 설정에는 10분 cron이 있으나 예약 실행 지연·미가동·비활성 중 어느 것인지 현재 API 범위에서 확정하지 않음.",
+    "checked_at": "2026-10-01T18:57:07.854Z",
+    "page_snapshot_id": "fe0c6c1ea975b08a",
+    "page_generated_at": "2026-10-01T18:53:37.820331Z",
+    "page_age_minutes": 4,
+    "workflow_status": "push 실행 36910203523 성공: collect·deploy·공개 URL 검증 완료. 전체 실행 4회는 모두 push이며 schedule 이벤트는 0회. 18:53 UTC cron 슬롯도 확인 시점까지 실행으로 나타나지 않음. GitHub 예약 지연 가능성을 남기되 10분 자동 갱신이 실제 작동한다고 확인할 수 없음.",
     "public_verification": {
-      "checked_at": "2026-10-01T18:53:22.252Z",
+      "checked_at": "2026-10-01T18:57:07.854Z",
       "url": "https://juhwan7.github.io/overnight-market-radar/",
-      "snapshot_id": "3c31b9f4833f6d0a",
-      "source_commit": "545722b227f0a07df31f22d5cb96ba59777b9845",
-      "deploy_commit": "aac1a1d9989d56b1357980bd2adf6b508e9ebc62",
+      "snapshot_id": "fe0c6c1ea975b08a",
+      "source_commit": "dfd74f1f37639fa518f33829cfe2298f6b030c69",
+      "deploy_commit": "53c6d51ac77a35bb8b3d5c01279f00cb3c02f477",
       "result": "공개 HTTP·HTML SHA256·JSON SHA256·commit·생성시각 일치. Actions 공개 URL 검증 단계도 성공."
     },
     "limitations": [
-      "공개 스냅샷은 10/2 03:24 KST 생성으로 현재 30분 안쪽이지만 갱신은 연구 push로 복구된 결과임. 최근 Actions 3회가 모두 push이며 10분 cron의 schedule 실행은 여전히 관측되지 않아 자동 갱신 지속성을 확인하지 못함. 예약 지연/누락과 영구 중단을 구분.",
-      "운영 수집에서 미국 재무부 일별 금리는 수신 성공했으나 BLS·SEC는 HTTP 403. 키 부족으로 단정하지 않고 접근 정책·User-Agent·네트워크 경로·호출 방식을 구분해야 함. 마지막 정상 BLS·SEC 수신은 10/1 23:24 KST.",
+      "최근 Actions 4회는 모두 push이고 schedule 실행은 0회. 10분 cron의 18:53 UTC 슬롯도 확인 시점까지 관측되지 않아 자동 갱신 지속성을 확인하지 못함. GitHub 예약 지연 가능성과 영구 중단을 구분하며 workflow 활성 여부는 현재 허용된 API 범위에서 직접 확인되지 않음.",
+      "후속 push 실행 36910203523에서 재무부는 연결 실패 또는 시간 초과, BLS·SEC는 HTTP 403. 재무부 270개 금리 관측과 BLS 마지막 정상 자료는 보존됐지만 현재 값으로 재수신됐다는 뜻이 아님. 실패값을 0으로 바꾸지 않음.",
       "국내·미국 장중 시세·실제 선물·원달러·신용·미수·실제 투자자군 순매수·펀드 설정환매 미확보. 후보 0개·판단 보류. 9/30 일별 금리를 오늘 장중 반응으로 사용하지 않음.",
       "10/2 09:00 예정 매도까지의 예정 고용보고서 노출 없음은 안전 판정이 아님. 10/2 21:30 KST 고용보고서는 금요일 종가 매수·10/6 개장 매도에는 노출. 선물·환율·개별 기업 위험 결측 지속.",
       "직전 확인 이후 검증된 새 공식 사건은 찾지 못함. 검색 결과 부재를 사건 부재로 바꾸지 않으며 관세·전쟁·국내 공시·기업행사·전체 기업 실적의 포괄적 모니터링은 미확보.",
@@ -37,7 +37,7 @@
     "verified_sources": [
       {
         "url": "https://juhwan7.github.io/overnight-market-radar/radar-manifest.json",
-        "result": "snapshot 3c31b9f4833f6d0a, source commit 545722b, deploy commit aac1a1d, 생성 10/1 18:24:38 UTC 확인. 공개 데이터·HTML 해시 일치."
+        "result": "snapshot fe0c6c1ea975b08a, source commit dfd74f1, deploy commit 53c6d51, 생성 10/1 18:53:37 UTC 확인. 공개 데이터·HTML 해시 일치."
       },
       {
         "url": "https://www.bls.gov/schedule/news_release/empsit.htm",
