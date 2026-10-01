@@ -1,31 +1,30 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-01T18:23:45.627Z",
+  "generated_at": "2026-10-01T18:53:22.252Z",
   "run_status": "부분 실패",
   "operations": {
-    "checked_at": "2026-10-01T18:23:45.627Z",
-    "page_snapshot_id": "73e530b493cd6dec",
-    "page_generated_at": "2026-10-01T15:06:06.057299Z",
-    "page_age_minutes": 197,
-    "workflow_status": "실행 목록 총 2회: push 실행 36881585675와 36879556853 성공. 15:07:15 UTC 이후 후속 실행·schedule 이벤트 미관측. 설정에는 10분 cron이 있으나 실제 예약 가동 상태는 확인되지 않음. 스케줄러 영구 중단으로 확정하지 않음.",
+    "checked_at": "2026-10-01T18:53:22.252Z",
+    "page_snapshot_id": "3c31b9f4833f6d0a",
+    "page_generated_at": "2026-10-01T18:24:38.965809Z",
+    "page_age_minutes": 29,
+    "workflow_status": "push 실행 36906589827이 성공했으며 collect·deploy·공개 URL 검증이 모두 완료됨. 전체 실행 목록은 3회이고 모두 push 실행이며 schedule 이벤트는 0회. 설정에는 10분 cron이 있으나 예약 실행 지연·미가동·비활성 중 어느 것인지 현재 API 범위에서 확정하지 않음.",
     "public_verification": {
-      "checked_at": "2026-10-01T18:23:45.627Z",
+      "checked_at": "2026-10-01T18:53:22.252Z",
       "url": "https://juhwan7.github.io/overnight-market-radar/",
-      "snapshot_id": "73e530b493cd6dec",
-      "source_commit": "ec2f048b45a390dc14e0e20fdf09d8db73dc1527",
-      "deploy_commit": "c99a41817e2fb8fff9ce6f7cd51485aa7b9d346e",
-      "result": "공개 HTTP·HTML SHA256·JSON SHA256·commit·생성시각 일치. 최신성이 회복됐다는 뜻은 아님."
+      "snapshot_id": "3c31b9f4833f6d0a",
+      "source_commit": "545722b227f0a07df31f22d5cb96ba59777b9845",
+      "deploy_commit": "aac1a1d9989d56b1357980bd2adf6b508e9ebc62",
+      "result": "공개 HTTP·HTML SHA256·JSON SHA256·commit·생성시각 일치. Actions 공개 URL 검증 단계도 성공."
     },
     "limitations": [
-      "공개 자료 생성 이후 3시간 이상 경과. 30분 기준을 초과한 갱신 장애·공백으로 기록하되 예약 지연/누락과 영구 중단을 구분. 연구 업데이트 push의 후속 실행·공개 URL 검증 필요.",
-      "국내·미국 장중 시세·실제 선물·원달러·신용·미수·실제 투자자군 순매수·펀드 설정환매 미확보. 후보 0개·판단 보류. 금리 9/30 일별 자료를 오늘 장중/새 연설 이후 반응으로 사용하지 않음.",
-      "실제 GitHub 수집의 재무부 시간 초과, BLS·SEC HTTP403은 아직 해결 검증되지 않음. 작업 환경에서는 공식 월별 XML·ICS·공시 JSON 수신이 성공한 적 있으나 이를 러너 성공으로 덮지 않음. 같은 출처의 이번 재조회도 일부403이어서 접근 정책/네트워크 차이를 구분.",
-      "마이크론 IR 최초 공개시각 미확인. 이번 카드의 시각은 9/30 SEC 접수이며 기업 전망·확정 실적을 구분. MU는 현재 기본 자동 관찰기업 범위 밖.",
-      "제퍼슨 연설은 공식 본문과 RSS pubDate를 확인했으나 정책 관련 가격 반응은 미확인. 9월 FOMC 원문 재조회403으로 연설을 새 FOMC 결정이나 재검증된 정책 변경으로 분류하지 않음.",
-      "Waller 10/1 원문의 공식 RSS pubDate는14:00 UTC 확인. 데이터/FRED/AI 주제로 단순 금리 호재·악재로 분류하지 않음. 이전에 발표시각 미확인이었던 한계는 이번 RSS 확인으로 일부 해소.",
-      "10/2 09:00 예정 매도까지의 예정 고용보고서 노출 없음은 안전 판정이 아님. 10/2 21:30 KST 고용보고서는 금요일 종가 매수·10/6 개장 매도에는 노출. 선물/환율/개별 기업 위험 결측 지속.",
-      "관세·전쟁·국내 공시·기업행사·전체 기업 실적의 포괄적 모니터링 미확보. 검색 결과 부재를 사건 부재로 바꾸지 않음.",
-      "README 미배포 문구·운영 화면 검증대기는 실제 공개 URL 검증과 불일치. research.operations는 현재 화면에 직접 연결되지 않아 파일 자체에서 확인해야 함."
+      "공개 스냅샷은 10/2 03:24 KST 생성으로 현재 30분 안쪽이지만 갱신은 연구 push로 복구된 결과임. 최근 Actions 3회가 모두 push이며 10분 cron의 schedule 실행은 여전히 관측되지 않아 자동 갱신 지속성을 확인하지 못함. 예약 지연/누락과 영구 중단을 구분.",
+      "운영 수집에서 미국 재무부 일별 금리는 수신 성공했으나 BLS·SEC는 HTTP 403. 키 부족으로 단정하지 않고 접근 정책·User-Agent·네트워크 경로·호출 방식을 구분해야 함. 마지막 정상 BLS·SEC 수신은 10/1 23:24 KST.",
+      "국내·미국 장중 시세·실제 선물·원달러·신용·미수·실제 투자자군 순매수·펀드 설정환매 미확보. 후보 0개·판단 보류. 9/30 일별 금리를 오늘 장중 반응으로 사용하지 않음.",
+      "10/2 09:00 예정 매도까지의 예정 고용보고서 노출 없음은 안전 판정이 아님. 10/2 21:30 KST 고용보고서는 금요일 종가 매수·10/6 개장 매도에는 노출. 선물·환율·개별 기업 위험 결측 지속.",
+      "직전 확인 이후 검증된 새 공식 사건은 찾지 못함. 검색 결과 부재를 사건 부재로 바꾸지 않으며 관세·전쟁·국내 공시·기업행사·전체 기업 실적의 포괄적 모니터링은 미확보.",
+      "마이크론 IR 최초 공개시각 미확인. 카드 시각은 9/30 SEC 접수이며 회사 전망과 확정 실적을 구분. MU는 기본 자동 관찰기업 범위 밖.",
+      "제퍼슨 연설의 정책 관련 실제 가격 반응은 미확인. 개별 연설을 FOMC의 새 결정으로 분류하지 않음.",
+      "research.operations는 현재 운영 화면에 직접 연결되지 않아 파일 자체에서 상세 장애 근거를 확인해야 함."
     ],
     "improvements": [
       "실제 schedule 실행 유무를 추가 관찰하고 GitHub Actions 화면에서 workflow 활성 여부·최근 schedule 이벤트 확인. 현재는 증거 부족으로 영구 중단이라고 단정하지 않음.",
@@ -37,28 +36,20 @@
     ],
     "verified_sources": [
       {
-        "url": "https://www.federalreserve.gov/feeds/speeches.xml",
-        "result": "Jefferson 10/1 17:30 UTC·Waller 10/1 14:00 UTC pubDate 실제 수신 확인. 재조회403은 별도 접근 오류."
+        "url": "https://juhwan7.github.io/overnight-market-radar/radar-manifest.json",
+        "result": "snapshot 3c31b9f4833f6d0a, source commit 545722b, deploy commit aac1a1d, 생성 10/1 18:24:38 UTC 확인. 공개 데이터·HTML 해시 일치."
+      },
+      {
+        "url": "https://www.bls.gov/schedule/news_release/empsit.htm",
+        "result": "9월 고용보고서 10/2 08:30 ET 예정 재확인. 10/2 09:00 KST 매도 뒤이며 금요일 종가 보유 구간에는 포함."
       },
       {
         "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261001a.htm",
-        "result": "연설 원문 실제 HTTP 수신: 물가 상방위험·개별 견해·정책 판단에 추가 시간이 필요할 수 있다는 설명 확인."
+        "result": "직전 등록한 제퍼슨 연설 원문과 10/1 발표 유지. 후속 공식 정책 결정으로 오인하지 않음."
       },
       {
-        "url": "https://www.dol.gov/ui/data.pdf",
-        "result": "10/1 08:30 Eastern 공표·9/26 주 신규197000·전주 수정198000·4주평균200000 확인."
-      },
-      {
-        "url": "https://data.sec.gov/submissions/CIK0000723125.json",
-        "result": "8-K 0000723125-26-000018, 접수9/30 20:02:22 UTC·항목2.02/9.01 실제 JSON 수신 확인."
-      },
-      {
-        "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/mu-20260930.htm",
-        "result": "Item2.02 및 첨부99.1 실적 발표 확인. IR 날짜만으로 발표시각 생성하지 않음."
-      },
-      {
-        "url": "https://investors.micron.com/news/press-release/2026/Micron-Technology-Inc--Reports-Record-Fiscal-Fourth-Quarter-and-Full-Year-2026-Results/",
-        "result": "공식 실적·가이던스 웹 원문 확인. 직접 HTTP 접근은403. 회사 전망과 실적 구분."
+        "url": "https://www.federalreserve.gov/newsevents/speech/waller20261001a.htm",
+        "result": "10/1 Waller 연설은 FRED·데이터와 AI 주제이며 별도 통화정책 신호 카드로 추가하지 않음."
       }
     ]
   },
