@@ -1,0 +1,36 @@
+{
+  "repo": "juhwan7/overnight-market-radar",
+  "page_url": "https://juhwan7.github.io/overnight-market-radar/",
+  "watchlist_us": ["NVDA", "AMD", "INTC", "ORCL", "MSFT", "AAPL", "TSLA", "AMZN", "GOOGL", "META"],
+  "target_minutes": 10,
+  "keep_runs": 144,
+  "keep_days": 90,
+  "candidate_limit": 5,
+  "candidate_min_turnover_krw": 10000000000,
+  "candidate_max_day_gain_pct": 20,
+  "candidate_min_close_position": 0.7,
+  "candidate_max_age_seconds": 900,
+  "publication_approvals": {"kis": false, "krx": false, "finra": false, "manual_market": false},
+  "public_sources": ["treasury", "bls", "fomc", "fed_news", "sec"],
+  "kis": {"market_code": "J", "max_detail_stocks": 15, "futures": []},
+  "coverage_note": "미국 공시는 사전에 지정한 10개 기업을 관찰. 미국 전체 종목 순위가 아님.",
+  "calendar": {
+    "markets": {
+      "KRX": {
+        "timezone": "Asia/Seoul", "open": "09:00", "close": "15:30", "verified_years": [],
+        "verified_ranges": [{"from":"2026-10-01", "to":"2026-10-31"}],
+        "holidays": ["2026-10-05", "2026-10-09"],
+        "sessions": {},
+        "source_url": "https://www.samsungpop.com/ux/kor/customer/notice/notice/noticeViewContent.do?MenuSeqNo=24543",
+        "verification": "2026년 10월 공휴일 공식 증권사 안내 확인. 범위 밖 달력은 판단 보류. 임시 거래제도 변경은 별도 확인.",
+        "verified_at": "2026-10-01"
+      },
+      "NYSE": {
+        "timezone": "America/New_York", "open": "09:30", "close": "16:00", "verified_years": ["2026"],
+        "holidays": ["2026-01-01", "2026-01-19", "2026-02-16", "2026-04-03", "2026-05-25", "2026-06-19", "2026-07-03", "2026-09-07", "2026-11-26", "2026-12-25"],
+        "sessions": {"2026-11-27":{"close":"13:00"},"2026-12-24":{"close":"13:00"}},
+        "source_url": "https://www.nyse.com/trade/hours-calendars", "verified_at": "2026-10-01"
+      }
+    }
+  }
+}

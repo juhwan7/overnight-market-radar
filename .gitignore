@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.private/
+.data-app-offline/
+__pycache__/
+*.pyc
+.env
+.env.*
+*.pem
+*.key
+*.png
+playwright-report/

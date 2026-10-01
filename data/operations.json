@@ -1,0 +1,53 @@
+[
+  {
+    "id": "local-20261001T135107",
+    "slot": "2026-10-01T13:50:00Z",
+    "started_at": "2026-10-01T13:51:07.970477Z",
+    "checked_at": "2026-10-01T13:51:31.421415Z",
+    "missed_slots": 0,
+    "missed_policy": "현재 값을 과거 슬롯으로 복사하지 않음",
+    "calls": 5,
+    "seconds": 23.45,
+    "failures": [
+      "FOMC 회의 일정: FOMC 달력 파싱 또는 향후 일정 확인 실패",
+      "미국 관찰기업 공시: 파싱·스키마 검증 실패"
+    ],
+    "deployment": "배포 전·공개 URL 검증 필요"
+  },
+  {
+    "id": "local-20261001T135804",
+    "slot": "2026-10-01T13:50:00Z",
+    "started_at": "2026-10-01T13:58:04.634954Z",
+    "checked_at": "2026-10-01T13:59:10.866469Z",
+    "missed_slots": 0,
+    "missed_policy": "현재 값을 과거 슬롯으로 복사하지 않음",
+    "calls": 9,
+    "seconds": 66.23,
+    "failures": [],
+    "deployment": "배포 전·공개 URL 검증 필요"
+  },
+  {
+    "id": "local-20261001T141440",
+    "slot": "2026-10-01T14:10:00Z",
+    "started_at": "2026-10-01T14:14:40.548616Z",
+    "checked_at": "2026-10-01T14:14:48.066116Z",
+    "missed_slots": 1,
+    "missed_policy": "현재 값을 과거 슬롯으로 복사하지 않음",
+    "calls": 1,
+    "seconds": 7.52,
+    "failures": [],
+    "deployment": "배포 전·공개 URL 검증 필요"
+  },
+  {
+    "id": "local-20261001T142448",
+    "slot": "2026-10-01T14:20:00Z",
+    "started_at": "2026-10-01T14:24:48.196601Z",
+    "checked_at": "2026-10-01T14:25:02.835602Z",
+    "missed_slots": 0,
+    "missed_policy": "현재 값을 과거 슬롯으로 복사하지 않음",
+    "calls": 1,
+    "seconds": 14.64,
+    "failures": [],
+    "deployment": "배포 전·공개 URL 검증 필요"
+  }
+]

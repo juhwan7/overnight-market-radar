@@ -1,0 +1,90 @@
+name: Market radar collect, verify and publish
+on:
+  schedule:
+    - cron: '3,13,23,33,43,53 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore: ['data/**', 'src/data.json', 'public/radar-manifest.json']
+concurrency:
+  group: market-radar-production
+  cancel-in-progress: false
+permissions:
+  contents: read
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: write
+    outputs:
+      snapshot: ${{ steps.identity.outputs.snapshot }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+      - name: Verify rules and time boundaries
+        run: python -m unittest discover -s tests/radar -v
+      - name: Collect only entitled data
+        env:
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          KIS_APP_KEY: ${{ secrets.KIS_APP_KEY }}
+          KIS_APP_SECRET: ${{ secrets.KIS_APP_SECRET }}
+          MARKET_FEED_URL: ${{ secrets.MARKET_FEED_URL }}
+        run: python -m radar.pipeline
+      - name: Validate published snapshot
+        run: python -m radar.verify
+      - name: Preserve actual observations
+        run: |
+          git config user.name 'market-radar-bot'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add src/data.json data public/radar-manifest.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update verified market observations'
+            git push origin HEAD:main
+          fi
+      - name: Install locked UI dependencies
+        run: npm ci --ignore-scripts
+      - name: Build reviewed dashboard
+        run: npm run build
+      - name: Bind deployment identity
+        id: identity
+        run: |
+          python -m radar.package
+          python -c "import json,os; d=json.load(open('dist/radar-manifest.json')); open(os.environ['GITHUB_OUTPUT'],'a').write('snapshot='+d['snapshot_id']+'\n')"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+          retention-days: 1
+  deploy:
+    needs: collect
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify public URL and exact data snapshot
+        env:
+          RADAR_PUBLIC_URL: ${{ steps.deployment.outputs.page_url }}
+          RADAR_EXPECTED_SNAPSHOT: ${{ needs.collect.outputs.snapshot }}
+        run: python -m radar.verify_url
