@@ -1,27 +1,28 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T18:37:19.029Z",
+  "generated_at": "2026-10-02T19:10:24.248Z",
   "run_status": "부분 실패",
   "operations": {
-    "checked_at": "2026-10-02T18:37:19.029Z",
-    "page_snapshot_id": "7621cbe2143f0828",
-    "page_generated_at": "2026-10-02T17:20:11.748439Z",
-    "page_age_minutes": 77,
-    "workflow_status": "push 실행 37039984440은 수집·분석·Pages 배포·공개 검증까지 성공. 최신 schedule 실행 37028895596은 2026-10-02T15:42:44Z 시작 후 main 동시 변경에 따른 non-fast-forward로 관측 저장에 실패했으며, 이번 점검까지 후속 schedule 실행은 확인되지 않음. 10분 목표 대비 장시간 지연이지만 스케줄러 영구 중단으로 단정하지 않음.",
+    "checked_at": "2026-10-02T19:10:24.248Z",
+    "page_snapshot_id": "b07836f70b7a733f",
+    "page_generated_at": "2026-10-02T18:37:31.456060Z",
+    "page_age_minutes": 32,
+    "workflow_status": "push 실행 37048675509는 수집·분석·Pages 배포·공개 검증까지 성공. 최신 schedule 실행 37028895596은 2026-10-02T15:42:44Z 시작 후 main 동시 변경에 따른 non-fast-forward로 관측 저장에 실패했으며, 이번 점검까지 후속 schedule 실행은 확인되지 않음. 10분 목표 대비 장시간 지연이지만 스케줄러 영구 중단으로 단정하지 않음.",
     "public_verification": {
-      "checked_at": "2026-10-02T18:37:19.029Z",
+      "checked_at": "2026-10-02T19:10:24.248Z",
       "url": "https://juhwan7.github.io/overnight-market-radar/",
-      "snapshot_id": "7621cbe2143f0828",
-      "source_commit": "c95fb3051dfba610ac822329e3ba8a0a3cc76656",
-      "deploy_commit": "8f928a501405dcae8bca4b941c143741971da94a",
-      "result": "Actions 실행 37039984440 공개 검증 로그에서 공개 HTTP·HTML·데이터 해시 일치."
+      "snapshot_id": "b07836f70b7a733f",
+      "source_commit": "f253ffd7b4db56ea0313fceb2ec2b2ae49734926",
+      "deploy_commit": "220c032a2cd1755a64704763db4a691abba3e5b1",
+      "result": "Actions 실행 37048675509 공개 검증 로그에서 공개 HTTP·HTML·데이터 해시 일치."
     },
     "limitations": [
-      "공개 스냅샷 7621cbe2143f0828은 2026-10-02T17:20:11.748439Z 생성이며 점검 시 약 77분 경과해 30분 현재성 기준을 초과.",
+      "공개 스냅샷 b07836f70b7a733f은 2026-10-02T18:37:31.456060Z 생성이며 점검 시 약 32분 경과해 30분 현재성 기준을 초과.",
       "00:42 KST schedule 실행이 동시쓰기 충돌로 실패한 뒤 후속 정기 실행이 확인되지 않음. 스케줄러 영구 중단 근거는 없지만 10분 연속성은 회복되지 않음.",
-      "이번 점검에서 연준 공식 최신 게시물은 기존 Ontario Bancorporation 집행조치가 마지막이었고, BLS·재무부 검색에서도 발표시각까지 검증 가능한 새 시장 전체 사건을 확인하지 못함. 검색 부재는 돌발 사건 전체의 부재를 보장하지 않음.",
+      "미 재무부 OFAC가 2026-10-02 Hamas 자금조달망 관련 대테러 제재를 발표했으나 공식 페이지에 발표 날짜만 있고 시각은 확인되지 않아 issues 배열에는 넣지 않음. 개인 3명과 프랑스 소재 단체 2곳 대상이며 시장 전체 충격으로 확대 해석하지 않음.",
+      "이번 점검에서 연준 공식 최신 게시물은 기존 Ontario Bancorporation 집행조치가 마지막이었고 BLS의 새 발표도 확인하지 못함. 검색 부재는 돌발 사건 전체의 부재를 보장하지 않음.",
       "SEC 운영 수집기는 HTTP 403. 검색 결과만으로 접수시각과 전체 범위를 검증하지 못한 공시는 issues 배열에 추가하지 않음.",
-      "미 재무부 운영 수집은 연결 실패 또는 시간 초과. 마지막 정상 자료는 2026-10-01 기준 일별 par yield이며 장중 국채금리가 아님.",
+      "미 재무부 국채금리 운영 수집은 연결 실패 또는 시간 초과. 마지막 정상 자료는 2026-10-01 기준 일별 par yield이며 장중 국채금리가 아님.",
       "국내 장중·종가 시세, 실제 선물, 원달러, 신용·미수, 투자자군 순매수, 펀드 설정·환매가 미확보. 후보 0개·판단 보류 유지.",
       "미국 현물장 진행 중이며 정규장 마감·시간외 반전·원달러·국내 연결 시세가 없어 10월 6일 갭 방향·확률을 제시하지 않음."
     ],
@@ -29,13 +30,14 @@
       "정기 실행의 관측 저장 직전 remote main SHA를 다시 확인하고, 연구 파일만 바뀐 경우 제한된 1회 rebase/retry 또는 single-writer 큐를 검토. force push와 무한 재시도는 금지.",
       "GitHub Actions schedule 외부 감시를 두고 30분 초과 시 별도 경보. 10분 정시성이 필수면 외부 스케줄러 또는 상시 수집기를 검토.",
       "BLS·SEC 403은 공식 RSS·ICS·공개 다운로드·적절한 User-Agent와 호출 간격을 검증하고, 실패 시 마지막 정상 자료와 장애를 분리 표시.",
+      "OFAC·재무부 보도자료에서 발표시각 메타데이터를 검증하는 수집기를 추가해 날짜만 있는 제재 발표를 과거 시점으로 소급하지 않도록 검토.",
       "미국 정규장 마감의 실제 ES·NQ·국채선물·달러·원달러를 동일 시각으로 연결하고 지연 시세와 실시간 시세를 분리 표시.",
       "공개 표시 권한이 확인된 국내 장중 시세·실제 선물·원달러·신용 자료 연결을 우선."
     ],
     "verified_sources": [
       {
-        "url": "https://github.com/juhwan7/overnight-market-radar/actions/runs/37039984440",
-        "result": "마지막 성공 push. snapshot 7621cbe2143f0828, source commit c95fb305, deploy commit 8f928a50, 공개 HTTP·HTML·데이터 해시 일치."
+        "url": "https://github.com/juhwan7/overnight-market-radar/actions/runs/37048675509",
+        "result": "마지막 성공 push. snapshot b07836f70b7a733f, source commit f253ffd, deploy commit 220c032, 공개 HTTP·HTML·데이터 해시 일치."
       },
       {
         "url": "https://github.com/juhwan7/overnight-market-radar/actions/runs/37028895596",
@@ -50,8 +52,12 @@
         "result": "9월 고용보고서 기존 수치와 발표시각에 의미 있는 변경 없음."
       },
       {
-        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?field_tdr_date_value=2026&type=daily_treasury_yield_curve",
-        "result": "공식 일별 par yield 페이지 확인. 운영 수집의 최신 정상 자료는 10월 1일이며 장중 시세가 아님."
+        "url": "https://ofac.treasury.gov/recent-actions/20261002",
+        "result": "2026-10-02 대테러 제재 대상 목록 확인. 발표시각은 공식 페이지에서 확인되지 않아 issue 카드 제외."
+      },
+      {
+        "url": "https://home.treasury.gov/news/press-releases/sb0647/",
+        "result": "Hamas 자금조달망 관련 개인 3명·단체 2곳 제재의 공식 설명 확인. 시장 반응과 발표시각은 미검증."
       }
     ]
   },
