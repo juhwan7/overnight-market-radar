@@ -1,60 +1,64 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T09:16:54.269Z",
+  "generated_at": "2026-10-02T10:17:37.256Z",
   "run_status": "부분 실패",
   "operations": {
-    "checked_at": "2026-10-02T09:16:54.269Z",
-    "page_snapshot_id": "d483cceeece6a8bd",
-    "page_generated_at": "2026-10-02T09:00:23.373165Z",
-    "page_age_minutes": 16,
-    "workflow_status": "schedule 실행 36987259724가 2026-10-02T09:00:13Z에 수집·분석·배포·공개 검증까지 성공. 이전 schedule과 383분 공백 뒤 재개된 1회 성공으로 부분 회복이며, 이후 16분 동안 추가 schedule이 없어 10분 연속 복구는 아직 확인되지 않음.",
+    "checked_at": "2026-10-02T10:17:37.256Z",
+    "page_snapshot_id": "d1dd24274bf69e8b",
+    "page_generated_at": "2026-10-02T09:17:09.242649Z",
+    "page_age_minutes": 60,
+    "workflow_status": "push 실행 36988878011은 2026-10-02T09:16:57Z에 수집·분석·배포·공개 검증까지 성공. 최신 schedule 실행은 36987259724(09:00:13Z)이며 그 뒤 10분 주기 실행이 확인되지 않아 지속 회복이 아니라 재지연 가능성으로 분류.",
     "public_verification": {
-      "checked_at": "2026-10-02T09:16:54.269Z",
+      "checked_at": "2026-10-02T10:17:37.256Z",
       "url": "https://juhwan7.github.io/overnight-market-radar/",
-      "snapshot_id": "d483cceeece6a8bd",
-      "source_commit": "0bca2b07dacf0e738e41fd48af9870268e260025",
-      "deploy_commit": "ec9741dd3e6d5877cbada61294016df3816ccc82",
-      "result": "Actions 실행 36987259724 공개 검증에서 HTTP·HTML·데이터 해시 일치. 생성 후 16분."
+      "snapshot_id": "d1dd24274bf69e8b",
+      "source_commit": "86746cd357ebc8218bd67332a4c036bf63ec7a27",
+      "deploy_commit": "570e69a1278a4641a637fa2731f3fc3ff5b5f3f9",
+      "result": "Actions 실행 36988878011 공개 검증 로그에서 HTTP·HTML·데이터 해시 일치. 이번 직접 브라우저 접근은 실행환경에서 차단되어 후속 push의 Actions 공개 검증으로 다시 확인 예정."
     },
     "limitations": [
-      "schedule 실행 36987259724가 2026-10-02T09:00:13Z에 성공해 영구 중단은 아님을 재확인. 직전 schedule 이후 383분 공백이 있었고, 이번 1회 성공 뒤 16분 동안 추가 schedule이 없어 10분 주기의 지속 회복은 확인되지 않음.",
-      "공개 스냅샷 d483cceeece6a8bd는 2026-10-02T09:00:23.373165Z 생성이며 Actions 공개 검증에서 HTTP·HTML·데이터 해시 일치. 점검 시 16분 경과.",
-      "재무부 운영 수집은 09:00Z schedule에서도 연결 실패 또는 응답 시간 초과. 06:06Z 마지막 정상 자료와 2026-10-01 일별 par yield를 보존했으며, 장중 국채 시세·실제 자금 흐름이 아님.",
-      "BLS·SEC 운영 수집은 HTTP 403 상태. 이번 별도 공식 웹 확인은 성공했지만 운영 러너의 자동 수집 복구를 뜻하지 않음. BLS 현재 페이지는 8월 결과와 10/2 08:30 ET 다음 발표 예고, SEC 최신 목록은 현재 공식 접수일 일부만 보여 관찰기업 전체 신규 공시 부재를 확정하지 않음.",
+      "공개 스냅샷 d1dd24274bf69e8b는 2026-10-02T09:17:09.242649Z 생성이며 점검 시 약 60분 경과. 30분 기준을 초과해 현재성 장애로 기록.",
+      "최신 schedule 실행은 2026-10-02T09:00:13Z 성공이지만 그 뒤 10분 주기 실행이 확인되지 않음. 앞선 383분 공백 뒤 1회 성공과 다시 긴 공백이므로 영구 중단으로 단정하지 않고 재지연 가능성으로 구분.",
+      "재무부 운영 수집은 09:17Z push에서 수신 검증 완료로 회복했으나 마지막 자료일은 2026-10-01인 일별 par yield이며 장중 국채 시세·실제 자금 흐름이 아님.",
+      "BLS·SEC 운영 수집은 09:17Z push에서도 HTTP 403. 이번 SEC 공식 웹 원문 3건은 별도 직접 확인했으며 운영 러너의 자동 수집 복구를 뜻하지 않음.",
       "DART 전체 공시 페이지는 이번 직접 확인 도구에서 수신 오류가 발생해 10/2 국내 신규 공시 부재를 확인된 사실로 표현하지 않음.",
-      "연준 공식 News & Events의 마지막 갱신은 2026-10-01이며 Jefferson·Bowman·Waller가 최신. 10월 2일 새 항목은 이번 점검에서 찾지 못함.",
-      "국내 정규장 마감 이후지만 국내 장중·종가 시세, 실제 선물, 원달러, 신용·미수, 투자자군 순매수, 펀드 설정·환매가 미확보. 마감 전 후보를 복원하거나 사후 가격으로 바꾸지 않고 후보 0개·판단 보류 유지.",
+      "SEC 최신 접수 목록은 일부 최신 공시 범위이며 관찰기업 전체·기업 IR·관세·전쟁 사건의 포괄적 부재를 보장하지 않음.",
+      "연준 공식 News & Events의 마지막 갱신은 2026-10-01이며 이번 점검에서 10월 2일 새 공식 항목을 확인하지 못함.",
+      "국내 장중·종가 시세, 실제 선물, 원달러, 신용·미수, 투자자군 순매수, 펀드 설정·환매가 미확보. 확인된 SEC 공시를 가격 방향 신호나 자금 이동으로 바꾸지 않고 후보 0개·판단 보류 유지.",
       "10/2 21:30 KST 미국 고용보고서는 금요일 종가 매수·10/6 개장 매도 구간에 포함. 발표 전이므로 결과와 시장 반응은 확인되지 않음.",
-      "관세·전쟁·기업 IR·전체 기업 실적의 포괄적 모니터링 미확보. 검색 결과 부재를 사건 부재로 바꾸지 않음."
+      "니오 첨부 보도자료는 10월 1일자로 표시되지만 원 IR의 정확한 최초 공개시각을 검증하지 못해 SEC 접수시각만 사건 필드에 사용."
     ],
     "improvements": [
       "GitHub Actions schedule 지연·누락 원인을 별도 감시에서 확인하고 10분 목표가 필요하면 외부 스케줄러 또는 상시 수집기를 검토. 같은 스케줄러 내부 감시만으로 복구를 보장하지 않음.",
       "BLS 공식 HTML·ICS 대안과 SEC 검증 CIK 매핑·연락 가능한 User-Agent를 운영 러너에서 검증. SEC_USER_AGENT는 API 키가 아니며 차단 회피나 무한 재시도는 하지 않음.",
-      "재무부 XML은 조건부 요청·캐시·짧은 제한 재시도와 마지막 정상 자료 보존을 유지하되, 시간 초과를 403·429·파싱 오류와 분리.",
+      "SEC 최신 공시 수집은 accession을 안정 ID로 사용하고 공식 IR 최초시각과 SEC 접수시각을 분리. 동일 첨부·전재를 독립 근거로 중복 가산하지 않음.",
       "DART·KIND는 공식 OpenDART 인증 또는 공개·자동수집 조건이 확인된 경로를 연결하고, 미검증 검색 색인을 운영 공시로 사용하지 않음.",
-      "동일 공시 accession·공식 GUID·원출처 URL로 통합하고 최초 확인과 새 해석 이용 시각을 분리. 제목 유사도만 병합하거나 단순 재수집으로 최신시각을 갱신하지 않음.",
       "공개 표시 권한이 확인된 국내 장중 시세·실제 선물·원달러·신용 자료 연결을 우선. 일별 참고환율이나 ETF를 핵심 실시간 선물로 대체하지 않음."
     ],
     "verified_sources": [
       {
-        "url": "https://github.com/juhwan7/overnight-market-radar/actions/runs/36987259724",
-        "result": "schedule 실행 성공. 공개 검증에서 snapshot d483cceeece6a8bd, source commit 0bca2b0, deploy commit ec9741d, HTTP·HTML·데이터 해시 일치 확인."
+        "url": "https://github.com/juhwan7/overnight-market-radar/actions/runs/36988878011",
+        "result": "push 실행 성공. 공개 검증 로그에서 snapshot d1dd24274bf69e8b, source commit 86746cd, deploy commit 570e69a, HTTP·HTML·데이터 해시 일치."
       },
       {
-        "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/",
-        "result": "09:00Z 운영 실행은 연결 실패 또는 시간 초과. 마지막 정상 수신 06:06Z, 마지막 자료일 2026-10-01 일별 par yield."
+        "url": "https://www.sec.gov/Archives/edgar/data/1097864/000114036126038326/ef20083149_formrw.htm",
+        "result": "SEC 접수 2026-10-02 06:01:18 ET. 온세미가 시냅틱스 인수 관련 자사주 발행 계획 중단을 이유로 S-4 철회, 해당 등록신고서상 증권 미판매 확인. 인수 취소는 명시되지 않음."
       },
       {
-        "url": "https://www.federalreserve.gov/newsevents.htm",
-        "result": "이번 직접 확인 성공. 마지막 갱신 2026-10-01; 최신 표시 항목은 Jefferson·Bowman·Waller이며 10월 2일 새 항목 없음."
+        "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526411212/d119923d6k.htm",
+        "result": "SEC 접수 2026-10-02 06:02:46 ET. KB금융 11월 20일 임시주총, 이재근 사내이사 선임 안건, 10월 19일 기준일 확인."
       },
       {
-        "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
-        "result": "이번 직접 확인 성공. 현재 공식 접수일 최신 일부 목록만 확인; 운영 수집은 HTTP 403이므로 관찰기업 전체 신규 공시 여부는 확인되지 않음."
+        "url": "https://www.sec.gov/Archives/edgar/data/1736541/000110465926112996/tm2626774d1_ex99-1.htm",
+        "result": "SEC 접수 2026-10-02 06:03:48 ET. 니오 회사 발표 기준 9월 37,408대, 3분기 109,178대, 1~9월 300,301대 인도 확인. 독립 검증 근거로 중복 가산하지 않음."
       },
       {
         "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
-        "result": "이번 직접 확인 성공. 현재는 8월 결과 페이지이며 9월 고용보고서의 2026-10-02 08:30 ET(21:30 KST) 발표 예고를 재확인; 운영 수집은 HTTP 403."
+        "result": "공식 현재 페이지는 8월 결과이며 9월 고용보고서의 2026-10-02 08:30 ET(21:30 KST) 발표 전 상태 재확인. 운영 수집은 HTTP 403."
+      },
+      {
+        "url": "https://www.federalreserve.gov/newsevents.htm",
+        "result": "마지막 공식 갱신은 2026-10-01. 이번 점검에서 10월 2일 새 공식 항목을 확인하지 못함."
       },
       {
         "url": "https://dart.fss.or.kr/dsac001/mainAll.do",
@@ -63,6 +67,90 @@
     ]
   },
   "issues": [
+    {
+      "id": "sec-0001140361-26-038326",
+      "ticker": "ON",
+      "company": "ON Semiconductor Corporation",
+      "title": "온세미 S-4 철회: 시냅틱스 인수의 주식대가 계획 변경",
+      "form": "RW",
+      "summary": "온세미는 시냅틱스 인수와 관련해 자사 보통주를 발행할 계획이 더 이상 없다며 S-4 등록신고서를 철회했습니다. 해당 등록신고서에 따른 증권 판매는 없었습니다. 이 문서만으로 인수 자체가 취소됐다고 결론내릴 수는 없습니다.",
+      "classification": "확인된 사실",
+      "state": "새로 등장",
+      "at": "2026-10-02T10:01:18Z",
+      "published_at": "2026-10-02T10:01:18Z",
+      "publication_time_basis": "SEC 접수시각 2026-10-02 06:01:18 미국 동부시간을 해당일 EDT(UTC-4)로 변환. 거래 조건의 최초 당사자 발표시각과는 별도.",
+      "available_at": "2026-10-02T10:17:37.256Z",
+      "first_seen_at": "2026-10-02T10:17:37.256Z",
+      "url": "https://www.sec.gov/Archives/edgar/data/1097864/000114036126038326/ef20083149_formrw.htm",
+      "primary_origin_url": "https://www.sec.gov/Archives/edgar/data/1097864/000114036126038326/ef20083149_formrw.htm",
+      "source_links": [
+        "https://www.sec.gov/Archives/edgar/data/1097864/000114036126038326/0001140361-26-038326-index.html"
+      ],
+      "scope": "기업",
+      "channel": "M&A 자금조달·주식 희석 조건 → 온세미·시냅틱스 및 반도체 업종 기대. 국내 기업과의 직접 사업·공급망 연결은 확인되지 않음.",
+      "new_content": "이번 점검에서 SEC가 10/2 19:01:18 KST 접수한 RW 원문을 새로 확인. 온세미 주식 발행 계획 철회와 등록신고서상 증권 미판매만 확인했으며 거래 전체 취소로 확대하지 않음.",
+      "market_response": "시장 반응 미검증. 미국 정규장·시간외 가격, 동시시각 거래량, 시장 대비 수익률과 국내 관련 종목 반응 미확보.",
+      "counterpoint": "S-4 철회는 인수 취소를 뜻한다고 명시하지 않음. 현금·부채 등 대체 자금조달, 계약 조건 변경 또는 후속 공시 가능성이 있으며 실제 희석·재무 영향은 아직 확정되지 않음.",
+      "next_check": "온세미·시냅틱스 후속 8-K·IR에서 인수 지속 여부, 대체 대가·자금조달·종결 조건을 확인하고 실제 가격 반응을 별도 검증.",
+      "catalyst_verified": false,
+      "source_id": "research"
+    },
+    {
+      "id": "sec-0001193125-26-411212",
+      "ticker": "KB",
+      "company": "KB Financial Group Inc.",
+      "title": "KB금융 11월 20일 임시주총 소집 결의",
+      "form": "6-K",
+      "summary": "KB금융 이사회는 11월 20일 오전 10시 임시주주총회를 열고 이재근 사내이사 선임 안건을 다루기로 결의했습니다. 의결권 기준일은 10월 19일입니다.",
+      "classification": "확인된 사실",
+      "state": "새로 등장",
+      "at": "2026-10-02T10:02:46Z",
+      "published_at": "2026-10-02T10:02:46Z",
+      "publication_time_basis": "SEC 접수시각 2026-10-02 06:02:46 미국 동부시간을 해당일 EDT(UTC-4)로 변환. 국내 DART·KIND 최초 공개시각은 미검증.",
+      "available_at": "2026-10-02T10:17:37.256Z",
+      "first_seen_at": "2026-10-02T10:17:37.256Z",
+      "url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526411212/d119923d6k.htm",
+      "primary_origin_url": "https://www.sec.gov/Archives/edgar/data/1445930/000119312526411212/d119923d6k.htm",
+      "source_links": [
+        "https://www.sec.gov/Archives/edgar/data/1445930/000119312526411212/0001193125-26-411212-index.html"
+      ],
+      "scope": "기업",
+      "channel": "지배구조·경영진 선임 → 전략 실행 기대. 실적·배당·자본정책 변경이나 실제 자금 유입을 뜻하지 않음.",
+      "new_content": "이번 점검에서 SEC가 10/2 19:02:46 KST 접수한 6-K 원문을 새로 확인. 임시주총 일정·안건·기준일을 확인했으며 국내 원공시의 최초 공개시각은 확인하지 못함.",
+      "market_response": "시장 반응 미검증. KB금융 종가 이후 가격·거래대금·외국인·기관 수급과 동시시각 시장 대비 반응 미확보.",
+      "counterpoint": "일상적 지배구조 절차일 수 있고 실적·가이던스·자본배분의 즉시 변경은 확인되지 않아 단기 가격 파급력이 제한될 수 있음.",
+      "next_check": "DART·KIND 대응 공시의 최초 공개시각과 후보 보유 노출 여부, 다음 거래일 실제 가격·수급 반응을 확인.",
+      "catalyst_verified": false,
+      "source_id": "research"
+    },
+    {
+      "id": "sec-0001104659-26-112996",
+      "ticker": "NIO",
+      "company": "NIO Inc.",
+      "title": "니오 9월 인도 3만7408대 발표",
+      "form": "6-K",
+      "summary": "니오는 9월 차량 인도 3만7408대(전년 대비 7.7% 증가), 3분기 10만9178대(25.4% 증가), 1~9월 30만301대(49.2% 증가)를 회사 보도자료로 발표했습니다. 누적 인도는 129만7893대라고 밝혔습니다.",
+      "classification": "확인된 사실",
+      "state": "새로 등장",
+      "at": "2026-10-02T10:03:48Z",
+      "published_at": "2026-10-02T10:03:48Z",
+      "publication_time_basis": "SEC 접수시각 2026-10-02 06:03:48 미국 동부시간을 해당일 EDT(UTC-4)로 변환. 첨부 보도자료 표기는 10월 1일이나 원 IR의 정확한 최초 공개시각은 미검증.",
+      "available_at": "2026-10-02T10:17:37.256Z",
+      "first_seen_at": "2026-10-02T10:17:37.256Z",
+      "url": "https://www.sec.gov/Archives/edgar/data/1736541/000110465926112996/tm2626774d1_ex99-1.htm",
+      "primary_origin_url": "https://www.sec.gov/Archives/edgar/data/1736541/000110465926112996/tm2626774d1_ex99-1.htm",
+      "source_links": [
+        "https://www.sec.gov/Archives/edgar/data/1736541/000110465926112996/0001104659-26-112996-index.html"
+      ],
+      "scope": "업종",
+      "channel": "중국 전기차 인도 실적 → 중국 EV 수요·배터리 업종 심리. 국내 배터리 기업의 직접 고객·공급 관계와 실적 영향은 확인되지 않음.",
+      "new_content": "이번 점검에서 SEC가 10/2 19:03:48 KST 접수한 6-K 첨부 원문을 새로 확인. 수치는 회사 발표이며 독립 검증 자료로 중복 가산하지 않음.",
+      "market_response": "시장 반응 미검증. NIO ADR·홍콩주·중국 EV 동종기업, 배터리 원자재와 국내 2차전지 종목의 동시시각 반응 미확보.",
+      "counterpoint": "인도량은 매출·마진·현금흐름과 동일하지 않고 가격·제품 믹스와 전년 기저의 영향을 받음. 보도자료가 10월 1일자여서 SEC 접수 전에 시장에 알려졌을 가능성도 있으나 정확한 최초 시각은 확인되지 않음.",
+      "next_check": "니오 IR 원문 최초 공개시각, 가격·마진·가이던스와 실제 시장 반응을 확인하고 국내 연결은 공식 고객·공급망 근거가 있을 때만 표시.",
+      "catalyst_verified": false,
+      "source_id": "research"
+    },
     {
       "id": "fed-bowman-eslr-20261001",
       "title": "Bowman: eSLR 완화 뒤 국채 딜러 중개 여력 확대 설명",
