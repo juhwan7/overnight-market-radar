@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T15:43:33.559Z",
+  "generated_at": "2026-10-02T15:47:31.295Z",
   "run_status": "부분 실패",
   "operations": {
-    "checked_at": "2026-10-02T15:43:33.559Z",
-    "page_snapshot_id": "aab44cef39c7d635",
-    "page_generated_at": "2026-10-02T15:12:50.235328Z",
-    "page_age_minutes": 31,
-    "workflow_status": "push 실행 37025328207은 2026-10-02T15:12:30Z 시작해 수집·분석·Pages 배포·공개 검증까지 성공. Pages 배포 단계가 약 6분 27초 소요됐으나 최종 성공. 최신 확인 schedule 실행은 36987259724(2026-10-02T09:00:13Z)이며 그 뒤 새 schedule 실행은 확인되지 않아 10분 정기 실행 지연·누락이 지속됨.",
+    "checked_at": "2026-10-02T15:47:31.295Z",
+    "page_snapshot_id": "60ecd01abc0a927b",
+    "page_generated_at": "2026-10-02T15:44:02.048333Z",
+    "page_age_minutes": 3,
+    "workflow_status": "schedule 실행 37028895596은 2026-10-02T15:42:44Z 시작했으나 관측 보존 push가 main의 동시 변경으로 non-fast-forward 거절되어 실패했고 Pages 배포는 실행되지 않음. 이는 스케줄러 영구 중단이 아니라 정기 실행 재개 뒤 동시쓰기 충돌. 뒤이은 push 실행 37028993826은 수집·분석·Pages 배포·공개 검증까지 성공.",
     "public_verification": {
-      "checked_at": "2026-10-02T15:43:33.559Z",
+      "checked_at": "2026-10-02T15:47:31.295Z",
       "url": "https://juhwan7.github.io/overnight-market-radar/",
-      "snapshot_id": "aab44cef39c7d635",
-      "source_commit": "4861b6f7e6f0f5534c446f3ff965fb39c4e37f58",
-      "deploy_commit": "af25ccaba38b76f0aefc2a9d2abcd4e14fb30ec1",
-      "result": "Actions 실행 37025328207의 공개 검증 로그에서 공개 HTTP·HTML·데이터 해시 일치."
+      "snapshot_id": "60ecd01abc0a927b",
+      "source_commit": "637c9ae2d687ac0dde3116dbad8e01f45f499682",
+      "deploy_commit": "5cb96f5e00219b617bb07670e59e017c5f475330",
+      "result": "Actions 실행 37028993826 공개 검증 로그에서 공개 HTTP·HTML·데이터 해시 일치."
     },
     "limitations": [
-      "공개 스냅샷 aab44cef39c7d635는 2026-10-02T15:12:50.235328Z 생성이며 점검 시 약 31분 경과해 30분 현재성 기준을 초과.",
-      "최신 확인 schedule 실행은 2026-10-02T09:00:13Z이며 그 뒤 새 정기 실행을 확인하지 못함. push 실행 성공을 정기 실행 연속성 회복으로 간주하지 않음.",
+      "schedule 실행 37028895596은 수집·검증까지 성공했으나 관측 저장 단계에서 동시 main 변경으로 git push가 non-fast-forward 거절됨. 실패한 실행의 스냅샷을 과거 관측으로 소급 저장하지 않음.",
+      "00:42 KST 정기 실행이 시작돼 스케줄러 완전 중단은 아니지만, 이전 성공 schedule 이후 약 6시간 43분 공백과 이번 충돌 실패 때문에 10분 연속성 회복으로 판단하지 않음.",
       "BLS 공식 9월 고용보고서 원문은 확인했지만 운영 수집기는 HTTP 403. 직접 확인은 자동 수집 복구를 뜻하지 않음.",
       "SEC 운영 수집기는 HTTP 403. Leslie's Chapter 11·Nasdaq 거래정지 관련 8-K 원문은 검색으로 확인했으나 이번 실행에서 SEC 접수시각을 검증하지 못해 issues 배열에 넣지 않음.",
       "미 재무부 운영 수집은 연결 실패 또는 시간 초과. 마지막 정상 자료는 2026-10-01 기준 일별 par yield이며 장중 국채금리가 아님.",
@@ -26,7 +26,7 @@
       "미국 현물장 진행 중이며 고용보고서 이후 지연 선물·금리 반응만 확인됨. 미국 정규장 마감과 원달러·국내 연결 시세 전에는 10월 6일 갭 방향·확률을 제시하지 않음."
     ],
     "improvements": [
-      "GitHub Actions schedule 지연·누락 원인을 별도 감시에서 확인하고 10분 목표가 필요하면 외부 스케줄러 또는 상시 수집기를 검토.",
+      "정기 실행의 관측 저장 직전 remote main SHA를 다시 확인하고, 연구 파일만 바뀐 경우 제한된 1회 rebase/retry 또는 single-writer 큐를 검토. force push와 무한 재시도는 금지.",
       "BLS 공식 보도자료 HTML을 일정 페이지와 분리해 수집하고 403 시 승인된 RSS·ICS·다운로드 경로를 조건부 요청으로 검증.",
       "SEC accession과 접수시각을 안정적으로 수신할 수 있는 공식 User-Agent·호출 간격을 검증하고, 실패 시 동일 요청 무한 재시도를 하지 않음.",
       "미국 정규장 마감의 실제 ES·NQ·국채선물·달러·원달러를 동일 시각으로 연결하고 지연 시세와 실시간 시세를 분리 표시.",
@@ -34,8 +34,12 @@
     ],
     "verified_sources": [
       {
-        "url": "https://github.com/juhwan7/overnight-market-radar/actions/runs/37025328207",
-        "result": "수집·분석·Pages 배포·공개 검증 성공. snapshot aab44cef39c7d635, source commit 4861b6f7, deploy commit af25ccab, HTTP·HTML·데이터 해시 일치."
+        "url": "https://github.com/juhwan7/overnight-market-radar/actions/runs/37028895596",
+        "result": "schedule 실행 실패. 수집·검증은 성공했으나 Preserve actual observations 단계의 git push가 main 동시 변경으로 non-fast-forward 거절됨."
+      },
+      {
+        "url": "https://github.com/juhwan7/overnight-market-radar/actions/runs/37028993826",
+        "result": "뒤이은 push 실행은 수집·분석·Pages 배포·공개 검증 성공. snapshot 60ecd01abc0a927b, source commit 637c9ae2, deploy commit 5cb96f5e, HTTP·HTML·데이터 해시 일치."
       },
       {
         "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261002a.htm",
