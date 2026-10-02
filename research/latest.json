@@ -1,59 +1,49 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T20:33:47.861Z",
+  "generated_at": "2026-10-02T21:18:28.574Z",
   "run_status": "부분 실패",
   "operations": {
-    "checked_at": "2026-10-02T20:33:47.861Z",
-    "page_snapshot_id": "871ebdaf4af0d4f1",
-    "page_generated_at": "2026-10-02T20:09:20.889494Z",
-    "page_age_minutes": 24,
-    "workflow_status": "schedule 실행 37058731331이 2026-10-02T20:09:11Z 시작해 수집·검증·Pages 배포·공개 검증까지 성공. 00:42 KST 충돌 실패 뒤 첫 정기 실행 성공으로 지연은 일단 회복됐으나 10분 연속성이 회복됐다고 판단하려면 후속 schedule 실행을 더 관찰해야 함.",
-    "public_verification": {
-      "checked_at": "2026-10-02T20:33:47.861Z",
-      "url": "https://juhwan7.github.io/overnight-market-radar/",
-      "snapshot_id": "871ebdaf4af0d4f1",
-      "source_commit": "6e0d41cf94dc69cc8547331d18e4ccc09c5734fd",
-      "deploy_commit": "73b69e81b21a8c9699fc0fcea0937fb9ca7ed73f",
-      "result": "Actions 실행 37058731331 공개 검증 로그에서 공개 HTTP·HTML·데이터 해시 일치."
-    },
+    "checked_at": "2026-10-02T21:18:28.574Z",
+    "page_snapshot_id": "3a905f3beb6c0f17",
+    "workflow_status": "마지막 schedule 실행 37058731331은 2026-10-02T20:09:11Z 시작해 성공했고, 이후 push 실행 37061383577도 Pages 공개 검증까지 성공. 그러나 2026-10-02T21:15Z 점검 시 예정된 후속 schedule 실행이 보이지 않아 마지막 공개 데이터가 30분을 초과함. GitHub 예약 실행의 지연 가능성과 스케줄러 중단은 현재 근거로 구분할 수 없어 '지연 관찰 중'으로 기록.",
     "limitations": [
-      "공개 스냅샷 871ebdaf4af0d4f1은 2026-10-02T20:09:20.889494Z 생성이며 점검 시 약 24분 경과. 30분 현재성 기준 이내.",
-      "05:09 KST schedule 실행은 성공했지만 앞선 장시간 공백 뒤 첫 성공 1회이므로 10분 연속성 회복 여부는 후속 실행 확인이 필요.",
-      "미국 정규장 종료 시각은 달력으로 확인했으나 S&P500·나스닥100·반도체지수, 실제 선물, 거래대금 상위, 시간외 반전의 허가된 시세를 확보하지 못해 10월 2일 미장 마감 브리핑은 가격 기준으로 확정할 수 없음.",
-      "연준 Regulation O 발표는 공식 피드의 2026-10-02T20:00:00Z 발표시각을 사용. 의견수렴 기한 연장이며 최종 규정이나 즉시 시행으로 해석하지 않음.",
+      "공개 manifest의 최신 저장소 사본은 스냅샷 3a905f3beb6c0f17, 생성시각 2026-10-02T20:33:59.946026Z. 점검 시 30분 현재성 기준을 초과했으며 후속 schedule 실행이 확인되지 않아 지연 관찰 중.",
+      "현재 점검 도구에서는 github.io 공개 URL을 직접 열 수 없어, 마지막 성공 Actions 실행 37061383577의 공개 HTTP·HTML·데이터 해시 일치 검증 영수증과 저장소 manifest를 교차 확인함.",
+      "미국 정규장 종료 뒤 20:45Z Fleur Capital의 지역은행 인수 승인 발표를 공식 원출처에서 확인했으나, 개별 지역은행 절차이고 미국 은행주·금리·국내 금융주의 시장 반응은 미검증.",
+      "미국 정규장 마감의 S&P500·나스닥100·반도체지수, 실제 선물, 거래대금 상위, 시간외 반전의 허가된 시세를 확보하지 못해 가격 기반 마감 브리핑을 확정할 수 없음.",
       "미 재무부 OFAC의 2026-10-02 Hamas 자금조달망 제재는 공식 페이지에서 발표 날짜만 확인되고 시각은 미검증이라 issues 배열에 넣지 않음.",
       "SEC 운영 수집기는 HTTP 403이고 BLS 운영 수집도 HTTP 403. 마지막 정상 자료와 직접 확인한 공식 발표를 자동 수집 회복으로 처리하지 않음.",
-      "미 재무부 국채금리는 2026-10-02 일별 자료 수신에 성공했지만 장중 국채금리·채권 자금 유입이 아님.",
+      "미 재무부 국채금리 최신 정상 자료는 2026-10-02 일별 값이며 장중 국채금리·채권 자금 유입이 아님. 직전 실행은 연결 실패 또는 시간 초과.",
       "국내 장중·종가 시세, 실제 선물, 원달러, 신용·미수, 투자자군 순매수, 펀드 설정·환매가 미확보. 후보 0개·판단 보류 유지.",
       "국내 다음 거래일 10월 6일 개장 전까지 추가 사건이 발생할 수 있으며 현재 자료로 갭 방향·확률을 제시하지 않음."
     ],
     "improvements": [
-      "후속 schedule 3회 이상의 예정시각·실제 시작시각·성공 여부를 관찰해 일시 회복과 연속성 회복을 구분.",
-      "정기 실행 저장 직전 remote main SHA를 다시 확인하고 연구 파일만 바뀐 경우 제한된 1회 rebase/retry 또는 single-writer 큐를 검토. force push와 무한 재시도는 금지.",
+      "후속 schedule 실행의 예정시각·실제 시작시각·성공 여부를 계속 관찰해 예약 지연과 스케줄러 중단을 구분하고, 30분 초과 시 외부 독립 감시 대안을 검토.",
+      "정기 실행 저장 직전 remote main SHA를 다시 확인하고 연구 파일만 바뀐 경우 제한된 1회 재시도 또는 single-writer 큐를 검토. force push와 무한 재시도는 금지.",
       "BLS·SEC 403은 공식 RSS·ICS·공개 다운로드·적절한 User-Agent와 호출 간격을 검증하고 실패 시 마지막 정상 자료와 장애를 분리 표시.",
       "미국 정규장 마감의 실제 S&P500·나스닥100·반도체지수, ES·NQ, 국채금리·달러·원달러를 동일 시각으로 연결하고 지연 시세와 실시간 시세를 분리 표시.",
       "공개 표시 권한이 확인된 국내 장중 시세·실제 선물·원달러·신용 자료 연결을 우선."
-    ],
-    "verified_sources": [
-      {
-        "url": "https://github.com/juhwan7/overnight-market-radar/actions/runs/37058731331",
-        "result": "05:09 KST schedule 실행 성공. snapshot 871ebdaf4af0d4f1, source commit 6e0d41c, deploy commit 73b69e8, 공개 HTTP·HTML·데이터 해시 일치."
-      },
-      {
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
-        "result": "2026-10-02T20:00:00Z Regulation O 현대화 제안 의견수렴 기한 연장 발표 확인."
-      },
-      {
-        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
-        "result": "기존 Regulation O 현대화 제안의 배경과 규율 대상 확인."
-      },
-      {
-        "url": "https://ofac.treasury.gov/recent-actions/20261002",
-        "result": "2026-10-02 대테러 제재 대상 목록 확인. 발표시각 미검증으로 issue 카드 제외."
-      }
     ]
   },
   "issues": [
+    {
+      "id": "fed-orders20261002a",
+      "title": "연준, Fleur Capital의 지역은행 인수 신청 승인",
+      "summary": "연준은 Fleur Capital Corporation이 루이지애나주 Simmesport State Bank를 인수하는 신청을 승인했다고 발표했습니다. 특정 지역은행 거래 승인으로, 광범위한 통화정책 변화나 국내 금융주 위험으로 확대 해석할 근거는 확인되지 않았습니다.",
+      "classification": "확인된 사실",
+      "state": "새로 등장",
+      "at": "2026-10-02T20:45:00Z",
+      "published_at": "2026-10-02T20:45:00Z",
+      "available_at": "2026-10-02T21:18:28.574Z",
+      "first_seen_at": "2026-10-02T21:18:28.574Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
+      "scope": "기업",
+      "channel": "은행 인수 승인 → 해당 지역은행의 지배구조·통합 절차. 국내시장 직접 전달 경로는 확인되지 않음.",
+      "new_content": "연준이 2026년 10월 2일 16:45 EDT에 Fleur Capital Corporation의 Simmesport State Bank 인수 신청 승인을 발표.",
+      "market_response": "해당 비상장 지역은행·미국 은행주·금리의 동시시각 반응 미검증.",
+      "counterpoint": "개별 지역은행 인수 승인이고, 승인 자체가 거래 종결·실적 개선이나 금융업 전반의 규제 완화를 뜻하지 않음.",
+      "next_check": "거래 종결 조건과 후속 기업 공시가 나오는지 확인하되 국내 종가베팅 공통 위험으로 가산하지 않음."
+    },
     {
       "id": "fed-8f9bf8f9d80dc8",
       "title": "연준, 내부자대출 규정 개편안 의견수렴을 11월 4일까지 연장",
