@@ -1,67 +1,77 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T19:10:24.248Z",
+  "generated_at": "2026-10-02T20:33:47.861Z",
   "run_status": "부분 실패",
   "operations": {
-    "checked_at": "2026-10-02T19:10:24.248Z",
-    "page_snapshot_id": "b07836f70b7a733f",
-    "page_generated_at": "2026-10-02T18:37:31.456060Z",
-    "page_age_minutes": 32,
-    "workflow_status": "push 실행 37048675509는 수집·분석·Pages 배포·공개 검증까지 성공. 최신 schedule 실행 37028895596은 2026-10-02T15:42:44Z 시작 후 main 동시 변경에 따른 non-fast-forward로 관측 저장에 실패했으며, 이번 점검까지 후속 schedule 실행은 확인되지 않음. 10분 목표 대비 장시간 지연이지만 스케줄러 영구 중단으로 단정하지 않음.",
+    "checked_at": "2026-10-02T20:33:47.861Z",
+    "page_snapshot_id": "871ebdaf4af0d4f1",
+    "page_generated_at": "2026-10-02T20:09:20.889494Z",
+    "page_age_minutes": 24,
+    "workflow_status": "schedule 실행 37058731331이 2026-10-02T20:09:11Z 시작해 수집·검증·Pages 배포·공개 검증까지 성공. 00:42 KST 충돌 실패 뒤 첫 정기 실행 성공으로 지연은 일단 회복됐으나 10분 연속성이 회복됐다고 판단하려면 후속 schedule 실행을 더 관찰해야 함.",
     "public_verification": {
-      "checked_at": "2026-10-02T19:10:24.248Z",
+      "checked_at": "2026-10-02T20:33:47.861Z",
       "url": "https://juhwan7.github.io/overnight-market-radar/",
-      "snapshot_id": "b07836f70b7a733f",
-      "source_commit": "f253ffd7b4db56ea0313fceb2ec2b2ae49734926",
-      "deploy_commit": "220c032a2cd1755a64704763db4a691abba3e5b1",
-      "result": "Actions 실행 37048675509 공개 검증 로그에서 공개 HTTP·HTML·데이터 해시 일치."
+      "snapshot_id": "871ebdaf4af0d4f1",
+      "source_commit": "6e0d41cf94dc69cc8547331d18e4ccc09c5734fd",
+      "deploy_commit": "73b69e81b21a8c9699fc0fcea0937fb9ca7ed73f",
+      "result": "Actions 실행 37058731331 공개 검증 로그에서 공개 HTTP·HTML·데이터 해시 일치."
     },
     "limitations": [
-      "공개 스냅샷 b07836f70b7a733f은 2026-10-02T18:37:31.456060Z 생성이며 점검 시 약 32분 경과해 30분 현재성 기준을 초과.",
-      "00:42 KST schedule 실행이 동시쓰기 충돌로 실패한 뒤 후속 정기 실행이 확인되지 않음. 스케줄러 영구 중단 근거는 없지만 10분 연속성은 회복되지 않음.",
-      "미 재무부 OFAC가 2026-10-02 Hamas 자금조달망 관련 대테러 제재를 발표했으나 공식 페이지에 발표 날짜만 있고 시각은 확인되지 않아 issues 배열에는 넣지 않음. 개인 3명과 프랑스 소재 단체 2곳 대상이며 시장 전체 충격으로 확대 해석하지 않음.",
-      "이번 점검에서 연준 공식 최신 게시물은 기존 Ontario Bancorporation 집행조치가 마지막이었고 BLS의 새 발표도 확인하지 못함. 검색 부재는 돌발 사건 전체의 부재를 보장하지 않음.",
-      "SEC 운영 수집기는 HTTP 403. 검색 결과만으로 접수시각과 전체 범위를 검증하지 못한 공시는 issues 배열에 추가하지 않음.",
-      "미 재무부 국채금리 운영 수집은 연결 실패 또는 시간 초과. 마지막 정상 자료는 2026-10-01 기준 일별 par yield이며 장중 국채금리가 아님.",
+      "공개 스냅샷 871ebdaf4af0d4f1은 2026-10-02T20:09:20.889494Z 생성이며 점검 시 약 24분 경과. 30분 현재성 기준 이내.",
+      "05:09 KST schedule 실행은 성공했지만 앞선 장시간 공백 뒤 첫 성공 1회이므로 10분 연속성 회복 여부는 후속 실행 확인이 필요.",
+      "미국 정규장 종료 시각은 달력으로 확인했으나 S&P500·나스닥100·반도체지수, 실제 선물, 거래대금 상위, 시간외 반전의 허가된 시세를 확보하지 못해 10월 2일 미장 마감 브리핑은 가격 기준으로 확정할 수 없음.",
+      "연준 Regulation O 발표는 공식 피드의 2026-10-02T20:00:00Z 발표시각을 사용. 의견수렴 기한 연장이며 최종 규정이나 즉시 시행으로 해석하지 않음.",
+      "미 재무부 OFAC의 2026-10-02 Hamas 자금조달망 제재는 공식 페이지에서 발표 날짜만 확인되고 시각은 미검증이라 issues 배열에 넣지 않음.",
+      "SEC 운영 수집기는 HTTP 403이고 BLS 운영 수집도 HTTP 403. 마지막 정상 자료와 직접 확인한 공식 발표를 자동 수집 회복으로 처리하지 않음.",
+      "미 재무부 국채금리는 2026-10-02 일별 자료 수신에 성공했지만 장중 국채금리·채권 자금 유입이 아님.",
       "국내 장중·종가 시세, 실제 선물, 원달러, 신용·미수, 투자자군 순매수, 펀드 설정·환매가 미확보. 후보 0개·판단 보류 유지.",
-      "미국 현물장 진행 중이며 정규장 마감·시간외 반전·원달러·국내 연결 시세가 없어 10월 6일 갭 방향·확률을 제시하지 않음."
+      "국내 다음 거래일 10월 6일 개장 전까지 추가 사건이 발생할 수 있으며 현재 자료로 갭 방향·확률을 제시하지 않음."
     ],
     "improvements": [
-      "정기 실행의 관측 저장 직전 remote main SHA를 다시 확인하고, 연구 파일만 바뀐 경우 제한된 1회 rebase/retry 또는 single-writer 큐를 검토. force push와 무한 재시도는 금지.",
-      "GitHub Actions schedule 외부 감시를 두고 30분 초과 시 별도 경보. 10분 정시성이 필수면 외부 스케줄러 또는 상시 수집기를 검토.",
-      "BLS·SEC 403은 공식 RSS·ICS·공개 다운로드·적절한 User-Agent와 호출 간격을 검증하고, 실패 시 마지막 정상 자료와 장애를 분리 표시.",
-      "OFAC·재무부 보도자료에서 발표시각 메타데이터를 검증하는 수집기를 추가해 날짜만 있는 제재 발표를 과거 시점으로 소급하지 않도록 검토.",
-      "미국 정규장 마감의 실제 ES·NQ·국채선물·달러·원달러를 동일 시각으로 연결하고 지연 시세와 실시간 시세를 분리 표시.",
+      "후속 schedule 3회 이상의 예정시각·실제 시작시각·성공 여부를 관찰해 일시 회복과 연속성 회복을 구분.",
+      "정기 실행 저장 직전 remote main SHA를 다시 확인하고 연구 파일만 바뀐 경우 제한된 1회 rebase/retry 또는 single-writer 큐를 검토. force push와 무한 재시도는 금지.",
+      "BLS·SEC 403은 공식 RSS·ICS·공개 다운로드·적절한 User-Agent와 호출 간격을 검증하고 실패 시 마지막 정상 자료와 장애를 분리 표시.",
+      "미국 정규장 마감의 실제 S&P500·나스닥100·반도체지수, ES·NQ, 국채금리·달러·원달러를 동일 시각으로 연결하고 지연 시세와 실시간 시세를 분리 표시.",
       "공개 표시 권한이 확인된 국내 장중 시세·실제 선물·원달러·신용 자료 연결을 우선."
     ],
     "verified_sources": [
       {
-        "url": "https://github.com/juhwan7/overnight-market-radar/actions/runs/37048675509",
-        "result": "마지막 성공 push. snapshot b07836f70b7a733f, source commit f253ffd, deploy commit 220c032, 공개 HTTP·HTML·데이터 해시 일치."
+        "url": "https://github.com/juhwan7/overnight-market-radar/actions/runs/37058731331",
+        "result": "05:09 KST schedule 실행 성공. snapshot 871ebdaf4af0d4f1, source commit 6e0d41c, deploy commit 73b69e8, 공개 HTTP·HTML·데이터 해시 일치."
       },
       {
-        "url": "https://github.com/juhwan7/overnight-market-radar/actions/runs/37028895596",
-        "result": "최신 schedule 실행은 관측 저장 단계에서 main 동시 변경으로 non-fast-forward 실패. 이후 새 schedule 실행 미확인."
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
+        "result": "2026-10-02T20:00:00Z Regulation O 현대화 제안 의견수렴 기한 연장 발표 확인."
       },
       {
-        "url": "https://www.federalreserve.gov/",
-        "result": "2026-10-02 최신 게시물은 기존 Ontario Bancorporation 집행조치이며 이후 새 연준 시장 전체 발표를 확인하지 못함."
-      },
-      {
-        "url": "https://www.bls.gov/news.release/archives/empsit_10022026.htm",
-        "result": "9월 고용보고서 기존 수치와 발표시각에 의미 있는 변경 없음."
+        "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20260731b.htm",
+        "result": "기존 Regulation O 현대화 제안의 배경과 규율 대상 확인."
       },
       {
         "url": "https://ofac.treasury.gov/recent-actions/20261002",
-        "result": "2026-10-02 대테러 제재 대상 목록 확인. 발표시각은 공식 페이지에서 확인되지 않아 issue 카드 제외."
-      },
-      {
-        "url": "https://home.treasury.gov/news/press-releases/sb0647/",
-        "result": "Hamas 자금조달망 관련 개인 3명·단체 2곳 제재의 공식 설명 확인. 시장 반응과 발표시각은 미검증."
+        "result": "2026-10-02 대테러 제재 대상 목록 확인. 발표시각 미검증으로 issue 카드 제외."
       }
     ]
   },
   "issues": [
+    {
+      "id": "fed-8f9bf8f9d80dc8",
+      "title": "연준, 내부자대출 규정 개편안 의견수렴을 11월 4일까지 연장",
+      "summary": "연준은 은행 임원·이사·주요주주에 대한 대출을 규율하는 Regulation O 현대화 제안의 의견수렴 기한을 2026년 11월 4일까지 연장한다고 발표했습니다. 절차상 기한 연장이며 최종 규정 확정이나 즉시 시행은 아닙니다.",
+      "classification": "확인된 사실",
+      "state": "새로 등장",
+      "at": "2026-10-02T20:00:00Z",
+      "published_at": "2026-10-02T20:00:00Z",
+      "available_at": "2026-10-02T20:09:20.889494Z",
+      "first_seen_at": "2026-10-02T20:09:20.889494Z",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261002a.htm",
+      "scope": "업종",
+      "channel": "은행 내부자대출 규제·지배구조 준수 → 은행의 특수관계인 거래 절차와 비용. 국내 금융주로의 직접 전달경로는 확인되지 않음.",
+      "new_content": "Regulation O 현대화 제안의 의견수렴 종료일이 2026년 11월 4일로 연장됐음을 새로 확인.",
+      "market_response": "미국 은행주·금리·지수의 동시시각 반응 미검증.",
+      "counterpoint": "의견수렴 연장은 최종 규정 채택·완화·강화를 뜻하지 않으며, 기존 7월 제안 내용이 이미 알려져 있어 새로운 가격 촉매가 약할 수 있음.",
+      "next_check": "11월 4일 의견수렴 종료 후 최종 규정 여부·시행일·은행별 적용 범위와 실제 시장 반응 확인."
+    },
     {
       "id": "fed-b441ff6c63c693",
       "title": "연준, Ontario Bancorporation과 서면합의 체결 발표",
