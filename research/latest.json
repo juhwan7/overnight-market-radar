@@ -1,28 +1,28 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T06:06:37.181Z",
+  "generated_at": "2026-10-02T07:17:47.389Z",
   "run_status": "부분 실패",
   "operations": {
-    "checked_at": "2026-10-02T06:06:37.181Z",
-    "page_snapshot_id": "12d8a79b7fa8843e",
-    "page_generated_at": "2026-10-02T05:22:08.173536Z",
-    "page_age_minutes": 44,
-    "workflow_status": "최근 push 실행 36968600270은 수집·배포·공개 검증까지 성공. 마지막 schedule 실행은 36956448850(2026-10-02T02:36:57Z)이며 이후 추가 schedule 실행이 없어 10분 cron 연속성은 끊긴 상태. 간헐 성공 이력이 있어 영구 중단으로 단정하지 않음.",
+    "checked_at": "2026-10-02T07:17:47.389Z",
+    "page_snapshot_id": "136c2474a6397e22",
+    "page_generated_at": "2026-10-02T06:06:46.832665Z",
+    "page_age_minutes": 71,
+    "workflow_status": "최근 push 실행 36971995112은 수집·배포·공개 검증까지 성공. 마지막 schedule 실행은 36956448850(2026-10-02T02:36:57Z)이며 이후 추가 schedule 실행이 없어 280분 동안 10분 cron 연속성이 끊긴 상태. 간헐 성공 이력이 있어 영구 중단으로 단정하지 않음.",
     "public_verification": {
-      "checked_at": "2026-10-02T06:06:37.181Z",
+      "checked_at": "2026-10-02T07:17:47.389Z",
       "url": "https://juhwan7.github.io/overnight-market-radar/",
-      "snapshot_id": "12d8a79b7fa8843e",
-      "source_commit": "9293ddf95c48a8bbe66b1fd81b5ab100f381850b",
-      "deploy_commit": "f3acc73a3d9975f5f17ca229535288d598af6258",
-      "result": "Actions 실행 36968600270 공개 검증에서 HTTP·HTML·데이터 해시 일치. 생성 후 44분으로 30분 임계 초과."
+      "snapshot_id": "136c2474a6397e22",
+      "source_commit": "7f06c34e36f24d644d684dbf8d32f61df755699c",
+      "deploy_commit": "b29c0bfb7d6bdf8f2ba79263fde1ce22436b2b86",
+      "result": "Actions 실행 36971995112 공개 검증에서 HTTP·HTML·데이터 해시 일치. 생성 후 71분으로 30분 임계 초과."
     },
     "limitations": [
-      "마지막 schedule 실행은 2026-10-02T02:36:57Z이며 이후 추가 schedule 실행이 없어 10분 cron 연속성이 끊김. 간헐 성공 이력이 있어 영구 중단으로 단정하지 않음.",
-      "공개 스냅샷 12d8a79b7fa8843e는 2026-10-02T05:22:08.173536Z 생성이며 점검 시 44분 경과해 30분 임계 초과. 직전 공개 검증은 HTTP·HTML·데이터 해시 일치.",
-      "재무부 수집은 05:22Z 실행에서 복구. 마지막 자료는 2026-10-01 일별 par yield이며 장중 국채 시세·실제 자금 흐름이 아님.",
-      "BLS·SEC 운영 수집 HTTP 403은 계속됨. 이번 직접 확인에서도 해당 공개 페이지 수신 오류가 발생해 최신 결과·공시 부재를 확인된 사실로 확장하지 않음.",
+      "마지막 schedule 실행은 2026-10-02T02:36:57Z이며 이후 추가 schedule 실행이 없어 점검 시 280분 동안 10분 cron 연속성이 끊김. 간헐 성공 이력이 있어 영구 중단으로 단정하지 않음.",
+      "공개 스냅샷 136c2474a6397e22는 2026-10-02T06:06:46.832665Z 생성이며 점검 시 71분 경과해 30분 임계 초과. 직전 공개 검증은 HTTP·HTML·데이터 해시 일치.",
+      "재무부 운영 수집은 06:06Z 실행에서 성공. 마지막 자료는 2026-10-01 일별 par yield이며 장중 국채 시세·실제 자금 흐름이 아님.",
+      "BLS·SEC 운영 수집은 HTTP 403 상태. 이번 별도 공식 웹 확인은 성공했으나 운영 러너의 자동 수집 복구를 뜻하지 않음. BLS 현재 페이지는 8월 결과와 10/2 08:30 ET 다음 발표 예고, SEC 최신 목록은 현재 공식 접수일의 일부 목록이므로 관찰기업 신규 공시 부재를 확정하지 않음.",
       "연준 공식 News & Events의 마지막 갱신은 2026-10-01이며 Jefferson·Bowman·Waller가 최신. 10월 2일 새 항목은 이번 점검에서 찾지 못함.",
-      "국내 정규장 마감 직전이지만 국내 장중 시세·실제 선물·원달러·신용·미수·투자자군 순매수·펀드 설정환매가 미확보. 종가베팅 후보 0개·판단 보류 유지.",
+      "국내 정규장 마감 이후지만 국내 장중·종가 시세, 실제 선물, 원달러, 신용·미수, 투자자군 순매수, 펀드 설정·환매가 미확보. 마감 전 후보를 복원하거나 사후 가격으로 바꾸지 않고 후보 0개·판단 보류 유지.",
       "10/2 21:30 KST 미국 고용보고서는 금요일 종가 매수·10/6 개장 매도 구간에 포함. 발표 전이므로 결과와 시장 반응은 확인되지 않음.",
       "관세·전쟁·국내 공시·기업행사·전체 기업 실적의 포괄적 모니터링 미확보. 검색 결과 부재를 사건 부재로 바꾸지 않음."
     ],
@@ -35,24 +35,24 @@
     ],
     "verified_sources": [
       {
-        "url": "https://github.com/juhwan7/overnight-market-radar/actions/runs/36968600270",
-        "result": "push 실행 성공. 공개 검증에서 snapshot 12d8a79b7fa8843e, source commit 9293ddf, deploy commit f3acc73, HTTP·HTML·데이터 해시 일치 확인."
+        "url": "https://github.com/juhwan7/overnight-market-radar/actions/runs/36971995112",
+        "result": "push 실행 성공. 공개 검증에서 snapshot 136c2474a6397e22, source commit 7f06c34, deploy commit b29c0bf, HTTP·HTML·데이터 해시 일치 확인."
       },
       {
         "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/",
-        "result": "05:22Z 실행에서 수신 성공. 마지막 자료일 2026-10-01, 일별 par yield."
+        "result": "06:06Z 운영 실행에서 수신 성공. 마지막 자료일 2026-10-01, 일별 par yield."
       },
       {
         "url": "https://www.federalreserve.gov/newsevents.htm",
-        "result": "마지막 갱신 2026-10-01. 최신 표시 항목은 Jefferson·Bowman·Waller, 10월 2일 새 항목 없음."
+        "result": "이번 직접 확인 성공. 마지막 갱신 2026-10-01; 최신 표시 항목은 Jefferson·Bowman·Waller이며 10월 2일 새 항목 없음."
       },
       {
         "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcurrent",
-        "result": "이번 직접 확인은 수신 오류, 운영 수집도 HTTP 403. 관찰기업 신규 공시 여부 확인되지 않음."
+        "result": "이번 직접 확인 성공. 현재 공식 접수일의 최신 일부 목록만 확인; 운영 수집은 HTTP 403이므로 관찰기업 전체 신규 공시 여부는 확인되지 않음."
       },
       {
         "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
-        "result": "이번 직접 확인은 수신 오류. 기존 공식 일정상 9월 고용보고서는 2026-10-02 08:30 ET(21:30 KST) 발표 예정."
+        "result": "이번 직접 확인 성공. 현재는 8월 결과 페이지이며 9월 고용보고서의 2026-10-02 08:30 ET(21:30 KST) 발표 예고를 재확인; 운영 수집은 HTTP 403."
       }
     ]
   },
