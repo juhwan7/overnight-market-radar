@@ -1,25 +1,25 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T01:40:31.018Z",
+  "generated_at": "2026-10-02T02:16:20.910Z",
   "run_status": "부분 실패",
   "operations": {
-    "checked_at": "2026-10-02T01:40:31.018Z",
-    "page_snapshot_id": "f006bb487b4af05e",
-    "page_generated_at": "2026-10-02T00:34:49.616687Z",
-    "page_age_minutes": 65,
-    "workflow_status": "최근 push 실행 36946686541은 성공. schedule 실행은 36942901020(2026-10-01T23:50:16Z) 한 차례 재개된 뒤 추가 관측되지 않음. 이전 schedule과도 3시간 53분 공백이 있어 10분 cron의 연속 복구 실패로 분류하되 영구 중단으로 단정하지 않음.",
+    "checked_at": "2026-10-02T02:16:20.910Z",
+    "page_snapshot_id": "c019295d93c06e1f",
+    "page_generated_at": "2026-10-02T01:40:56.208544Z",
+    "page_age_minutes": 35,
+    "workflow_status": "최근 push 실행 36952064424는 성공. schedule 실행은 36942901020(2026-10-01T23:50:16Z) 이후 추가 관측되지 않아 10분 cron 연속성은 끊긴 상태. 과거 간헐 성공이 있어 영구 중단으로 단정하지 않음.",
     "public_verification": {
-      "checked_at": "2026-10-02T01:40:31.018Z",
+      "checked_at": "2026-10-02T02:16:20.910Z",
       "url": "https://juhwan7.github.io/overnight-market-radar/",
-      "snapshot_id": "f006bb487b4af05e",
-      "source_commit": "0c0e8350209f3bcbc5c888e7dc60d909346c973e",
-      "deploy_commit": "323dd19bda77b883c092a23b4fd72554ca9e0d63",
-      "result": "manifest와 index.html 수신 성공, HTML SHA 일치. 생성 후 65분으로 30분 임계 초과."
+      "snapshot_id": "c019295d93c06e1f",
+      "source_commit": "d4ec292769b8085ddba792c05ce95d593057b1cf",
+      "deploy_commit": "78ac904b339ec1f574f0442967f840e431e2ed02",
+      "result": "manifest와 index.html 수신 성공, HTML SHA 일치. 생성 후 35분으로 30분 임계 초과."
     },
     "limitations": [
-      "schedule 실행은 2026-10-01T23:50:16Z 한 차례 재개된 뒤 추가 관측되지 않음. 이전 성공과도 3시간 53분 공백이 있었고 현재 10분 cron 연속성은 다시 끊김. 영구 중단으로 단정하지 않지만 공개 스냅샷은 생성 후 65분 경과해 30분 임계 초과.",
+      "schedule 실행은 2026-10-01T23:50:16Z 이후 추가 관측되지 않아 10분 cron 연속성이 끊김. 과거 간헐 성공이 있어 영구 중단으로 단정하지 않지만 공개 스냅샷은 생성 후 35분 경과해 30분 임계 초과.",
       "재무부 수집은 마지막 정상 2026-10-01 일별 자료를 보존하지만 최신 공개 실행에서 다시 시간 초과. 간헐 장애 지속. BLS·SEC 운영 수집 HTTP 403도 지속.",
-      "SEC 관찰기업 10개(NVDA·AMD·ORCL·AAPL·AMZN·META·INTC·MSFT·TSLA·GOOGL)의 공식 submissions를 이번 실행에서 직접 수신했고 2026-10-02T00:34:37Z 이후 신규 접수는 없었음. 이는 관찰기업 범위의 결과이며 미국 전체 공시 부재가 아님.",
+      "SEC 관찰기업 10개(NVDA·AMD·ORCL·AAPL·AMZN·META·INTC·MSFT·TSLA·GOOGL)의 공식 submissions를 이번 실행에서 직접 수신했고 2026-10-02T01:40:31Z 이후 신규 접수는 없었음. 이는 관찰기업 범위의 결과이며 미국 전체 공시 부재가 아님.",
       "연준 공식 보도자료·연설 RSS에서 Bowman(2026-10-01T19:00:00Z) 이후 새 항목을 찾지 못함. 피드 밖 발표와 반영 지연 가능성 때문에 전체 사건 부재로 표현하지 않음.",
       "재무부 2026-10-01 par yield는 일별 마감 참고치이며 장중 국채 시세·실제 자금 흐름·연준 연설 직후 반응이 아님.",
       "국내·미국 장중 시세·실제 선물·원달러·신용·미수·투자자군 순매수·펀드 설정환매 미확보. 국내 개장 후 실제 시장 상태도 검증 불가. 후보 0개·판단 보류.",
@@ -37,11 +37,11 @@
     "verified_sources": [
       {
         "url": "https://juhwan7.github.io/overnight-market-radar/radar-manifest.json",
-        "result": "snapshot f006bb487b4af05e, source commit 0c0e835, deploy commit 323dd19, 생성 2026-10-02T00:34:49.616687Z 확인. HTML SHA 일치, 65분 경과."
+        "result": "snapshot c019295d93c06e1f, source commit d4ec292, deploy commit 78ac904, 생성 2026-10-02T01:40:56.208544Z 확인. HTML SHA 일치, 35분 경과."
       },
       {
         "url": "https://github.com/juhwan7/overnight-market-radar/actions/runs/36942901020",
-        "result": "schedule 실행 2026-10-01T23:50:16Z 성공 후 추가 schedule 실행 없음. 10분 cron 연속 복구 미확인."
+        "result": "schedule 실행 2026-10-01T23:50:16Z 성공 후 추가 schedule 실행 없음. 10분 cron 연속 복구 실패."
       },
       {
         "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/",
@@ -57,7 +57,7 @@
       },
       {
         "url": "https://data.sec.gov/submissions/",
-        "result": "관찰기업 10개 모두 직접 응답, 2026-10-02T00:34:37Z 이후 신규 접수 없음. 미국 전체 범위가 아니며 운영 러너 403과 별도."
+        "result": "관찰기업 10개 모두 직접 응답, 2026-10-02T01:40:31Z 이후 신규 접수 없음. 미국 전체 범위가 아니며 운영 러너 403과 별도."
       },
       {
         "url": "https://www.bls.gov/schedule/news_release/empsit.htm",
