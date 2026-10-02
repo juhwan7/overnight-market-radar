@@ -1,25 +1,25 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-02T03:55:36.139Z",
+  "generated_at": "2026-10-02T05:21:53.265Z",
   "run_status": "부분 실패",
   "operations": {
-    "checked_at": "2026-10-02T03:55:36.139Z",
-    "page_snapshot_id": "5c23d9e97f5af72f",
-    "page_generated_at": "2026-10-02T03:35:07.147612Z",
-    "page_age_minutes": 20,
-    "workflow_status": "최근 push 실행 36960799222는 수집·배포·공개 검증까지 성공. 마지막 schedule 실행은 36956448850(2026-10-02T02:36:57Z)이며 이후 10분 주기 실행은 관측되지 않아 연속성 미복구. 과거 간헐 성공이 있어 영구 중단으로 단정하지 않음.",
+    "checked_at": "2026-10-02T05:21:53.265Z",
+    "page_snapshot_id": "cae55a26094a7d12",
+    "page_generated_at": "2026-10-02T03:55:49.451503Z",
+    "page_age_minutes": 86,
+    "workflow_status": "최근 push 실행 36962298282는 성공. 마지막 schedule 실행은 36956448850(2026-10-02T02:36:57Z)이며 이후 추가 schedule 실행이 관측되지 않아 10분 cron 연속성은 끊긴 상태. 과거 간헐 성공이 있어 영구 중단으로 단정하지 않음.",
     "public_verification": {
-      "checked_at": "2026-10-02T03:55:36.139Z",
+      "checked_at": "2026-10-02T05:21:53.265Z",
       "url": "https://juhwan7.github.io/overnight-market-radar/",
-      "snapshot_id": "5c23d9e97f5af72f",
-      "source_commit": "13f8f675e918256eec3808ec6fe789ba84e28570",
-      "deploy_commit": "abac56c32420484884491c027efc1d58b124fe69",
-      "result": "Actions 실행 36960799222의 공개 검증 단계에서 HTTP·HTML·데이터 해시 일치 확인."
+      "snapshot_id": "cae55a26094a7d12",
+      "source_commit": "8e482ff46186ad87bf9fd24c9a241a1189119810",
+      "deploy_commit": "35e168b41bef1dad89fbd22aae82d05e14faf959",
+      "result": "Actions 실행 36962298282 공개 검증에서 HTTP·HTML·데이터 해시 일치. 생성 후 86분으로 30분 임계 초과."
     },
     "limitations": [
-      "마지막 schedule 실행은 2026-10-02T02:36:57Z이며 이후 10분 주기 실행은 관측되지 않음. 간헐 성공 이력이 있어 영구 중단이 아닌 연속성 미복구로 기록.",
-      "공개 스냅샷 5c23d9e97f5af72f는 2026-10-02T03:35:07.147612Z 생성이며 점검 시 20분 경과. 직전 Actions 공개 검증에서 HTTP·HTML·데이터 해시 일치 확인.",
-      "재무부는 03:32Z 실행에서 시간 초과 뒤 03:35Z 실행에서 복구. 마지막 정상 자료는 2026-10-01 일별 par yield이며 장중 국채 시세·실제 자금 흐름이 아님.",
+      "마지막 schedule 실행은 2026-10-02T02:36:57Z이며 이후 추가 schedule 실행이 관측되지 않아 10분 cron 연속성이 끊김. 과거 간헐 성공 이력이 있어 영구 중단으로 단정하지 않음.",
+      "공개 스냅샷 cae55a26094a7d12는 2026-10-02T03:55:49.451503Z 생성이며 점검 시 86분 경과해 30분 임계 초과. 직전 공개 검증은 HTTP·HTML·데이터 해시 일치.",
+      "재무부 수집은 03:35Z 성공 뒤 03:55Z 실행에서 다시 연결 실패 또는 시간 초과. 마지막 정상 2026-10-01 일별 자료를 보존하며 간헐 장애로 분류.",
       "BLS·SEC 운영 수집 HTTP 403은 계속됨. API 키 부족으로 단정하지 않으며 접근 정책·수집 식별·요청 경로 문제와 구분.",
       "SEC 관찰기업 10개의 마지막 직접 검증은 2026-10-02T02:16:20Z 이전이며 이후 운영 수집은 403. 최신 공시 부재를 확인된 사실로 확장하지 않음.",
       "연준 공식 최신 뉴스 목록은 2026-10-01 Jefferson·Bowman·Waller가 최신이며 10월 2일 새 항목은 이번 점검에서 찾지 못함. 반영 지연 가능성 때문에 전체 사건 부재로 표현하지 않음.",
@@ -36,12 +36,12 @@
     ],
     "verified_sources": [
       {
-        "url": "https://github.com/juhwan7/overnight-market-radar/actions/runs/36960799222",
-        "result": "push 실행 성공. 공개 검증에서 snapshot 5c23d9e97f5af72f, source commit 13f8f67, deploy commit abac56c, HTTP·HTML·데이터 해시 일치 확인."
+        "url": "https://github.com/juhwan7/overnight-market-radar/actions/runs/36962298282",
+        "result": "push 실행 성공. 공개 검증에서 snapshot cae55a26094a7d12, source commit 8e482ff, deploy commit 35e168b, HTTP·HTML·데이터 해시 일치 확인."
       },
       {
         "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/",
-        "result": "03:32Z 시간 초과 뒤 03:35Z 실행에서 복구. 마지막 자료일 2026-10-01, 일별 par yield."
+        "result": "03:35Z 성공 뒤 03:55Z 실행에서 연결 실패 또는 시간 초과. 마지막 정상 자료일 2026-10-01, 일별 par yield."
       },
       {
         "url": "https://www.federalreserve.gov/newsevents.htm",
@@ -52,8 +52,8 @@
         "result": "운영 수집 403과 마지막 직접 검증 이후 공백으로 관찰기업 신규 공시 여부는 현재 확인되지 않음."
       },
       {
-        "url": "https://www.bls.gov/schedule/news_release/empsit.htm",
-        "result": "9월 고용보고서 예정 2026-10-02 08:30 ET(21:30 KST). 이번 점검 시 발표 전."
+        "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+        "result": "페이지는 8월 결과이며 9월 고용보고서는 2026-10-02 08:30 ET(21:30 KST) 발표 예정으로 표시. 이번 점검 시 발표 전."
       }
     ]
   },
