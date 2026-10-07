@@ -1,0 +1,85 @@
+{
+  "kind": "마감 전 판단",
+  "date": "2026-10-07",
+  "available_at": "2026-10-07T06:24:36.030381Z",
+  "window": {
+    "start": "2026-10-07T06:24:36.030381Z",
+    "end": "2026-10-08T00:00:00Z",
+    "hours": 17.6,
+    "next_day": "2026-10-08",
+    "status": "확인"
+  },
+  "candidates": [],
+  "excluded": [],
+  "risk": {
+    "decision": "판단 보류",
+    "observed_risk": "관찰상 큰 예정 사건 미발견",
+    "data_confidence": "낮음",
+    "missing": [
+      "market_kr",
+      "futures",
+      "fx",
+      "leverage_kr",
+      "bls"
+    ],
+    "exposed_events": [],
+    "checks": [
+      {
+        "name": "보유구간 주요 경제 발표",
+        "status": "확인",
+        "detail": "확인된 일정 중 0건 노출. BLS·FOMC 외 실적·국채입찰·돌발 사건은 미포함."
+      },
+      {
+        "name": "국내 종가 이후 선물·환율",
+        "status": "미확보",
+        "detail": "실제 선물 월물과 원달러 시세시각·국내 마감 이후 변화를 확인해야 함."
+      },
+      {
+        "name": "신용·미수 취약성",
+        "status": "미확보",
+        "detail": "최근 발표 기준일과 반대매매 정의·증감 확인 필요."
+      },
+      {
+        "name": "매수 후보·기업 개별 위험",
+        "status": "확인 필요",
+        "detail": "보유종목별 공시·기업행사·실적 일정은 별도 검증 필요."
+      }
+    ],
+    "reason": "핵심 선물·환율·국내 시세·신용 자료를 확보하지 못해 낮은 위험으로 판단하지 않습니다.",
+    "method_version": "rules-1.0",
+    "probability": null,
+    "score": null
+  },
+  "scenarios": [
+    {
+      "name": "갭상승 시나리오",
+      "classification": "조건부 시나리오",
+      "conditions": "국내 마감 후 실제 지수선물·관련 업종 강세, 환율·금리 안정, 후보의 검증된 호재 유지",
+      "invalidation": "해외 강세 소멸, 관련 기업 가이던스 악화, 후보의 장후반 가격·재료 약화",
+      "current": "성립 여부 판단 보류",
+      "probability": null,
+      "available_at": "2026-10-07T06:24:36.030381Z"
+    },
+    {
+      "name": "갭하락 시나리오",
+      "classification": "조건부 시나리오",
+      "conditions": "국내 마감 후 선물 약세·환율 급등·금리 충격·관련 기업 악재 또는 후보 개별 위험",
+      "invalidation": "악재 반응이 진정되고 실제 시장·업종 강도가 회복",
+      "current": "핵심 입력 미확보로 하방 위험 배제 불가",
+      "probability": null,
+      "available_at": "2026-10-07T06:24:36.030381Z"
+    },
+    {
+      "name": "방향 불명·관망",
+      "classification": "조건부 시나리오",
+      "conditions": "예정 이벤트 결과 대기, 신호 충돌, 시세 지연·공백, 유사 조건 표본 부족",
+      "invalidation": "필수 데이터가 확보되고 사건 결과·시장 반응이 일관되게 확인",
+      "current": "현재 우선 적용",
+      "probability": null,
+      "available_at": "2026-10-07T06:24:36.030381Z"
+    }
+  ],
+  "method_version": "rules-1.0",
+  "scope": "당시 공개·수신 검증 범위",
+  "result": "다음 거래일 시가 데이터 대기"
+}
