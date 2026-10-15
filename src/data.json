@@ -2,15 +2,15 @@
   "surface": "dashboard",
   "id": "dashboard:38e4a7f3-8af0-49c5-b5ca-faf938b031a7",
   "title": "오버나잇 마켓 레이더",
-  "generatedAt": "2026-10-15T14:59:40.192371Z",
+  "generatedAt": "2026-10-15T19:02:27.406277Z",
   "status": "partial",
   "buildStatus": "complete",
   "filters": [],
   "radar": {
     "window": {
-      "start": "2026-10-15T14:59:40.192371Z",
+      "start": "2026-10-15T19:02:27.406277Z",
       "end": "2026-10-16T00:00:00Z",
-      "hours": 9.0,
+      "hours": 5.0,
       "next_day": "2026-10-16",
       "status": "확인"
     },
@@ -61,7 +61,7 @@
         "invalidation": "해외 강세 소멸, 관련 기업 가이던스 악화, 후보의 장후반 가격·재료 약화",
         "current": "성립 여부 판단 보류",
         "probability": null,
-        "available_at": "2026-10-15T14:59:40.192371Z"
+        "available_at": "2026-10-15T19:02:27.406277Z"
       },
       {
         "name": "갭하락 시나리오",
@@ -70,7 +70,7 @@
         "invalidation": "악재 반응이 진정되고 실제 시장·업종 강도가 회복",
         "current": "핵심 입력 미확보로 하방 위험 배제 불가",
         "probability": null,
-        "available_at": "2026-10-15T14:59:40.192371Z"
+        "available_at": "2026-10-15T19:02:27.406277Z"
       },
       {
         "name": "방향 불명·관망",
@@ -79,7 +79,7 @@
         "invalidation": "필수 데이터가 확보되고 사건 결과·시장 반응이 일관되게 확인",
         "current": "현재 우선 적용",
         "probability": null,
-        "available_at": "2026-10-15T14:59:40.192371Z"
+        "available_at": "2026-10-15T19:02:27.406277Z"
       }
     ],
     "candidates": [],
@@ -99,12 +99,12 @@
         "publication": "공식 정부 통계·출처 링크와 소량 수치 표시",
         "alternative": "FRED 공식 재배포·별도 인증 검증 필요",
         "capability": 1,
-        "status": "수집 실패·마지막 정상 자료",
-        "checked_at": "2026-10-15T14:59:40.192371Z",
-        "error": "연결 실패 또는 응답 시간 초과",
+        "status": "수신 검증 완료",
+        "checked_at": "2026-10-15T19:02:27.406277Z",
+        "error": null,
         "row_count": 270,
-        "last_data_date": "2026-10-13",
-        "last_success_at": "2026-10-14T19:27:47.478532Z"
+        "last_data_date": "2026-10-14",
+        "last_success_at": "2026-10-15T19:02:27.406277Z"
       },
       "bls": {
         "id": "bls",
@@ -121,7 +121,7 @@
         "alternative": "BLS 연도별 공식 HTML",
         "capability": 1,
         "status": "수집 실패·마지막 정상 자료",
-        "checked_at": "2026-10-15T14:59:40.192371Z",
+        "checked_at": "2026-10-15T19:02:27.406277Z",
         "error": "HTTP 403",
         "row_count": 9,
         "last_data_date": "2026-11-13T13:30:00Z",
@@ -142,11 +142,11 @@
         "alternative": "정책 성명별 공식 발표",
         "capability": 1,
         "status": "수신 검증 완료",
-        "checked_at": "2026-10-15T14:59:40.192371Z",
+        "checked_at": "2026-10-15T19:02:27.406277Z",
         "error": null,
         "row_count": 2,
         "last_data_date": "2026-12-09T19:00:00Z",
-        "last_success_at": "2026-10-15T14:59:40.192371Z"
+        "last_success_at": "2026-10-15T19:02:27.406277Z"
       },
       "fed_news": {
         "id": "fed_news",
@@ -163,11 +163,11 @@
         "alternative": "연준 보도자료 목록",
         "capability": 1,
         "status": "수신 검증 완료",
-        "checked_at": "2026-10-15T14:59:40.192371Z",
+        "checked_at": "2026-10-15T19:02:27.406277Z",
         "error": null,
         "row_count": 8,
         "last_data_date": "2026-10-13T18:00:00Z",
-        "last_success_at": "2026-10-15T14:59:40.192371Z"
+        "last_success_at": "2026-10-15T19:02:27.406277Z"
       },
       "sec": {
         "id": "sec",
@@ -184,7 +184,7 @@
         "alternative": "기업 IR·별도 연결 필요",
         "capability": 1,
         "status": "수집 실패·마지막 정상 자료",
-        "checked_at": "2026-10-15T14:59:40.192371Z",
+        "checked_at": "2026-10-15T19:02:27.406277Z",
         "error": "HTTP 403",
         "row_count": 0,
         "last_data_date": null,
@@ -205,7 +205,7 @@
         "alternative": "허가된 구조화 HTTPS 피드",
         "capability": 2,
         "status": "미확보",
-        "checked_at": "2026-10-15T14:59:40.192371Z",
+        "checked_at": "2026-10-15T19:02:27.406277Z",
         "error": null,
         "row_count": 0,
         "last_data_date": null,
@@ -226,7 +226,7 @@
         "alternative": "공식 지연 일별 데이터·계약 검증 필요",
         "capability": 3,
         "status": "미확보",
-        "checked_at": "2026-10-15T14:59:40.192371Z",
+        "checked_at": "2026-10-15T19:02:27.406277Z",
         "error": null,
         "row_count": 0,
         "last_data_date": null,
@@ -247,7 +247,7 @@
         "alternative": "허가된 지연 선물 피드",
         "capability": 3,
         "status": "미확보",
-        "checked_at": "2026-10-15T14:59:40.192371Z",
+        "checked_at": "2026-10-15T19:02:27.406277Z",
         "error": null,
         "row_count": 0,
         "last_data_date": null,
@@ -268,7 +268,7 @@
         "alternative": "한국은행 일별 통계",
         "capability": 2,
         "status": "미확보",
-        "checked_at": "2026-10-15T14:59:40.192371Z",
+        "checked_at": "2026-10-15T19:02:27.406277Z",
         "error": null,
         "row_count": 0,
         "last_data_date": null,
@@ -289,7 +289,7 @@
         "alternative": "공식 거래소 일별 자료",
         "capability": 3,
         "status": "미확보",
-        "checked_at": "2026-10-15T14:59:40.192371Z",
+        "checked_at": "2026-10-15T19:02:27.406277Z",
         "error": null,
         "row_count": 0,
         "last_data_date": null,
@@ -310,7 +310,7 @@
         "alternative": "공식 일별 지표",
         "capability": 3,
         "status": "미확보",
-        "checked_at": "2026-10-15T14:59:40.192371Z",
+        "checked_at": "2026-10-15T19:02:27.406277Z",
         "error": null,
         "row_count": 0,
         "last_data_date": null,
@@ -331,7 +331,7 @@
         "alternative": "공식 다운로드 수동 입력·동일 검증",
         "capability": 4,
         "status": "미확보",
-        "checked_at": "2026-10-15T14:59:40.192371Z",
+        "checked_at": "2026-10-15T19:02:27.406277Z",
         "error": null,
         "row_count": 0,
         "last_data_date": null,
@@ -352,7 +352,7 @@
         "alternative": "순자산 증감은 대안 순유입으로 사용하지 않음",
         "capability": 4,
         "status": "미확보",
-        "checked_at": "2026-10-15T14:59:40.192371Z",
+        "checked_at": "2026-10-15T19:02:27.406277Z",
         "error": null,
         "row_count": 0,
         "last_data_date": null,
@@ -373,7 +373,7 @@
         "alternative": "KIS 수량 통계와 금액 통계 구분",
         "capability": 2,
         "status": "미확보",
-        "checked_at": "2026-10-15T14:59:40.192371Z",
+        "checked_at": "2026-10-15T19:02:27.406277Z",
         "error": null,
         "row_count": 0,
         "last_data_date": null,
@@ -382,11 +382,11 @@
     },
     "market_clocks": {
       "KRX": {
-        "date": "2026-10-15",
+        "date": "2026-10-16",
         "status": "거래일",
-        "open": "2026-10-15T00:00:00Z",
-        "close": "2026-10-15T06:30:00Z",
-        "phase": "정규장 종료"
+        "open": "2026-10-16T00:00:00Z",
+        "close": "2026-10-16T06:30:00Z",
+        "phase": "정규장 전"
       },
       "NYSE": {
         "date": "2026-10-15",
@@ -398,48 +398,48 @@
     },
     "rate_summary": [
       {
-        "date": "2026-10-13",
+        "date": "2026-10-14",
         "maturity": "2년",
-        "yieldPct": 4.79,
+        "yieldPct": 4.82,
         "unit": "%",
         "source_id": "treasury",
-        "observed_at": "2026-10-13",
+        "observed_at": "2026-10-14",
         "published_at": null,
-        "provider_updated_at": "2026-10-14T02:03:49Z",
-        "fetched_at": "2026-10-14T19:27:47.478532Z",
-        "available_at": "2026-10-14T15:09:38.583857Z",
-        "changeBp": -1.0,
-        "previousDate": "2026-10-09",
-        "interpretation": "금리 하락 관측. 경기 우려와 완화 기대를 구분해야 함."
+        "provider_updated_at": "2026-10-15T02:01:23Z",
+        "fetched_at": "2026-10-15T19:02:27.406277Z",
+        "available_at": "2026-10-15T19:02:27.406277Z",
+        "changeBp": 3.0,
+        "previousDate": "2026-10-13",
+        "interpretation": "금리 상승 관측. 성장주 할인율 부담 가능성·실제 시세 반응은 별도 확인."
       },
       {
-        "date": "2026-10-13",
+        "date": "2026-10-14",
         "maturity": "10년",
-        "yieldPct": 5.21,
+        "yieldPct": 5.19,
         "unit": "%",
         "source_id": "treasury",
-        "observed_at": "2026-10-13",
+        "observed_at": "2026-10-14",
         "published_at": null,
-        "provider_updated_at": "2026-10-14T02:03:49Z",
-        "fetched_at": "2026-10-14T19:27:47.478532Z",
-        "available_at": "2026-10-14T15:09:38.583857Z",
-        "changeBp": -3.0,
-        "previousDate": "2026-10-09",
+        "provider_updated_at": "2026-10-15T02:01:23Z",
+        "fetched_at": "2026-10-15T19:02:27.406277Z",
+        "available_at": "2026-10-15T19:02:27.406277Z",
+        "changeBp": -2.0,
+        "previousDate": "2026-10-13",
         "interpretation": "금리 하락 관측. 경기 우려와 완화 기대를 구분해야 함."
       },
       {
-        "date": "2026-10-13",
+        "date": "2026-10-14",
         "maturity": "30년",
-        "yieldPct": 5.56,
+        "yieldPct": 5.52,
         "unit": "%",
         "source_id": "treasury",
-        "observed_at": "2026-10-13",
+        "observed_at": "2026-10-14",
         "published_at": null,
-        "provider_updated_at": "2026-10-14T02:03:49Z",
-        "fetched_at": "2026-10-14T19:27:47.478532Z",
-        "available_at": "2026-10-14T15:09:38.583857Z",
+        "provider_updated_at": "2026-10-15T02:01:23Z",
+        "fetched_at": "2026-10-15T19:02:27.406277Z",
+        "available_at": "2026-10-15T19:02:27.406277Z",
         "changeBp": -4.0,
-        "previousDate": "2026-10-09",
+        "previousDate": "2026-10-13",
         "interpretation": "금리 하락 관측. 경기 우려와 완화 기대를 구분해야 함."
       }
     ],
@@ -557,17 +557,6 @@
       }
     ],
     "help": [
-      {
-        "id": "treasury",
-        "name": "미국 재무부 국채금리",
-        "reason": "기준일·2/10/30년 par yield",
-        "status": "수집 실패·마지막 정상 자료",
-        "task": "공식 계정·시세 권한·공개 표시 범위 확인 후 Secrets와 허가 피드 연결",
-        "secret": "MARKET_FEED_URL",
-        "url": "https://home.treasury.gov/treasury-daily-interest-rate-xml-feed",
-        "cost": "무료",
-        "alternative": "FRED 공식 재배포·별도 인증 검증 필요"
-      },
       {
         "id": "bls",
         "name": "미국 고용·물가 발표 일정",
@@ -690,7 +679,7 @@
         "alternative": "KIS 수량 통계와 금액 통계 구분"
       }
     ],
-    "source_commit": "755c4520ed71a07a1d4fccee05db25e7f60ee004",
+    "source_commit": "ac656292d235c1c959c8f687422d1ca63b464cb1",
     "method_version": "rules-1.0",
     "us_covered": [],
     "limitations": [
@@ -710,47 +699,11 @@
     },
     "breadth": [],
     "leverage_analysis": [],
-    "snapshot_id": "80a6a171ef5ff34f"
+    "snapshot_id": "65d78f1ba38d9617"
   },
   "queries": {
     "rates": {
       "rows": [
-        {
-          "date": "2026-06-04",
-          "maturity": "10년",
-          "yieldPct": 4.47,
-          "unit": "%",
-          "source_id": "treasury",
-          "observed_at": "2026-06-04",
-          "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
-          "available_at": "2026-10-01T14:14:40.548616Z"
-        },
-        {
-          "date": "2026-06-04",
-          "maturity": "2년",
-          "yieldPct": 4.05,
-          "unit": "%",
-          "source_id": "treasury",
-          "observed_at": "2026-06-04",
-          "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
-          "available_at": "2026-10-01T14:14:40.548616Z"
-        },
-        {
-          "date": "2026-06-04",
-          "maturity": "30년",
-          "yieldPct": 4.97,
-          "unit": "%",
-          "source_id": "treasury",
-          "observed_at": "2026-06-04",
-          "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
-          "available_at": "2026-10-01T14:14:40.548616Z"
-        },
         {
           "date": "2026-06-05",
           "maturity": "10년",
@@ -759,8 +712,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-05",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -771,8 +724,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-05",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -783,8 +736,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-05",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -795,8 +748,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-08",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -807,8 +760,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-08",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -819,8 +772,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-08",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -831,8 +784,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-09",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -843,8 +796,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-09",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -855,8 +808,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-09",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -867,8 +820,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-10",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -879,8 +832,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-10",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -891,8 +844,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-10",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -903,8 +856,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-11",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -915,8 +868,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-11",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -927,8 +880,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-11",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -939,8 +892,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-12",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -951,8 +904,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-12",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -963,8 +916,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-12",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -975,8 +928,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-15",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -987,8 +940,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-15",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -999,8 +952,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-15",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1011,8 +964,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-16",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1023,8 +976,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-16",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1035,8 +988,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-16",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1047,8 +1000,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-17",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1059,8 +1012,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-17",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1071,8 +1024,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-17",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1083,8 +1036,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-18",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1095,8 +1048,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-18",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1107,8 +1060,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-18",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1119,8 +1072,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-22",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1131,8 +1084,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-22",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1143,8 +1096,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-22",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1155,8 +1108,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-23",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1167,8 +1120,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-23",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1179,8 +1132,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-23",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1191,8 +1144,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-24",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1203,8 +1156,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-24",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1215,8 +1168,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-24",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1227,8 +1180,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-25",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1239,8 +1192,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-25",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1251,8 +1204,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-25",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1263,8 +1216,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-26",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1275,8 +1228,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-26",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1287,8 +1240,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-26",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1299,8 +1252,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-29",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1311,8 +1264,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-29",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1323,8 +1276,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-29",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1335,8 +1288,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-30",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1347,8 +1300,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-30",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1359,8 +1312,8 @@
           "source_id": "treasury",
           "observed_at": "2026-06-30",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1371,8 +1324,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-01",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1383,8 +1336,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-01",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1395,8 +1348,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-01",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1407,8 +1360,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-02",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1419,8 +1372,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-02",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1431,8 +1384,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-02",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1443,8 +1396,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-06",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1455,8 +1408,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-06",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1467,8 +1420,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-06",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1479,8 +1432,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-07",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1491,8 +1444,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-07",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1503,8 +1456,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-07",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1515,8 +1468,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-08",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1527,8 +1480,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-08",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1539,8 +1492,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-08",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1551,8 +1504,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-09",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1563,8 +1516,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-09",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1575,8 +1528,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-09",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1587,8 +1540,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-10",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1599,8 +1552,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-10",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1611,8 +1564,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-10",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1623,8 +1576,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-13",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1635,8 +1588,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-13",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1647,8 +1600,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-13",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1659,8 +1612,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-14",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1671,8 +1624,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-14",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1683,8 +1636,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-14",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1695,8 +1648,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-15",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1707,8 +1660,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-15",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1719,8 +1672,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-15",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1731,8 +1684,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-16",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1743,8 +1696,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-16",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1755,8 +1708,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-16",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1767,8 +1720,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-17",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1779,8 +1732,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-17",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1791,8 +1744,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-17",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1803,8 +1756,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-20",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1815,8 +1768,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-20",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1827,8 +1780,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-20",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1839,8 +1792,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-21",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1851,8 +1804,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-21",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1863,8 +1816,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-21",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1875,8 +1828,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-22",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1887,8 +1840,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-22",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1899,8 +1852,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-22",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1911,8 +1864,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-23",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1923,8 +1876,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-23",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1935,8 +1888,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-23",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1947,8 +1900,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-24",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1959,8 +1912,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-24",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1971,8 +1924,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-24",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1983,8 +1936,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-27",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -1995,8 +1948,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-27",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2007,8 +1960,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-27",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2019,8 +1972,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-28",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2031,8 +1984,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-28",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2043,8 +1996,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-28",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2055,8 +2008,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-29",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2067,8 +2020,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-29",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2079,8 +2032,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-29",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2091,8 +2044,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-30",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2103,8 +2056,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-30",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2115,8 +2068,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-30",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2127,8 +2080,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-31",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2139,8 +2092,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-31",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2151,8 +2104,8 @@
           "source_id": "treasury",
           "observed_at": "2026-07-31",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2163,8 +2116,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-03",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2175,8 +2128,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-03",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2187,8 +2140,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-03",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2199,8 +2152,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-04",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2211,8 +2164,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-04",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2223,8 +2176,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-04",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2235,8 +2188,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-05",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2247,8 +2200,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-05",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2259,8 +2212,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-05",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2271,8 +2224,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-06",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2283,8 +2236,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-06",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2295,8 +2248,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-06",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2307,8 +2260,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-07",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2319,8 +2272,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-07",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2331,8 +2284,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-07",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2343,8 +2296,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-10",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2355,8 +2308,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-10",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2367,8 +2320,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-10",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2379,8 +2332,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-11",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2391,8 +2344,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-11",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2403,8 +2356,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-11",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2415,8 +2368,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-12",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2427,8 +2380,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-12",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2439,8 +2392,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-12",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2451,8 +2404,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-13",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2463,8 +2416,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-13",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2475,8 +2428,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-13",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2487,8 +2440,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-14",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2499,8 +2452,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-14",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2511,8 +2464,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-14",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2523,8 +2476,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-17",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2535,8 +2488,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-17",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2547,8 +2500,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-17",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2559,8 +2512,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-18",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2571,8 +2524,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-18",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2583,8 +2536,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-18",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2595,8 +2548,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-19",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2607,8 +2560,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-19",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2619,8 +2572,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-19",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2631,8 +2584,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-20",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2643,8 +2596,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-20",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2655,8 +2608,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-20",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2667,8 +2620,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-21",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2679,8 +2632,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-21",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2691,8 +2644,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-21",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2703,8 +2656,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-24",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2715,8 +2668,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-24",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2727,8 +2680,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-24",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2739,8 +2692,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-25",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2751,8 +2704,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-25",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2763,8 +2716,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-25",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2775,8 +2728,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-26",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2787,8 +2740,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-26",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2799,8 +2752,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-26",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2811,8 +2764,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-27",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2823,8 +2776,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-27",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2835,8 +2788,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-27",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2847,8 +2800,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-28",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2859,8 +2812,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-28",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2871,8 +2824,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-28",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2883,8 +2836,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-31",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2895,8 +2848,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-31",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2907,8 +2860,8 @@
           "source_id": "treasury",
           "observed_at": "2026-08-31",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2919,8 +2872,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-01",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2931,8 +2884,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-01",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2943,8 +2896,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-01",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2955,8 +2908,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-02",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2967,8 +2920,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-02",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2979,8 +2932,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-02",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -2991,8 +2944,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-03",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3003,8 +2956,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-03",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3015,8 +2968,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-03",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3027,8 +2980,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-04",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3039,8 +2992,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-04",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3051,8 +3004,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-04",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3063,8 +3016,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-08",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3075,8 +3028,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-08",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3087,8 +3040,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-08",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3099,8 +3052,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-09",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3111,8 +3064,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-09",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3123,8 +3076,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-09",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3135,8 +3088,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-10",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3147,8 +3100,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-10",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3159,8 +3112,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-10",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3171,8 +3124,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-11",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3183,8 +3136,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-11",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3195,8 +3148,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-11",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3207,8 +3160,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-14",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3219,8 +3172,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-14",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3231,8 +3184,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-14",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3243,8 +3196,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-15",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3255,8 +3208,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-15",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3267,8 +3220,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-15",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3279,8 +3232,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-16",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3291,8 +3244,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-16",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3303,8 +3256,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-16",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3315,8 +3268,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-17",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3327,8 +3280,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-17",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3339,8 +3292,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-17",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3351,8 +3304,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-18",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3363,8 +3316,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-18",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3375,8 +3328,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-18",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3387,8 +3340,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-21",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3399,8 +3352,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-21",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3411,8 +3364,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-21",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3423,8 +3376,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-22",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3435,8 +3388,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-22",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3447,8 +3400,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-22",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3459,8 +3412,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-23",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3471,8 +3424,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-23",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3483,8 +3436,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-23",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3495,8 +3448,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-24",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3507,8 +3460,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-24",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3519,8 +3472,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-24",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3531,8 +3484,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-25",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3543,8 +3496,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-25",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3555,8 +3508,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-25",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3567,8 +3520,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-28",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3579,8 +3532,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-28",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3591,8 +3544,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-28",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3603,8 +3556,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-29",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3615,8 +3568,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-29",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3627,8 +3580,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-29",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3639,8 +3592,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-30",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3651,8 +3604,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-30",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3663,8 +3616,8 @@
           "source_id": "treasury",
           "observed_at": "2026-09-30",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -3675,8 +3628,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-01",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T22:28:57.682331Z"
         },
         {
@@ -3687,8 +3640,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-01",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T22:28:57.682331Z"
         },
         {
@@ -3699,8 +3652,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-01",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T22:28:57.682331Z"
         },
         {
@@ -3711,8 +3664,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-02",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-02T20:09:20.889494Z"
         },
         {
@@ -3723,8 +3676,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-02",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-02T20:09:20.889494Z"
         },
         {
@@ -3735,8 +3688,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-02",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-02T20:09:20.889494Z"
         },
         {
@@ -3747,8 +3700,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-05",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-06T20:17:39.138802Z"
         },
         {
@@ -3759,8 +3712,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-05",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-06T20:17:39.138802Z"
         },
         {
@@ -3771,8 +3724,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-05",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-06T20:17:39.138802Z"
         },
         {
@@ -3783,8 +3736,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-06",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-06T20:17:39.138802Z"
         },
         {
@@ -3795,8 +3748,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-06",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-06T20:17:39.138802Z"
         },
         {
@@ -3807,8 +3760,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-06",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-06T20:17:39.138802Z"
         },
         {
@@ -3819,8 +3772,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-07",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-08T02:46:43.604561Z"
         },
         {
@@ -3831,8 +3784,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-07",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-08T02:46:43.604561Z"
         },
         {
@@ -3843,8 +3796,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-07",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-08T02:46:43.604561Z"
         },
         {
@@ -3855,8 +3808,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-08",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-10T05:48:31.766538Z"
         },
         {
@@ -3867,8 +3820,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-08",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-10T05:48:31.766538Z"
         },
         {
@@ -3879,8 +3832,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-08",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-10T05:48:31.766538Z"
         },
         {
@@ -3891,8 +3844,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-09",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-10T05:48:31.766538Z"
         },
         {
@@ -3903,8 +3856,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-09",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-10T05:48:31.766538Z"
         },
         {
@@ -3915,8 +3868,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-09",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-10T05:48:31.766538Z"
         },
         {
@@ -3927,8 +3880,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-13",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-14T15:09:38.583857Z"
         },
         {
@@ -3939,8 +3892,8 @@
           "source_id": "treasury",
           "observed_at": "2026-10-13",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-14T15:09:38.583857Z"
         },
         {
@@ -3951,15 +3904,51 @@
           "source_id": "treasury",
           "observed_at": "2026-10-13",
           "published_at": null,
-          "provider_updated_at": "2026-10-14T02:03:49Z",
-          "fetched_at": "2026-10-14T19:27:47.478532Z",
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-14T15:09:38.583857Z"
+        },
+        {
+          "date": "2026-10-14",
+          "maturity": "10년",
+          "yieldPct": 5.19,
+          "unit": "%",
+          "source_id": "treasury",
+          "observed_at": "2026-10-14",
+          "published_at": null,
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
+          "available_at": "2026-10-15T19:02:27.406277Z"
+        },
+        {
+          "date": "2026-10-14",
+          "maturity": "2년",
+          "yieldPct": 4.82,
+          "unit": "%",
+          "source_id": "treasury",
+          "observed_at": "2026-10-14",
+          "published_at": null,
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
+          "available_at": "2026-10-15T19:02:27.406277Z"
+        },
+        {
+          "date": "2026-10-14",
+          "maturity": "30년",
+          "yieldPct": 5.52,
+          "unit": "%",
+          "source_id": "treasury",
+          "observed_at": "2026-10-14",
+          "published_at": null,
+          "provider_updated_at": "2026-10-15T02:01:23Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
+          "available_at": "2026-10-15T19:02:27.406277Z"
         }
       ],
       "source": {
         "label": "미국 재무부",
         "provider": "미국 재무부",
-        "executedAt": "2026-10-15T14:59:40.192371Z",
+        "executedAt": "2026-10-15T19:02:27.406277Z",
         "description": "공식 일별 par yield. 일중 환율·선물 대용이나 자금 유입액이 아닙니다.",
         "links": [
           {
@@ -4037,7 +4026,7 @@
           "source_id": "fomc",
           "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
           "time_status": "통상 시간 적용·별도 확인 필요",
-          "fetched_at": "2026-10-15T14:59:40.192371Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -4142,14 +4131,14 @@
           "source_id": "fomc",
           "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
           "time_status": "통상 시간 적용·별도 확인 필요",
-          "fetched_at": "2026-10-15T14:59:40.192371Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-10T20:11:28.209569Z"
         }
       ],
       "source": {
         "label": "BLS·연준",
         "provider": "BLS·연준",
-        "executedAt": "2026-10-15T14:59:40.192371Z",
+        "executedAt": "2026-10-15T19:02:27.406277Z",
         "description": "BLS 공식 일정과 FOMC 날짜·통상 발표시간. 결과·방향 미확정.",
         "links": [
           {
@@ -4177,7 +4166,7 @@
           "at": "2026-10-13T18:00:00Z",
           "published_at": "2026-10-13T18:00:00Z",
           "first_seen_at": "2026-10-13T21:13:40.241991Z",
-          "fetched_at": "2026-10-15T14:59:40.192371Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-13T21:13:40.241991Z",
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261013a.htm",
           "source_id": "fed_news",
@@ -4200,7 +4189,7 @@
           "at": "2026-10-09T14:00:00Z",
           "published_at": "2026-10-09T14:00:00Z",
           "first_seen_at": "2026-10-09T15:36:10.358565Z",
-          "fetched_at": "2026-10-15T14:59:40.192371Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-09T15:36:10.358565Z",
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261009a.htm",
           "source_id": "fed_news",
@@ -4223,7 +4212,7 @@
           "at": "2026-10-08T20:30:00Z",
           "published_at": "2026-10-08T20:30:00Z",
           "first_seen_at": "2026-10-08T21:57:47.652261Z",
-          "fetched_at": "2026-10-15T14:59:40.192371Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-08T21:57:47.652261Z",
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261008a.htm",
           "source_id": "fed_news",
@@ -4246,7 +4235,7 @@
           "at": "2026-10-07T18:00:00Z",
           "published_at": "2026-10-07T18:00:00Z",
           "first_seen_at": "2026-10-07T18:49:55.030015Z",
-          "fetched_at": "2026-10-15T14:59:40.192371Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-07T18:49:55.030015Z",
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
           "source_id": "fed_news",
@@ -4289,7 +4278,7 @@
           "at": "2026-10-05T20:30:00Z",
           "published_at": "2026-10-05T20:30:00Z",
           "first_seen_at": "2026-10-05T20:48:04.770574Z",
-          "fetched_at": "2026-10-15T14:59:40.192371Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-05T20:48:04.770574Z",
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261005a.htm",
           "source_id": "fed_news",
@@ -4312,7 +4301,7 @@
           "at": "2026-10-02T20:45:00Z",
           "published_at": "2026-10-02T20:45:00Z",
           "first_seen_at": "2026-10-02T21:18:38.967162Z",
-          "fetched_at": "2026-10-15T14:59:40.192371Z",
+          "fetched_at": "2026-10-15T19:02:27.406277Z",
           "available_at": "2026-10-02T21:18:38.967162Z",
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261002a.htm",
           "source_id": "fed_news",
@@ -4721,7 +4710,7 @@
       "source": {
         "label": "SEC·연준",
         "provider": "SEC·연준",
-        "executedAt": "2026-10-15T14:59:40.192371Z",
+        "executedAt": "2026-10-15T19:02:27.406277Z",
         "description": "공식 공시·발표 메타데이터. 시장 반응과 인과관계는 미검증.",
         "links": [
           {
@@ -4745,7 +4734,7 @@
       "source": {
         "label": "시세 공식 문서",
         "provider": "시세 공식 문서",
-        "executedAt": "2026-10-15T14:59:40.192371Z",
+        "executedAt": "2026-10-15T19:02:27.406277Z",
         "description": "허가된 실제 시세만 표시. 빈 값은 0이나 ETF 대용으로 대체하지 않음.",
         "links": [
           {
@@ -4769,7 +4758,7 @@
       "source": {
         "label": "시세 공식 문서",
         "provider": "시세 공식 문서",
-        "executedAt": "2026-10-15T14:59:40.192371Z",
+        "executedAt": "2026-10-15T19:02:27.406277Z",
         "description": "투자자군 순매수와 설정·환매 흐름을 분리. 거래 집중과 실제 흐름은 다름.",
         "links": [
           {
@@ -4793,7 +4782,7 @@
       "source": {
         "label": "출처·권한 검증",
         "provider": "출처·권한 검증",
-        "executedAt": "2026-10-15T14:59:40.192371Z",
+        "executedAt": "2026-10-15T19:02:27.406277Z",
         "description": "국내 공식 신용·미수·실제 반대매매·예탁금. 기준일과 공식 정의 필수.",
         "links": [
           {
@@ -4828,12 +4817,12 @@
           "publication": "공식 정부 통계·출처 링크와 소량 수치 표시",
           "alternative": "FRED 공식 재배포·별도 인증 검증 필요",
           "capability": 1,
-          "status": "수집 실패·마지막 정상 자료",
-          "checked_at": "2026-10-15T14:59:40.192371Z",
-          "error": "연결 실패 또는 응답 시간 초과",
+          "status": "수신 검증 완료",
+          "checked_at": "2026-10-15T19:02:27.406277Z",
+          "error": null,
           "row_count": 270,
-          "last_data_date": "2026-10-13",
-          "last_success_at": "2026-10-14T19:27:47.478532Z"
+          "last_data_date": "2026-10-14",
+          "last_success_at": "2026-10-15T19:02:27.406277Z"
         },
         {
           "id": "bls",
@@ -4850,7 +4839,7 @@
           "alternative": "BLS 연도별 공식 HTML",
           "capability": 1,
           "status": "수집 실패·마지막 정상 자료",
-          "checked_at": "2026-10-15T14:59:40.192371Z",
+          "checked_at": "2026-10-15T19:02:27.406277Z",
           "error": "HTTP 403",
           "row_count": 9,
           "last_data_date": "2026-11-13T13:30:00Z",
@@ -4871,11 +4860,11 @@
           "alternative": "정책 성명별 공식 발표",
           "capability": 1,
           "status": "수신 검증 완료",
-          "checked_at": "2026-10-15T14:59:40.192371Z",
+          "checked_at": "2026-10-15T19:02:27.406277Z",
           "error": null,
           "row_count": 2,
           "last_data_date": "2026-12-09T19:00:00Z",
-          "last_success_at": "2026-10-15T14:59:40.192371Z"
+          "last_success_at": "2026-10-15T19:02:27.406277Z"
         },
         {
           "id": "fed_news",
@@ -4892,11 +4881,11 @@
           "alternative": "연준 보도자료 목록",
           "capability": 1,
           "status": "수신 검증 완료",
-          "checked_at": "2026-10-15T14:59:40.192371Z",
+          "checked_at": "2026-10-15T19:02:27.406277Z",
           "error": null,
           "row_count": 8,
           "last_data_date": "2026-10-13T18:00:00Z",
-          "last_success_at": "2026-10-15T14:59:40.192371Z"
+          "last_success_at": "2026-10-15T19:02:27.406277Z"
         },
         {
           "id": "sec",
@@ -4913,7 +4902,7 @@
           "alternative": "기업 IR·별도 연결 필요",
           "capability": 1,
           "status": "수집 실패·마지막 정상 자료",
-          "checked_at": "2026-10-15T14:59:40.192371Z",
+          "checked_at": "2026-10-15T19:02:27.406277Z",
           "error": "HTTP 403",
           "row_count": 0,
           "last_data_date": null,
@@ -4934,7 +4923,7 @@
           "alternative": "허가된 구조화 HTTPS 피드",
           "capability": 2,
           "status": "미확보",
-          "checked_at": "2026-10-15T14:59:40.192371Z",
+          "checked_at": "2026-10-15T19:02:27.406277Z",
           "error": null,
           "row_count": 0,
           "last_data_date": null,
@@ -4955,7 +4944,7 @@
           "alternative": "공식 지연 일별 데이터·계약 검증 필요",
           "capability": 3,
           "status": "미확보",
-          "checked_at": "2026-10-15T14:59:40.192371Z",
+          "checked_at": "2026-10-15T19:02:27.406277Z",
           "error": null,
           "row_count": 0,
           "last_data_date": null,
@@ -4976,7 +4965,7 @@
           "alternative": "허가된 지연 선물 피드",
           "capability": 3,
           "status": "미확보",
-          "checked_at": "2026-10-15T14:59:40.192371Z",
+          "checked_at": "2026-10-15T19:02:27.406277Z",
           "error": null,
           "row_count": 0,
           "last_data_date": null,
@@ -4997,7 +4986,7 @@
           "alternative": "한국은행 일별 통계",
           "capability": 2,
           "status": "미확보",
-          "checked_at": "2026-10-15T14:59:40.192371Z",
+          "checked_at": "2026-10-15T19:02:27.406277Z",
           "error": null,
           "row_count": 0,
           "last_data_date": null,
@@ -5018,7 +5007,7 @@
           "alternative": "공식 거래소 일별 자료",
           "capability": 3,
           "status": "미확보",
-          "checked_at": "2026-10-15T14:59:40.192371Z",
+          "checked_at": "2026-10-15T19:02:27.406277Z",
           "error": null,
           "row_count": 0,
           "last_data_date": null,
@@ -5039,7 +5028,7 @@
           "alternative": "공식 일별 지표",
           "capability": 3,
           "status": "미확보",
-          "checked_at": "2026-10-15T14:59:40.192371Z",
+          "checked_at": "2026-10-15T19:02:27.406277Z",
           "error": null,
           "row_count": 0,
           "last_data_date": null,
@@ -5060,7 +5049,7 @@
           "alternative": "공식 다운로드 수동 입력·동일 검증",
           "capability": 4,
           "status": "미확보",
-          "checked_at": "2026-10-15T14:59:40.192371Z",
+          "checked_at": "2026-10-15T19:02:27.406277Z",
           "error": null,
           "row_count": 0,
           "last_data_date": null,
@@ -5081,7 +5070,7 @@
           "alternative": "순자산 증감은 대안 순유입으로 사용하지 않음",
           "capability": 4,
           "status": "미확보",
-          "checked_at": "2026-10-15T14:59:40.192371Z",
+          "checked_at": "2026-10-15T19:02:27.406277Z",
           "error": null,
           "row_count": 0,
           "last_data_date": null,
@@ -5102,7 +5091,7 @@
           "alternative": "KIS 수량 통계와 금액 통계 구분",
           "capability": 2,
           "status": "미확보",
-          "checked_at": "2026-10-15T14:59:40.192371Z",
+          "checked_at": "2026-10-15T19:02:27.406277Z",
           "error": null,
           "row_count": 0,
           "last_data_date": null,
@@ -5112,7 +5101,7 @@
       "source": {
         "label": "출처·권한 검증",
         "provider": "출처·권한 검증",
-        "executedAt": "2026-10-15T14:59:40.192371Z",
+        "executedAt": "2026-10-15T19:02:27.406277Z",
         "description": "제공기관·빈도·인증·비용·보관·공개 권한·실제 수신 상태",
         "links": [
           {
@@ -5222,7 +5211,7 @@
       "source": {
         "label": "시점 보존 규칙",
         "provider": "시점 보존 규칙",
-        "executedAt": "2026-10-15T14:59:40.192371Z",
+        "executedAt": "2026-10-15T19:02:27.406277Z",
         "description": "당시 이용 가능 정보만 보존. 후보 0개와 미확보도 보존.",
         "links": [
           {
@@ -5243,22 +5232,6 @@
     },
     "operations": {
       "rows": [
-        {
-          "id": "36980442604",
-          "slot": "2026-10-02T07:40:00Z",
-          "started_at": "2026-10-02T07:47:43.813242Z",
-          "checked_at": "2026-10-02T07:48:20.440975Z",
-          "missed_slots": 1,
-          "missed_policy": "현재 값을 과거 슬롯으로 복사하지 않음",
-          "calls": 6,
-          "seconds": 36.63,
-          "failures": [
-            "미국 재무부 국채금리: 연결 실패 또는 응답 시간 초과",
-            "미국 고용·물가 발표 일정: HTTP 403",
-            "미국 관찰기업 공시: HTTP 403"
-          ],
-          "deployment": "배포 전·공개 URL 검증 필요"
-        },
         {
           "id": "36987259724",
           "slot": "2026-10-02T09:00:00Z",
@@ -7511,12 +7484,27 @@
             "미국 관찰기업 공시: HTTP 403"
           ],
           "deployment": "배포 전·공개 URL 검증 필요"
+        },
+        {
+          "id": "38790554001",
+          "slot": "2026-10-15T19:00:00Z",
+          "started_at": "2026-10-15T19:02:27.406277Z",
+          "checked_at": "2026-10-15T19:03:19.933483Z",
+          "missed_slots": 24,
+          "missed_policy": "현재 값을 과거 슬롯으로 복사하지 않음",
+          "calls": 7,
+          "seconds": 52.53,
+          "failures": [
+            "미국 고용·물가 발표 일정: HTTP 403",
+            "미국 관찰기업 공시: HTTP 403"
+          ],
+          "deployment": "배포 전·공개 URL 검증 필요"
         }
       ],
       "source": {
         "label": "GitHub Actions",
         "provider": "GitHub Actions",
-        "executedAt": "2026-10-15T14:59:40.192371Z",
+        "executedAt": "2026-10-15T19:02:27.406277Z",
         "description": "예정 슬롯·실제 시작·요청 수·누락·부분 실패·배포 검증",
         "links": [
           {
