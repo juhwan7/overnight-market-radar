@@ -2,13 +2,13 @@
   "surface": "dashboard",
   "id": "dashboard:38e4a7f3-8af0-49c5-b5ca-faf938b031a7",
   "title": "오버나잇 마켓 레이더",
-  "generatedAt": "2026-10-30T12:49:19.679837Z",
+  "generatedAt": "2026-10-30T18:16:42.186821Z",
   "status": "partial",
   "buildStatus": "complete",
   "filters": [],
   "radar": {
     "window": {
-      "start": "2026-10-30T12:49:19.679837Z",
+      "start": "2026-10-30T18:16:42.186821Z",
       "end": null,
       "hours": null,
       "next_day": "2026-11-01",
@@ -62,7 +62,7 @@
         "invalidation": "해외 강세 소멸, 관련 기업 가이던스 악화, 후보의 장후반 가격·재료 약화",
         "current": "성립 여부 판단 보류",
         "probability": null,
-        "available_at": "2026-10-30T12:49:19.679837Z"
+        "available_at": "2026-10-30T18:16:42.186821Z"
       },
       {
         "name": "갭하락 시나리오",
@@ -71,7 +71,7 @@
         "invalidation": "악재 반응이 진정되고 실제 시장·업종 강도가 회복",
         "current": "핵심 입력 미확보로 하방 위험 배제 불가",
         "probability": null,
-        "available_at": "2026-10-30T12:49:19.679837Z"
+        "available_at": "2026-10-30T18:16:42.186821Z"
       },
       {
         "name": "방향 불명·관망",
@@ -80,7 +80,7 @@
         "invalidation": "필수 데이터가 확보되고 사건 결과·시장 반응이 일관되게 확인",
         "current": "현재 우선 적용",
         "probability": null,
-        "available_at": "2026-10-30T12:49:19.679837Z"
+        "available_at": "2026-10-30T18:16:42.186821Z"
       }
     ],
     "candidates": [],
@@ -100,9 +100,9 @@
         "publication": "공식 정부 통계·출처 링크와 소량 수치 표시",
         "alternative": "FRED 공식 재배포·별도 인증 검증 필요",
         "capability": 1,
-        "status": "수신 검증 완료",
-        "checked_at": "2026-10-30T12:49:19.679837Z",
-        "error": null,
+        "status": "수집 실패·마지막 정상 자료",
+        "checked_at": "2026-10-30T18:16:42.186821Z",
+        "error": "연결 실패 또는 응답 시간 초과",
         "row_count": 270,
         "last_data_date": "2026-10-29",
         "last_success_at": "2026-10-30T12:49:19.679837Z"
@@ -122,7 +122,7 @@
         "alternative": "BLS 연도별 공식 HTML",
         "capability": 1,
         "status": "수집 실패·마지막 정상 자료",
-        "checked_at": "2026-10-30T12:49:19.679837Z",
+        "checked_at": "2026-10-30T18:16:42.186821Z",
         "error": "HTTP 403",
         "row_count": 9,
         "last_data_date": "2026-11-13T13:30:00Z",
@@ -143,11 +143,11 @@
         "alternative": "정책 성명별 공식 발표",
         "capability": 1,
         "status": "수신 검증 완료",
-        "checked_at": "2026-10-30T12:49:19.679837Z",
+        "checked_at": "2026-10-30T18:16:42.186821Z",
         "error": null,
-        "row_count": 2,
+        "row_count": 1,
         "last_data_date": "2026-12-09T19:00:00Z",
-        "last_success_at": "2026-10-30T12:49:19.679837Z"
+        "last_success_at": "2026-10-30T18:16:42.186821Z"
       },
       "fed_news": {
         "id": "fed_news",
@@ -164,11 +164,11 @@
         "alternative": "연준 보도자료 목록",
         "capability": 1,
         "status": "수신 검증 완료",
-        "checked_at": "2026-10-30T12:49:19.679837Z",
+        "checked_at": "2026-10-30T18:16:42.186821Z",
         "error": null,
-        "row_count": 3,
+        "row_count": 2,
         "last_data_date": "2026-10-29T20:30:00Z",
-        "last_success_at": "2026-10-30T12:49:19.679837Z"
+        "last_success_at": "2026-10-30T18:16:42.186821Z"
       },
       "sec": {
         "id": "sec",
@@ -185,7 +185,7 @@
         "alternative": "기업 IR·별도 연결 필요",
         "capability": 1,
         "status": "수집 실패·마지막 정상 자료",
-        "checked_at": "2026-10-30T12:49:19.679837Z",
+        "checked_at": "2026-10-30T18:16:42.186821Z",
         "error": "HTTP 403",
         "row_count": 0,
         "last_data_date": null,
@@ -206,7 +206,7 @@
         "alternative": "허가된 구조화 HTTPS 피드",
         "capability": 2,
         "status": "미확보",
-        "checked_at": "2026-10-30T12:49:19.679837Z",
+        "checked_at": "2026-10-30T18:16:42.186821Z",
         "error": null,
         "row_count": 0,
         "last_data_date": null,
@@ -227,7 +227,7 @@
         "alternative": "공식 지연 일별 데이터·계약 검증 필요",
         "capability": 3,
         "status": "미확보",
-        "checked_at": "2026-10-30T12:49:19.679837Z",
+        "checked_at": "2026-10-30T18:16:42.186821Z",
         "error": null,
         "row_count": 0,
         "last_data_date": null,
@@ -248,7 +248,7 @@
         "alternative": "허가된 지연 선물 피드",
         "capability": 3,
         "status": "미확보",
-        "checked_at": "2026-10-30T12:49:19.679837Z",
+        "checked_at": "2026-10-30T18:16:42.186821Z",
         "error": null,
         "row_count": 0,
         "last_data_date": null,
@@ -269,7 +269,7 @@
         "alternative": "한국은행 일별 통계",
         "capability": 2,
         "status": "미확보",
-        "checked_at": "2026-10-30T12:49:19.679837Z",
+        "checked_at": "2026-10-30T18:16:42.186821Z",
         "error": null,
         "row_count": 0,
         "last_data_date": null,
@@ -290,7 +290,7 @@
         "alternative": "공식 거래소 일별 자료",
         "capability": 3,
         "status": "미확보",
-        "checked_at": "2026-10-30T12:49:19.679837Z",
+        "checked_at": "2026-10-30T18:16:42.186821Z",
         "error": null,
         "row_count": 0,
         "last_data_date": null,
@@ -311,7 +311,7 @@
         "alternative": "공식 일별 지표",
         "capability": 3,
         "status": "미확보",
-        "checked_at": "2026-10-30T12:49:19.679837Z",
+        "checked_at": "2026-10-30T18:16:42.186821Z",
         "error": null,
         "row_count": 0,
         "last_data_date": null,
@@ -332,7 +332,7 @@
         "alternative": "공식 다운로드 수동 입력·동일 검증",
         "capability": 4,
         "status": "미확보",
-        "checked_at": "2026-10-30T12:49:19.679837Z",
+        "checked_at": "2026-10-30T18:16:42.186821Z",
         "error": null,
         "row_count": 0,
         "last_data_date": null,
@@ -353,7 +353,7 @@
         "alternative": "순자산 증감은 대안 순유입으로 사용하지 않음",
         "capability": 4,
         "status": "미확보",
-        "checked_at": "2026-10-30T12:49:19.679837Z",
+        "checked_at": "2026-10-30T18:16:42.186821Z",
         "error": null,
         "row_count": 0,
         "last_data_date": null,
@@ -374,7 +374,7 @@
         "alternative": "KIS 수량 통계와 금액 통계 구분",
         "capability": 2,
         "status": "미확보",
-        "checked_at": "2026-10-30T12:49:19.679837Z",
+        "checked_at": "2026-10-30T18:16:42.186821Z",
         "error": null,
         "row_count": 0,
         "last_data_date": null,
@@ -383,18 +383,18 @@
     },
     "market_clocks": {
       "KRX": {
-        "date": "2026-10-30",
-        "status": "거래일",
-        "open": "2026-10-30T00:00:00Z",
-        "close": "2026-10-30T06:30:00Z",
-        "phase": "정규장 종료"
+        "date": "2026-10-31",
+        "status": "휴장",
+        "open": null,
+        "close": null,
+        "phase": "휴장"
       },
       "NYSE": {
         "date": "2026-10-30",
         "status": "거래일",
         "open": "2026-10-30T13:30:00Z",
         "close": "2026-10-30T20:00:00Z",
-        "phase": "정규장 전"
+        "phase": "정규장 진행"
       }
     },
     "rate_summary": [
@@ -680,6 +680,17 @@
     ],
     "help": [
       {
+        "id": "treasury",
+        "name": "미국 재무부 국채금리",
+        "reason": "기준일·2/10/30년 par yield",
+        "status": "수집 실패·마지막 정상 자료",
+        "task": "공식 계정·시세 권한·공개 표시 범위 확인 후 Secrets와 허가 피드 연결",
+        "secret": "MARKET_FEED_URL",
+        "url": "https://home.treasury.gov/treasury-daily-interest-rate-xml-feed",
+        "cost": "무료",
+        "alternative": "FRED 공식 재배포·별도 인증 검증 필요"
+      },
+      {
         "id": "bls",
         "name": "미국 고용·물가 발표 일정",
         "reason": "제목·DTSTART·TZID·UID",
@@ -801,7 +812,7 @@
         "alternative": "KIS 수량 통계와 금액 통계 구분"
       }
     ],
-    "source_commit": "16340890d6839211b1817d16e8914dd52eaec6ff",
+    "source_commit": "4fe6693d3992288807138929af6eb55fd735b6b6",
     "method_version": "rules-1.0",
     "us_covered": [],
     "limitations": [
@@ -821,7 +832,7 @@
     },
     "breadth": [],
     "leverage_analysis": [],
-    "snapshot_id": "4f1d2912691d86db"
+    "snapshot_id": "99b7a05bba793059"
   },
   "queries": {
     "rates": {
@@ -4070,7 +4081,7 @@
       "source": {
         "label": "미국 재무부",
         "provider": "미국 재무부",
-        "executedAt": "2026-10-30T12:49:19.679837Z",
+        "executedAt": "2026-10-30T18:16:42.186821Z",
         "description": "공식 일별 par yield. 일중 환율·선물 대용이나 자금 유입액이 아닙니다.",
         "links": [
           {
@@ -4134,21 +4145,6 @@
           "url": "https://www.bls.gov/schedule/2026/home.htm",
           "time_status": "공식 시간",
           "fetched_at": "2026-10-01T13:51:07.970477Z",
-          "available_at": "2026-10-01T14:14:40.548616Z"
-        },
-        {
-          "id": "fomc-2026-10-28",
-          "title": "미국 FOMC 정책 결정",
-          "at": "2026-10-28T18:00:00Z",
-          "severity": "높음",
-          "scope": "글로벌시장",
-          "channel": "정책금리·전망 → 글로벌 할인율·환율",
-          "fact": "회의 날짜는 연준 공식 달력. 14시 미국 동부 시각은 통상 발표시간을 적용한 추정으로, 별도 공지 시 수정.",
-          "classification": "조건부 시나리오",
-          "source_id": "fomc",
-          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-          "time_status": "통상 시간 적용·별도 확인 필요",
-          "fetched_at": "2026-10-30T12:49:19.679837Z",
           "available_at": "2026-10-01T14:14:40.548616Z"
         },
         {
@@ -4253,14 +4249,14 @@
           "source_id": "fomc",
           "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
           "time_status": "통상 시간 적용·별도 확인 필요",
-          "fetched_at": "2026-10-30T12:49:19.679837Z",
+          "fetched_at": "2026-10-30T18:16:42.186821Z",
           "available_at": "2026-10-10T20:11:28.209569Z"
         }
       ],
       "source": {
         "label": "BLS·연준",
         "provider": "BLS·연준",
-        "executedAt": "2026-10-30T12:49:19.679837Z",
+        "executedAt": "2026-10-30T18:16:42.186821Z",
         "description": "BLS 공식 일정과 FOMC 날짜·통상 발표시간. 결과·방향 미확정.",
         "links": [
           {
@@ -4288,7 +4284,7 @@
           "at": "2026-10-29T20:30:00Z",
           "published_at": "2026-10-29T20:30:00Z",
           "first_seen_at": "2026-10-29T20:35:39.444882Z",
-          "fetched_at": "2026-10-30T12:49:19.679837Z",
+          "fetched_at": "2026-10-30T18:16:42.186821Z",
           "available_at": "2026-10-29T20:35:39.444882Z",
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/orders20261029a.htm",
           "source_id": "fed_news",
@@ -4311,36 +4307,13 @@
           "at": "2026-10-28T18:00:00Z",
           "published_at": "2026-10-28T18:00:00Z",
           "first_seen_at": "2026-10-28T18:44:48.939196Z",
-          "fetched_at": "2026-10-30T12:49:19.679837Z",
+          "fetched_at": "2026-10-30T18:16:42.186821Z",
           "available_at": "2026-10-28T18:44:48.939196Z",
           "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
           "source_id": "fed_news",
           "severity": "높음",
           "scope": "글로벌시장",
           "channel": "정책금리·정책 전망",
-          "state": "영향 지속",
-          "classification": "확인된 사실",
-          "summary": "공식 발표가 존재함을 확인했습니다. 가격·수급의 사건 반응과 인과관계는 아직 검증되지 않았습니다.",
-          "counter": "동시 뉴스·선반영·시장 전체 움직임을 분리해야 합니다.",
-          "reaction_status": "시장 반응 미검증",
-          "market_response": "시장 반응 미검증",
-          "next_check": "공식 본문·관련 시세·동시 사건 확인",
-          "new_content": "원출처 접수·발표 확인"
-        },
-        {
-          "id": "fed-e2834c74f4065e",
-          "title": "연준 공식 발표",
-          "original_title": "Federal Reserve Board announces termination of enforcement actions with Gardner Bancshares, Inc. and Small Business Bank",
-          "at": "2026-10-16T15:00:00Z",
-          "published_at": "2026-10-16T15:00:00Z",
-          "first_seen_at": "2026-10-16T18:03:16.960128Z",
-          "fetched_at": "2026-10-30T12:49:19.679837Z",
-          "available_at": "2026-10-16T18:03:16.960128Z",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/enforcement20261016a.htm",
-          "source_id": "fed_news",
-          "severity": "관찰",
-          "scope": "글로벌시장",
-          "channel": "본문 확인 후 영향 판단",
           "state": "영향 지속",
           "classification": "확인된 사실",
           "summary": "공식 발표가 존재함을 확인했습니다. 가격·수급의 사건 반응과 인과관계는 아직 검증되지 않았습니다.",
@@ -4763,7 +4736,7 @@
       "source": {
         "label": "SEC·연준",
         "provider": "SEC·연준",
-        "executedAt": "2026-10-30T12:49:19.679837Z",
+        "executedAt": "2026-10-30T18:16:42.186821Z",
         "description": "공식 공시·발표 메타데이터. 시장 반응과 인과관계는 미검증.",
         "links": [
           {
@@ -4787,7 +4760,7 @@
       "source": {
         "label": "시세 공식 문서",
         "provider": "시세 공식 문서",
-        "executedAt": "2026-10-30T12:49:19.679837Z",
+        "executedAt": "2026-10-30T18:16:42.186821Z",
         "description": "허가된 실제 시세만 표시. 빈 값은 0이나 ETF 대용으로 대체하지 않음.",
         "links": [
           {
@@ -4811,7 +4784,7 @@
       "source": {
         "label": "시세 공식 문서",
         "provider": "시세 공식 문서",
-        "executedAt": "2026-10-30T12:49:19.679837Z",
+        "executedAt": "2026-10-30T18:16:42.186821Z",
         "description": "투자자군 순매수와 설정·환매 흐름을 분리. 거래 집중과 실제 흐름은 다름.",
         "links": [
           {
@@ -4835,7 +4808,7 @@
       "source": {
         "label": "출처·권한 검증",
         "provider": "출처·권한 검증",
-        "executedAt": "2026-10-30T12:49:19.679837Z",
+        "executedAt": "2026-10-30T18:16:42.186821Z",
         "description": "국내 공식 신용·미수·실제 반대매매·예탁금. 기준일과 공식 정의 필수.",
         "links": [
           {
@@ -4870,9 +4843,9 @@
           "publication": "공식 정부 통계·출처 링크와 소량 수치 표시",
           "alternative": "FRED 공식 재배포·별도 인증 검증 필요",
           "capability": 1,
-          "status": "수신 검증 완료",
-          "checked_at": "2026-10-30T12:49:19.679837Z",
-          "error": null,
+          "status": "수집 실패·마지막 정상 자료",
+          "checked_at": "2026-10-30T18:16:42.186821Z",
+          "error": "연결 실패 또는 응답 시간 초과",
           "row_count": 270,
           "last_data_date": "2026-10-29",
           "last_success_at": "2026-10-30T12:49:19.679837Z"
@@ -4892,7 +4865,7 @@
           "alternative": "BLS 연도별 공식 HTML",
           "capability": 1,
           "status": "수집 실패·마지막 정상 자료",
-          "checked_at": "2026-10-30T12:49:19.679837Z",
+          "checked_at": "2026-10-30T18:16:42.186821Z",
           "error": "HTTP 403",
           "row_count": 9,
           "last_data_date": "2026-11-13T13:30:00Z",
@@ -4913,11 +4886,11 @@
           "alternative": "정책 성명별 공식 발표",
           "capability": 1,
           "status": "수신 검증 완료",
-          "checked_at": "2026-10-30T12:49:19.679837Z",
+          "checked_at": "2026-10-30T18:16:42.186821Z",
           "error": null,
-          "row_count": 2,
+          "row_count": 1,
           "last_data_date": "2026-12-09T19:00:00Z",
-          "last_success_at": "2026-10-30T12:49:19.679837Z"
+          "last_success_at": "2026-10-30T18:16:42.186821Z"
         },
         {
           "id": "fed_news",
@@ -4934,11 +4907,11 @@
           "alternative": "연준 보도자료 목록",
           "capability": 1,
           "status": "수신 검증 완료",
-          "checked_at": "2026-10-30T12:49:19.679837Z",
+          "checked_at": "2026-10-30T18:16:42.186821Z",
           "error": null,
-          "row_count": 3,
+          "row_count": 2,
           "last_data_date": "2026-10-29T20:30:00Z",
-          "last_success_at": "2026-10-30T12:49:19.679837Z"
+          "last_success_at": "2026-10-30T18:16:42.186821Z"
         },
         {
           "id": "sec",
@@ -4955,7 +4928,7 @@
           "alternative": "기업 IR·별도 연결 필요",
           "capability": 1,
           "status": "수집 실패·마지막 정상 자료",
-          "checked_at": "2026-10-30T12:49:19.679837Z",
+          "checked_at": "2026-10-30T18:16:42.186821Z",
           "error": "HTTP 403",
           "row_count": 0,
           "last_data_date": null,
@@ -4976,7 +4949,7 @@
           "alternative": "허가된 구조화 HTTPS 피드",
           "capability": 2,
           "status": "미확보",
-          "checked_at": "2026-10-30T12:49:19.679837Z",
+          "checked_at": "2026-10-30T18:16:42.186821Z",
           "error": null,
           "row_count": 0,
           "last_data_date": null,
@@ -4997,7 +4970,7 @@
           "alternative": "공식 지연 일별 데이터·계약 검증 필요",
           "capability": 3,
           "status": "미확보",
-          "checked_at": "2026-10-30T12:49:19.679837Z",
+          "checked_at": "2026-10-30T18:16:42.186821Z",
           "error": null,
           "row_count": 0,
           "last_data_date": null,
@@ -5018,7 +4991,7 @@
           "alternative": "허가된 지연 선물 피드",
           "capability": 3,
           "status": "미확보",
-          "checked_at": "2026-10-30T12:49:19.679837Z",
+          "checked_at": "2026-10-30T18:16:42.186821Z",
           "error": null,
           "row_count": 0,
           "last_data_date": null,
@@ -5039,7 +5012,7 @@
           "alternative": "한국은행 일별 통계",
           "capability": 2,
           "status": "미확보",
-          "checked_at": "2026-10-30T12:49:19.679837Z",
+          "checked_at": "2026-10-30T18:16:42.186821Z",
           "error": null,
           "row_count": 0,
           "last_data_date": null,
@@ -5060,7 +5033,7 @@
           "alternative": "공식 거래소 일별 자료",
           "capability": 3,
           "status": "미확보",
-          "checked_at": "2026-10-30T12:49:19.679837Z",
+          "checked_at": "2026-10-30T18:16:42.186821Z",
           "error": null,
           "row_count": 0,
           "last_data_date": null,
@@ -5081,7 +5054,7 @@
           "alternative": "공식 일별 지표",
           "capability": 3,
           "status": "미확보",
-          "checked_at": "2026-10-30T12:49:19.679837Z",
+          "checked_at": "2026-10-30T18:16:42.186821Z",
           "error": null,
           "row_count": 0,
           "last_data_date": null,
@@ -5102,7 +5075,7 @@
           "alternative": "공식 다운로드 수동 입력·동일 검증",
           "capability": 4,
           "status": "미확보",
-          "checked_at": "2026-10-30T12:49:19.679837Z",
+          "checked_at": "2026-10-30T18:16:42.186821Z",
           "error": null,
           "row_count": 0,
           "last_data_date": null,
@@ -5123,7 +5096,7 @@
           "alternative": "순자산 증감은 대안 순유입으로 사용하지 않음",
           "capability": 4,
           "status": "미확보",
-          "checked_at": "2026-10-30T12:49:19.679837Z",
+          "checked_at": "2026-10-30T18:16:42.186821Z",
           "error": null,
           "row_count": 0,
           "last_data_date": null,
@@ -5144,7 +5117,7 @@
           "alternative": "KIS 수량 통계와 금액 통계 구분",
           "capability": 2,
           "status": "미확보",
-          "checked_at": "2026-10-30T12:49:19.679837Z",
+          "checked_at": "2026-10-30T18:16:42.186821Z",
           "error": null,
           "row_count": 0,
           "last_data_date": null,
@@ -5154,7 +5127,7 @@
       "source": {
         "label": "출처·권한 검증",
         "provider": "출처·권한 검증",
-        "executedAt": "2026-10-30T12:49:19.679837Z",
+        "executedAt": "2026-10-30T18:16:42.186821Z",
         "description": "제공기관·빈도·인증·비용·보관·공개 권한·실제 수신 상태",
         "links": [
           {
@@ -5450,7 +5423,7 @@
       "source": {
         "label": "시점 보존 규칙",
         "provider": "시점 보존 규칙",
-        "executedAt": "2026-10-30T12:49:19.679837Z",
+        "executedAt": "2026-10-30T18:16:42.186821Z",
         "description": "당시 이용 가능 정보만 보존. 후보 0개와 미확보도 보존.",
         "links": [
           {
@@ -5471,22 +5444,6 @@
     },
     "operations": {
       "rows": [
-        {
-          "id": "37268768128",
-          "slot": "2026-10-05T05:30:00Z",
-          "started_at": "2026-10-05T05:39:51.553023Z",
-          "checked_at": "2026-10-05T05:40:28.182073Z",
-          "missed_slots": 31,
-          "missed_policy": "현재 값을 과거 슬롯으로 복사하지 않음",
-          "calls": 6,
-          "seconds": 36.63,
-          "failures": [
-            "미국 재무부 국채금리: 연결 실패 또는 응답 시간 초과",
-            "미국 고용·물가 발표 일정: HTTP 403",
-            "미국 관찰기업 공시: HTTP 403"
-          ],
-          "deployment": "배포 전·공개 URL 검증 필요"
-        },
         {
           "id": "37311100254",
           "slot": "2026-10-05T12:40:00Z",
@@ -7737,12 +7694,28 @@
             "미국 관찰기업 공시: HTTP 403"
           ],
           "deployment": "배포 전·공개 URL 검증 필요"
+        },
+        {
+          "id": "41105505501",
+          "slot": "2026-10-30T18:10:00Z",
+          "started_at": "2026-10-30T18:16:42.186821Z",
+          "checked_at": "2026-10-30T18:17:36.661203Z",
+          "missed_slots": 32,
+          "missed_policy": "현재 값을 과거 슬롯으로 복사하지 않음",
+          "calls": 7,
+          "seconds": 54.47,
+          "failures": [
+            "미국 재무부 국채금리: 연결 실패 또는 응답 시간 초과",
+            "미국 고용·물가 발표 일정: HTTP 403",
+            "미국 관찰기업 공시: HTTP 403"
+          ],
+          "deployment": "배포 전·공개 URL 검증 필요"
         }
       ],
       "source": {
         "label": "GitHub Actions",
         "provider": "GitHub Actions",
-        "executedAt": "2026-10-30T12:49:19.679837Z",
+        "executedAt": "2026-10-30T18:16:42.186821Z",
         "description": "예정 슬롯·실제 시작·요청 수·누락·부분 실패·배포 검증",
         "links": [
           {
